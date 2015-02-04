@@ -1,0 +1,100 @@
+********************************************************************************
+PACKAGE-LOG: 2015-01-21 15:05:18
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.10
+WORDPRESS:	4.0.1
+PHP INFO:	5.4.17 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (128M default) 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP
+MYSQLDUMP:    Not Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:29 | filtered:0 | create:29 
+FILTERED: [] 
+wp_commentmeta (6) 
+wp_comments (16) 
+wp_dokan_orders (2) 
+wp_dokan_withdraw (0) 
+wp_duplicator_packages (2) 
+wp_links (0) 
+wp_options (542) 
+wp_postmeta (2721) 
+wp_posts (244) 
+wp_restaurant_cuisines (8) 
+wp_restaurant_locations (4) 
+wp_revslider_css (47) 
+wp_revslider_layer_animations (0) 
+wp_revslider_settings (1) 
+wp_revslider_sliders (1) 
+wp_revslider_slides (3) 
+wp_revslider_static_slides (0) 
+wp_term_relationships (164) 
+wp_term_taxonomy (97) 
+wp_terms (97) 
+wp_usermeta (117) 
+wp_users (4) 
+wp_woocommerce_attribute_taxonomies (4) 
+wp_woocommerce_downloadable_product_permissions (0) 
+wp_woocommerce_order_itemmeta (44) 
+wp_woocommerce_order_items (7) 
+wp_woocommerce_tax_rate_locations (0) 
+wp_woocommerce_tax_rates (0) 
+wp_woocommerce_termmeta (77) 
+SQL CREATED: 20150102_delivour_54bfbfca7c61d3216150121150338_database.sql 
+SQL FILE SIZE: 1.2MB 
+SQL RUNTIME: 0.63 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  C:/BitNami/wampstack-5.4.17-0/apache2/htdocs/delivour 
+ARCHIVE FILE: 20150102_delivour_54bfbfca7c61d3216150121150338_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	62.09MB 
+STATS:	Dirs 686 | Files 5,322 | Links 0 
+SQL ADDED: 20150102_delivour_54bfbfca7c61d3216150121150338_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 6008
+    [filename] => C:\BitNami\wampstack-5.4.17-0\apache2\htdocs\delivour\wp-snapshots\tmp\20150102_delivour_54bfbfca7c61d3216150121150338_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 25.41MB 
+ARCHIVE RUNTIME: 66.77 sec. 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+Template parsed with new data 
+Complete [C:/BitNami/wampstack-5.4.17-0/apache2/htdocs/delivour/wp-snapshots/tmp/20150102_delivour_54bfbfca7c61d3216150121150338_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 1.2MB 
+Installer File: 316.97KB 
+Archive File: 25.41MB  
+
+********************************************************************************
+RECORD ID:[2]
+TOTAL PROCESS RUNTIME: 68.90 sec.
+DONE PROCESSING => 20150102_delivour 2015-01-21 15:06:26
+ 

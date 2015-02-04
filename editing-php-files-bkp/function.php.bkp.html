@@ -1,0 +1,317 @@
+<?php
+if ( ! defined( 'ABSPATH' ) ) exit;
+
+/*-----------------------------------------------------------------------------------*/
+/* Start templatation Functions - Please refrain from editing this section */
+/*-----------------------------------------------------------------------------------*/
+
+// WooFramework init
+require_once ( get_template_directory() . '/functions/admin-init.php' );
+
+/*-----------------------------------------------------------------------------------*/
+/* Load the theme-specific files, with support for overriding via a child theme.
+/*-----------------------------------------------------------------------------------*/
+
+$includes = array(
+				'includes/theme-options.php', 			// Options panel settings and custom settings
+				'includes/theme-functions.php', 		// Custom theme functions
+				'includes/theme-actions.php', 			// Theme actions & user defined hooks
+				'includes/theme-comments.php', 			// Custom comments/pingback loop
+				'includes/theme-js.php', 				// Load JavaScript via wp_enqueue_script
+				'includes/sidebar-init.php', 			// Initialize widgetized areas
+				'includes/theme-widgets.php'			// Theme widgets
+				);
+
+// Allow child themes/plugins to add widgets to be loaded.
+$includes = apply_filters( 'woo_includes', $includes );
+
+foreach ( $includes as $i ) {
+	locate_template( $i, true );
+}
+
+require_once( 'includes/testimonials/templatation-testimonials.php' );
+require_once( 'includes/retail-menu-cards/retail-menu-cards.php' );
+require_once( 'includes/tt-plugins/tt-plugins.php' );
+
+if ( is_woocommerce_activated() ) {
+	if ( !defined('YITH_WCMG') ) { require_once( 'includes/wc-zm/init.php' ); }
+	if ( !defined('YITH_WCAN') ) { require_once( 'includes/wc-ajax-nav/init.php' ); }
+	locate_template( 'includes/theme-woocommerce.php', true );
+}
+
+/*-----------------------------------------------------------------------------------*/
+/* Visual Composer Stuff */
+/*-----------------------------------------------------------------------------------*/
+define('ULTIMATE_USE_BUILTIN', 'true');
+add_action( 'init', 'tt_vcSetAsTheme' );
+function tt_vcSetAsTheme() {
+	if (function_exists('vc_set_as_theme')) vc_set_as_theme(true);
+}
+function templatation_vc_row_and_vc_column($class_string, $tag) { return $class_string; }
+
+// Filter to Replace default css class for vc_row shortcode and vc_column
+add_filter('vc_shortcodes_css_class', 'templatation_vc_row_and_vc_column', 10, 2);
+
+// Ext VC
+if (class_exists('WPBakeryVisualComposerAbstract')) {
+	require_once locate_template('/includes/tt-vc-extend/tt-vc-extend.php');
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/* You can add custom functions below. */
+/*-----------------------------------------------------------------------------------*/
+ 
+ 
+// City & Area Cutsom fields in Restaurant Setting page
+ function city_area_fields( $current_user, $profile_info ) {
+	global $wpdb;
+	#Fetching all cities from custom table
+	$restaurant_city = isset( $profile_info['restaurant_city'] ) ? $profile_info['restaurant_city'] : ''; // if city is choosed previuosly set it or set null
+	$delivery_area = isset( $profile_info['delivery_area'] ) ? $profile_info['delivery_area'] : '';	
+	$sql1 = "SELECT city FROM wp_restaurant_locations ORDER BY id ASC  ";
+	$cities = $wpdb->get_results($sql1);
+	 if($cities):  $nonce = wp_create_nonce("get_city_area");?>
+	<div class="gregcustom dokan-form-group">
+	    <label class="dokan-w3 dokan-control-label" for="setting_address"><?php _e( 'City', 'dokan' ); ?></label>
+	    <div class="dokan-w5">
+	    <select class="dokan-form-control input-md valid delivery_area" data-nonce="<?php echo $nonce ?>" name="restaurant_city" id="restaurant_city" >
+	    <?php foreach ($cities as $city) {
+    			if($city->city == $restaurant_city){ ?>
+    			    <option value="<?php echo $city->city;?>" selected="selected"><?php echo $city->city;?></option>
+			    <?php }else{ ?>
+			    	<option value="<?php echo $city->city;?>"><?php echo $city->city;?></option>
+	    	<?php	  }
+	     		}?>
+	    </select>
+		</div>
+	</div>   
+<?php endif;?>
+                
+<div class="gregcustom dokan-form-group">
+	    <label class="dokan-w3 dokan-control-label " for="delivery_area"><?php _e( 'Delivery Area\'s<br>(<small>To select multiple locations,press & hold CTRL and select</small>)', 'dokan' ); ?></label>
+	    <div class="dokan-w5">
+			<select class="dokan-form-control input-md valid chosen-select"  name="delivery_area[]" id="delivery_area" style="height:200px" value="<?php echo $delivery_area; ?>" multiple="multiple" onchange="get_city_area();">
+	    	<?php 	
+  			#fethcing city areas from table based on city
+  			$delivery_area_array = array_values(explode(',', $delivery_area));
+			$query = "SELECT area FROM wp_restaurant_locations WHERE city='$restaurant_city' ORDER BY id ASC  ";
+			$areas = $wpdb->get_results($query);
+			foreach ($areas as $area) {
+			 		if(in_array($area->area,$delivery_area_array,true) ) {
+			        echo '<option value="'.$area->area.'" selected="selected">'.$area->area.'</option>tre';
+			 		}else{
+					echo '<option value="'.$area->area.'">'.$area->area.'</option>';
+						}
+
+	    }?>
+	    	</select>
+	    </div>
+	</div>  
+<?php } ?>
+<?php add_filter( 'dokan_settings_after_banner', 'city_area_fields', 10, 2);
+
+
+
+
+
+add_action( 'init', 'my_script_enqueuer' );
+
+function my_script_enqueuer() {
+   wp_register_script( "get_city_area_script", get_template_directory_uri().'/includes/js/get-city-area.js', array('jquery') );
+   wp_localize_script( 'get_city_area_script', 'myAjax', array( 'ajaxurl' => admin_url( 'admin-ajax.php' )));  
+   wp_register_style('chosen_style',get_template_directory_uri().'/awad/chosen.min.css');
+   wp_register_script("chosen_script",get_template_directory_uri().'/awad/chosen.jquery.min.js',array('jquery'));
+   wp_register_script("awd_script",get_template_directory_uri().'/awad/custom.awd.js',array('jquery'));
+   wp_register_style("select2_style",'//cdn.jsdelivr.net/select2/3.5.2/select2.css');
+   wp_register_style("select2_flatstyle",get_template_directory_uri().'/awad/select2.flat.css');
+   wp_register_script("select2_script",'http://cdn.jsdelivr.net/select2/3.5.2/select2.js',array('jquery'));
+   
+
+   
+   wp_enqueue_script( 'jquery' );
+   wp_enqueue_script( 'get_city_area_script' );
+   wp_enqueue_style('chosen_style');
+   wp_enqueue_script('chosen_script');
+   wp_enqueue_style('select2_style');
+   wp_enqueue_style('select2_flatstyle');
+   wp_enqueue_script('select2_script');
+   wp_enqueue_script('awd_script');
+}
+
+
+add_action( 'wp_ajax_get_city_area', 'get_city_area' ); // WP Ajax Hooks to load areas based on choosed city
+add_action( 'wp_ajax_nopriv_get_city_area', 'get_city_area' ); // WP ajax for non logged in users
+
+function get_city_area() {  // Ajax handler Function for areas loading 
+if ( !wp_verify_nonce( $_REQUEST['nonce'], "get_city_area")) {
+      exit("No naughty business please");
+   } 
+  	global $wpdb;
+	
+  	$city = $_REQUEST['city'];
+  	$user_id = get_current_user_id();
+  	$profile_info =  dokan_get_store_info( $user_id );
+  	$delivery_area = $profile_info['delivery_area'];
+  	$delivery_area_array = array();
+  	$areas =array();
+  	$delivery_area_array = array_values(explode(',', $delivery_area));
+  	
+  
+	$query = "SELECT area FROM wp_restaurant_locations WHERE city='$city' ORDER BY id ASC  ";
+	$areas = $wpdb->get_results($query);
+	foreach ($areas as $area) {
+			 if(in_array($area->area,$delivery_area_array,true) ) {
+			        echo '<option value="'.$area->area.'" selected="selected">'.$area->area.'</option>tre';
+			 }
+				else{
+					echo '<option value="'.$area->area.'">'.$area->area.'</option>';
+				} 
+
+			    	
+
+	    }
+	    
+	    die();
+}
+
+
+/**
+ * Save the extra fields.
+ *
+ * @param  int  $customer_id Current customer ID.
+ *
+ * @return void
+ */
+function save_extra_city_area_fields( $store_id, $dokan_settings ) {
+
+	if (isset($_POST['restaurant_city'])) {
+        $dokan_settings['restaurant_city'] = $_POST['restaurant_city'];
+    }
+
+    if (isset($_POST['delivery_area'])) {
+    	$delivery_area = '';
+    	foreach ($_POST['delivery_area'] as $key => $value) {
+    		$delivery_area = $delivery_area.','.$value; 
+    	}
+        $dokan_settings['delivery_area'] =  implode(',', $_POST['delivery_area']); //'mavoor,areacode road,nadakkav';//serialize($_POST['delivery_area']);
+    }
+
+	
+	update_user_meta( $store_id, 'dokan_profile_settings', $dokan_settings );
+}
+
+add_action( 'dokan_store_profile_saved', 'save_extra_city_area_fields', 10, 2 );
+
+
+add_action('save_post', 'assign_parent_terms'); // Hook to assign parent categories when a child category selected for a product
+
+function assign_parent_terms($post_id){
+global $post;
+
+if(isset($post) && $post->post_type != 'product')
+return $post_id;
+
+// get all assigned terms   
+$terms = wp_get_post_terms($post_id, 'product_cat' );
+foreach($terms as $term){
+while($term->parent != 0 && !has_term( $term->parent, 'product_cat', $post )){
+    // move upward until we get to 0 level terms
+    wp_set_object_terms($post_id, array($term->parent), 'product_cat', true);
+    $term = get_term($term->parent, 'product_cat');
+     }
+  }
+}
+
+// City and Location chooser Form - Function only
+function city_choose_form($atts){
+	
+	global $wpdb,$wp_session;
+	#Fetching all cities from custom table
+	if (!isset($_SESSION["city"])) {
+		$_SESSION["city"] = 'Kozhikode';
+	}
+
+	if (!isset($_SESSION["area"])) {
+		$_SESSION["area"] = 'Mavoor road';
+	}
+	
+	
+	$sql1 = "SELECT city FROM wp_restaurant_locations ORDER BY id ASC uniqid()  ";
+	$cities = $wpdb->get_results($sql1);
+	
+	if($cities):  $nonce = wp_create_nonce("get_city_area_front");
+      $form = '<div class="city_choose_form_container">
+		<form class="city_choose_form" action="'.get_permalink( 2846 ).'" method="post">
+			<div class="city_choose_input">	    			    		
+	    		<select class="select2" data-nonce="'.$nonce.'" name="city" id="customer_city" >';
+	   		   foreach ($cities as $city) {
+    			if($city->city == $_SESSION["city"]){ 
+    			  $form = $form.'<option value="'.$city->city.'" selected="selected">'.$city->city.'</option>';
+			      }else{ 
+			      $form = $form.'<option value="'.$city->city.'">'.$city->city.'</option>';
+			        }
+	     		}
+	    		$form = $form.'</select></div>		
+			    <div class="city_choose_input">
+			    <select class="select2" name="customer_area" id="customer_area"  >';
+	    	
+  				#fethcing city areas from table based on city
+  				$query = "SELECT area FROM wp_restaurant_locations WHERE city='".$_SESSION["city"]."' ORDER BY id ASC  ";
+				$areas = $wpdb->get_results($query);
+				foreach ($areas as $area) {
+					if($area->area == $_SESSION["area"]){ 
+					  		$form = $form.'<option value="'.$area->area.'" selected="selected">'.$area->area.'</option>';
+			     		}else{ 
+			    			$form = $form.'<option value="'.$area->area.'">'.$area->area.'</option>';
+			    	  		}
+	     		}
+	    	    $form = $form.'</select>
+	   		    </div>	 		  
+  			    <input type="hidden" name="action" value="find_restaurants">
+  			    <input type="submit" value="Find Restaurants">
+	 	</form>
+	 	</div>';
+    endif;
+ 
+return $form;//ob_get_contents();
+}
+
+add_shortcode( 'location_choose', 'city_choose_form' );
+
+add_action('admin_post_find_restaurants','handler_find_restaurants');
+add_action('admin_post_nopriv_find_restaurants','handler_find_restaurants');
+
+function handler_find_restaurants(){
+	 //Redirect to a page template or file with POST data  using wp_redirect()?
+
+	 die();
+}
+
+// Ajax Hook and Handler for Front end City and location choosing
+add_action( 'wp_ajax_get_city_area_front', 'get_city_area_front' ); // WP Ajax Hooks to load areas based on choosed city
+add_action( 'wp_ajax_nopriv_get_city_area_front', 'get_city_area_front' ); // WP ajax for non logged in users
+
+function get_city_area_front() {  // Ajax handler Function for areas loading 
+if ( !wp_verify_nonce( $_REQUEST['nonce'], "get_city_area_front")) {
+      exit("No naughty business please");
+   } 
+  	global $wpdb;
+	//$restaurant_city = isset( $profile_info['restaurant_city'] ) ? $profile_info['restaurant_city'] : '';
+	//$delivery_area = isset( $profile_info['delivery_area'] ) ? $profile_info['delivery_area'] : '';
+	
+  	$city = $_REQUEST['city'];
+  
+	$query = "SELECT area FROM wp_restaurant_locations WHERE city='$city' ORDER BY id ASC  ";
+	$areas = $wpdb->get_results($query);
+	foreach ($areas as $area) {
+					echo '<option value="'.$area->area.'">'.$area->area.'</option>';
+	    }
+	    
+	    die();
+}
+ 
+/*-----------------------------------------------------------------------------------*/
+/* Don't add any code below here. */
+/*-----------------------------------------------------------------------------------*/
+?>

@@ -1,0 +1,5723 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: justshop v2.81\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-09-18 14:20:49+0000\n"
+"Last-Translator: addmin <jstest@themesmonster.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Italian\n"
+"X-Poedit-Country: ITALY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: 404.php:26
+#@ templatation
+msgid "Error 404 - Page not found!"
+msgstr "Errore 404 - Pagina non trovata!"
+
+#: archive-portfolio.php:17
+#: includes/theme-functions.php:1068
+#: taxonomy-portfolio-gallery.php:21
+#: template-portfolio-one.php:24
+#: template-portfolio-three.php:24
+#: template-portfolio-two.php:24
+#@ templatation
+msgid "{ Edit }"
+msgstr "{ Edit }"
+
+#: archive-portfolio.php:23
+#: archive.php:72
+#: index.php:67
+#: loop-portfolio.php:332
+#: page.php:52
+#: search.php:48
+#: single-portfolio.php:133
+#: single.php:106
+#: taxonomy-portfolio-gallery.php:27
+#: template-blog.php:67
+#: template-fullwidth.php:43
+#: template-home.php:113
+#: template-portfolio-one.php:30
+#: template-portfolio-three.php:30
+#: template-portfolio-two.php:30
+#@ templatation
+msgid "Sorry, no posts matched your criteria."
+msgstr "Spiacente, nessun post soddisfa i tuoi criteri di ricerca"
+
+#: archive.php:16
+#: archive.php:22
+#: archive.php:27
+#: archive.php:32
+#@ templatation
+msgid "Archive"
+msgstr "Archivio"
+
+#: archive.php:17
+#@ templatation
+msgid "RSS feed for this section"
+msgstr "Sezione feed RSS"
+
+#: archive.php:37
+#@ templatation
+msgid "Archive by Author"
+msgstr "Archiviato dall'Autore"
+
+#: archive.php:42
+#@ templatation
+msgid "Tag Archives:"
+msgstr "Tag Archivi:"
+
+#: comments.php:20
+#@ templatation
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Questo post è protetto da password. Inserire la password per visualizzare i commenti"
+
+#: comments.php:32
+#@ templatation
+msgid "No Responses"
+msgstr "Nessuna Risposta"
+
+#: comments.php:32
+#@ templatation
+msgid "One Response"
+msgstr "Una Risposta"
+
+#: comments.php:32
+#@ templatation
+msgid "% Responses"
+msgstr "% Risposte"
+
+#: comments.php:32
+#@ templatation
+msgid "to"
+msgstr "a"
+
+#: comments.php:48
+#@ templatation
+msgid "Trackbacks/Pingbacks"
+msgstr "Trackbacks/Pingbacks"
+
+#: comments.php:65
+#@ templatation
+msgid "No comments yet."
+msgstr "Nessun commento"
+
+#: content-page.php:39
+#: content-page.php:43
+#: content-search.php:41
+#: content-search.php:46
+#: content-search.php:49
+#: content.php:41
+#: content.php:46
+#: content.php:49
+#@ templatation
+msgid "Continue Reading &rarr;"
+msgstr "Continua a leggere &rarr;"
+
+#: content-search.php:39
+#: content.php:39
+#: single.php:51
+#@ templatation
+msgid "Zero comments"
+msgstr "Zero Commenti"
+
+#: content-search.php:39
+#: content.php:39
+#: includes/theme-functions.php:162
+#: includes/theme-functions.php:1066
+#: single.php:51
+#@ templatation
+msgid "1 Comment"
+msgstr "1 Commento"
+
+#: content-search.php:39
+#: content.php:39
+#: includes/theme-functions.php:162
+#: includes/theme-functions.php:1066
+#: single.php:51
+#@ templatation
+msgid "% Comments"
+msgstr "% Commenti"
+
+#: footer.php:85
+#@ templatation
+msgid "All Rights Reserved."
+msgstr "Tutti i DirittiRriservati."
+
+#: footer.php:92
+#@ templatation
+msgid "Designed by"
+msgstr "Progettato da"
+
+#: functions/admin-backup.php:74
+#@ templatation
+msgid "templatation Settings Backup"
+msgstr "Impostazioni templatation Backup"
+
+#: functions/admin-backup.php:74
+#: functions/admin-backup.php:104
+#: functions/admin-framework-settings.php:37
+#@ templatation
+msgid "Backup Settings"
+msgstr "Impostazioni Backup"
+
+#: functions/admin-backup.php:106
+#@ templatation
+msgid "Import Settings"
+msgstr "Importa Impostazioni"
+
+#: functions/admin-backup.php:108
+#@ templatation
+msgid "If you have settings in a backup file on your computer, the WooFramework can import those into this site. To get started, upload your backup file to import from below."
+msgstr "Se si dispone di un file di backup delle impostazioni sul proprio computer, il WooFramework può importare in questo sito. Per iniziare, carica il file di backup da qui in basso."
+
+#: functions/admin-backup.php:113
+#, php-format
+#@ templatation
+msgid "Upload File: (Maximum Size: %s)"
+msgstr "Carica File: (Grandezza Massima: %s)"
+
+#: functions/admin-backup.php:116
+#@ templatation
+msgid "Upload File and Import"
+msgstr "Carica ed Importa il File"
+
+#: functions/admin-backup.php:120
+#@ templatation
+msgid "Export Settings"
+msgstr "Esporta Impostazioni"
+
+#: functions/admin-backup.php:122
+#@ templatation
+msgid "When you click the button below, the WooFramework will create a text file for you to save to your computer."
+msgstr "Cliccando sul pulsante in basso, il WooFramework creerà per voi un file di testo permettendovi di salvarlo sul vostro computer."
+
+#: functions/admin-backup.php:123
+#, php-format
+#@ templatation
+msgid "This text file can be used to restore your settings here on \"%s\", or to easily setup another website with the same settings\"."
+msgstr "Questo file di testo può essere utilizzato per ripristinare le impostazioni qui su \"%s\", oppure per impostare con facilità un sito con le stesse impostazioni\"."
+
+#: functions/admin-backup.php:127
+#@ templatation
+msgid "All Settings"
+msgstr "Tutte le Impostazioni"
+
+#: functions/admin-backup.php:128
+#@ templatation
+msgid "This will contain all of the options listed below."
+msgstr "Questo controllerà tutte le opzioni elencate di seguito."
+
+#: functions/admin-backup.php:130
+#: functions/admin-functions.php:2580
+#: functions/admin-interface.php:186
+#: functions/admin-interface.php:188
+#: functions/admin-interface.php:190
+#@ templatation
+msgid "Theme Options"
+msgstr "Opzioni Tema"
+
+#: functions/admin-backup.php:131
+#: functions/admin-functions.php:2586
+#: functions/admin-interface.php:195
+#@ templatation
+msgid "Framework Settings"
+msgstr "Impostazioni Framework"
+
+#: functions/admin-backup.php:134
+#@ templatation
+msgid "Download Export File"
+msgstr "Scarica il file esportato"
+
+#: functions/admin-backup.php:157
+#@ templatation
+msgid "Welcome to the templatation Backup Manager."
+msgstr "Benvenuto al templatation Backup Manager."
+
+#: functions/admin-backup.php:158
+#@ templatation
+msgid "Here are a few notes on using this screen."
+msgstr "Qui ci sono alcune note sull'utilizzo di questa schermata"
+
+#: functions/admin-backup.php:159
+#@ templatation
+msgid "The backup manager allows you to backup or restore your \"Theme Options\" and other settings to or from a text file."
+msgstr "Il backup manager ti consente di salvare e ripristinare i tuoi \"Theme Options\" e altre impostazioni da un file di testo"
+
+#: functions/admin-backup.php:160
+#@ templatation
+msgid "To create a backup, simply select the setting type you'd like to backup (or \"All Settings\") and hit the \"Download Export File\" button."
+msgstr "Per creare un backup ti è sufficiente selezionare le impostazioni che vorresti preservare (or \"All Settings\") e premere il bottone \"Download Export File\"."
+
+#: functions/admin-backup.php:161
+#@ templatation
+msgid "To restore your settings from a backup, browse your computer for the file (under the \"Import Settings\" heading) and hit the \"Upload File and Import\" button. This will restore only the settings that have changed since the backup."
+msgstr "Per ripristinare le impostazioni da un backup, sfogliare le cartelle del computer per cercare il file (sotto la voce, \"Import Settings\") e premi il pulsante \"Upload File and Import\". Ciò ripristinerà solo le impostazioni che sono state modificate dopo l'ultimo backup."
+
+#: functions/admin-backup.php:163
+#@ templatation
+msgid "Please note that only valid backup files generated through the templatation Backup Manager should be imported."
+msgstr "Si prega di notare che solo i file di backup validi generati attraverso il templatation Backup Manager devono essere importati."
+
+#: functions/admin-backup.php:165
+#@ templatation
+msgid "Looking for assistance?"
+msgstr "Hai bisogno di Assistenza?"
+
+#: functions/admin-backup.php:166
+#, php-format
+#@ templatation
+msgid "Please post your query on the %stemplatation Support Desk%s where we will do our best to assist you further."
+msgstr "Per favore posta la tua domanda in %stemplatation Support Desk% dove successivamente potremo fare del nostro meglio per assistervi."
+
+#: functions/admin-backup.php:186
+#, php-format
+#@ templatation
+msgid "Please note that this backup manager backs up only your settings and not your content. To backup your content, please use the %sWordPress Export Tool%s."
+msgstr "Si prega di notare che questo backup manager effettua un backup delle sole impostazioni e non dei dati. Per salvare tutti i dati, per cortesia utilizzare %sWordPress Export Tool%."
+
+#: functions/admin-backup.php:189
+#@ templatation
+msgid "There was a problem importing your settings. Please Try again."
+msgstr "C'è stato un problema nell'importare le tue impostazioni. Per cortesia riprovare."
+
+#: functions/admin-backup.php:191
+#@ templatation
+msgid "There was a problem exporting your settings. Please Try again."
+msgstr "C'è stato un problema dell'esportazione dei tuoi dati. Per favore riprova."
+
+#: functions/admin-backup.php:193
+#@ templatation
+msgid "The import file you've provided is invalid. Please try again."
+msgstr "Il file importato non è valido. Per favore riprova."
+
+#: functions/admin-backup.php:195
+#, php-format
+#@ templatation
+msgid "Settings successfully imported. | Return to %sTheme Options%s"
+msgstr "Impostazioni importate con successo. | Ritorna alle %sTheme Options%"
+
+#: functions/admin-custom-nav.php:29
+#, php-format
+#@ templatation
+msgid "%1$s is <strong>deprecated</strong> since version %2$s of the WooFramework! Use %3$s instead."
+msgstr "%1$s è <strong>deprecated</strong> sin dalla versione %2$s del WooFramework! Utilizza invece %3$s."
+
+#: functions/admin-custom-nav.php:29
+#@ templatation
+msgid "WordPress Menu Management"
+msgstr "WordPress Menu Management"
+
+#: functions/admin-custom.php:68
+#: includes/theme-options.php:141
+#: includes/theme-options.php:177
+#: includes/wc-zm/class.yith-wcmg-admin.php:163
+#: includes/wc-zm/class.yith-wcmg-admin.php:200
+#: includes/widgets/wp-twitter-widget.php:380
+#@ templatation
+msgid "General Settings"
+msgstr "Impostazioni Generali"
+
+#: functions/admin-custom.php:390
+#: functions/admin-interface.php:1439
+#@ templatation
+msgid "@"
+msgstr "@"
+
+#: functions/admin-custom.php:585
+#: functions/admin-custom.php:598
+#: functions/admin-custom.php:599
+#, php-format
+#@ templatation
+msgid "%s Custom Settings"
+msgstr "%s Impostazioni Personalizzate"
+
+#: functions/admin-express-functions-deprecated.php:198
+#: functions/admin-express-functions.php:214
+#@ templatation
+msgid "You are not allowed to upload files to this site."
+msgstr "Non sei autorizzato a caricare file su questo sito."
+
+#: functions/admin-express-functions-deprecated.php:224
+#: functions/admin-express-functions.php:240
+#, php-format
+#@ templatation
+msgid "Could not write file %1$s (%2$s)"
+msgstr "Non è possibile scrivere il file %1$s (%2$s)"
+
+#: functions/admin-framework-settings.php:25
+#@ templatation
+msgid "Admin Settings"
+msgstr "Impostazioni Amministrazione"
+
+#: functions/admin-framework-settings.php:29
+#@ templatation
+msgid "Super User (username)"
+msgstr "Super User (username)"
+
+#: functions/admin-framework-settings.php:30
+#, php-format
+#@ templatation
+msgid "Enter your %s to hide the Framework Settings and Update Framework from other users. Can be reset from the %s under %s."
+msgstr "Inserisci il tuo %s per nascondere le impostazioni del Framework e aggiornare il Framework da gli altri utenti. Può essere resettato da %s sotto %s."
+
+#: functions/admin-framework-settings.php:30
+#@ templatation
+msgid "username"
+msgstr "username"
+
+#: functions/admin-framework-settings.php:30
+#@ templatation
+msgid "WP options page"
+msgstr "Pagina opzioni WP"
+
+#: functions/admin-framework-settings.php:36
+#@ templatation
+msgid "Disable Backup Settings Menu Item"
+msgstr "Disabilita gli elementi delle Impostazioni di Backup"
+
+#: functions/admin-framework-settings.php:37
+#, php-format
+#@ templatation
+msgid "Disable the %s menu item in the theme menu."
+msgstr "Disabilita gli oggetti del menù %s presenti delle impostazioni del tema"
+
+#: functions/admin-framework-settings.php:60
+#@ templatation
+msgid "Theme Settings"
+msgstr "Impostazioni Tema"
+
+#: functions/admin-framework-settings.php:64
+#@ templatation
+msgid "Remove Generator Meta Tags"
+msgstr "Rimuovi il Generator Meta Tags"
+
+#: functions/admin-framework-settings.php:65
+#@ templatation
+msgid "This disables the output of generator meta tags in the HEAD section of your site."
+msgstr "Questo disabilita l'output del generator meta tags nella HEAD del tuo sito."
+
+#: functions/admin-framework-settings.php:70
+#@ templatation
+msgid "Image Placeholder"
+msgstr "Segnaposto Immagine"
+
+#: functions/admin-framework-settings.php:71
+#@ templatation
+msgid "Set a default image placeholder for your thumbnails. Use this if you want a default image to be shown if you haven't added a custom image to your post."
+msgstr "Setta il segnaposto di default per le tue miniature. Utilizzare questa opzione se si desidera un'immagine predefinita da mostrare se non avete inserito un'immagine personalizzata nel tuo post."
+
+#: functions/admin-framework-settings.php:76
+#@ templatation
+msgid "Disable Shortcodes Stylesheet"
+msgstr "Disabilita Shortcodes Stylesheet"
+
+#: functions/admin-framework-settings.php:77
+#@ templatation
+msgid "This disables the output of shortcodes.css in the HEAD section of your site."
+msgstr "Questo disabilita l'output di shortcodes.css nella HEAD del tuo sito.\t"
+
+#: functions/admin-framework-settings.php:82
+#@ templatation
+msgid "Output \"Tracking Code\" Option in Header"
+msgstr "Output \"Tracking Code\" Option nell'Header"
+
+#: functions/admin-framework-settings.php:83
+#, php-format
+#@ templatation
+msgid "This will output the %s option in your header instead of the footer of your website."
+msgstr "Ciò sovrascriverò con l'opzione %s il vostro header invece del cartello del tuo sito web."
+
+#: functions/admin-framework-settings.php:83
+#: includes/theme-options.php:210
+#@ templatation
+msgid "Tracking Code"
+msgstr "Tracking Code"
+
+#: functions/admin-framework-settings.php:88
+#@ templatation
+msgid "Branding"
+msgstr "Branding"
+
+#: functions/admin-framework-settings.php:92
+#@ templatation
+msgid "Options panel header"
+msgstr "pannello opzioni header"
+
+#: functions/admin-framework-settings.php:93
+#@ templatation
+msgid "Change the header image for the templatation Backend."
+msgstr "Cambiare l'immagine di intestazione per il backend templatation."
+
+#: functions/admin-framework-settings.php:98
+#@ templatation
+msgid "Options panel icon"
+msgstr "Opzioni del pannello icone"
+
+#: functions/admin-framework-settings.php:99
+#@ templatation
+msgid "Change the icon image for the WordPress backend sidebar."
+msgstr "Cambiare l'immagine icona per il backend sidebar di WordPress.\n"
+
+#: functions/admin-framework-settings.php:104
+#@ templatation
+msgid "WordPress login logo"
+msgstr "logo di WordPress login"
+
+#: functions/admin-framework-settings.php:105
+#@ templatation
+msgid "Change the logo image for the WordPress login page."
+msgstr "Cambia il logo della pagina WordPress login"
+
+#: functions/admin-framework-settings.php:105
+#@ templatation
+msgid "Optimal logo size is 274x63px"
+msgstr "La grandezza ottimale del logo è 274x63px"
+
+#: functions/admin-framework-settings.php:110
+#@ templatation
+msgid "WordPress login URL"
+msgstr "WordPress login URL"
+
+#: functions/admin-framework-settings.php:111
+#@ templatation
+msgid "Change the URL that the logo image on the WordPress login page links to."
+msgstr "Cambia l'URL dell'immagine del logo della pagina WordPress login "
+
+#: functions/admin-framework-settings.php:117
+#@ templatation
+msgid "WordPress login logo Title"
+msgstr "Titolo del WordPress login logo"
+
+#: functions/admin-framework-settings.php:118
+#@ templatation
+msgid "Change the title of the logo image on the WordPress login page."
+msgstr "Cambia il titolo del logo della pagina WordPress login"
+
+#: functions/admin-framework-settings.php:143
+#@ templatation
+msgid "WordPress Toolbar"
+msgstr "WordPress Toolbar"
+
+#: functions/admin-framework-settings.php:147
+#@ templatation
+msgid "Disable WordPress Toolbar"
+msgstr "Disabilita WordPress Toolbar"
+
+#: functions/admin-framework-settings.php:148
+#@ templatation
+msgid "Disable the WordPress Toolbar."
+msgstr "Disabilita la WordPress Toolbar"
+
+#: functions/admin-framework-settings.php:172
+#: functions/admin-interface.php:298
+#@ templatation
+msgid "Options Updated"
+msgstr "Opzioni Aggiornate"
+
+#: functions/admin-framework-settings.php:173
+#: functions/admin-interface.php:299
+#@ templatation
+msgid "Options Reset"
+msgstr "Opzioni Resettate"
+
+#: functions/admin-framework-settings.php:225
+#@ templatation
+msgid "Working..."
+msgstr "Al Lavoro..."
+
+#: functions/admin-framework-settings.php:226
+#@ templatation
+msgid "Save All Changes"
+msgstr "Salva Tutti i Cambiamenti"
+
+#: functions/admin-framework-settings.php:247
+#@ templatation
+msgid "Reset Options"
+msgstr "Resetta Opzioni"
+
+#: functions/admin-framework-settings.php:247
+#@ templatation
+msgid "Click OK to reset. Any settings will be lost!"
+msgstr "Cliccare OK per resettare. Ogni impostazione verrà persa!"
+
+#: functions/admin-functions.php:1041
+#@ templatation
+msgid "less than a minute ago"
+msgstr "Meno di un minuto fà"
+
+#: functions/admin-functions.php:1043
+#@ templatation
+msgid "about a minute ago"
+msgstr "circa un minuto fà"
+
+#: functions/admin-functions.php:1045
+#@ templatation
+msgid "minutes ago"
+msgstr "minuti fà"
+
+#: functions/admin-functions.php:1049
+#@ templatation
+msgid "hours ago"
+msgstr "ore fà"
+
+#: functions/admin-functions.php:1053
+#@ templatation
+msgid "days ago"
+msgstr "giorni fà"
+
+#: functions/admin-functions.php:1068
+#, php-format
+#@ templatation
+msgid "%1$s is <strong>deprecated</strong> since version %2$s of the WooFramework! Please upgrade your Theme to the latest version."
+msgstr "%1$s è <strong>deprecated</strong> sin dalla versione %2$s del WooFramework! Per cortesia aggiorna il tuo Tema all'ultima versione."
+
+#: functions/admin-functions.php:1997
+#@ templatation
+msgid "&larr; Previous"
+msgstr "&larr; Precedente"
+
+#: functions/admin-functions.php:1998
+#@ templatation
+msgid "Next &rarr;"
+msgstr "Prossimo &rarr;"
+
+#: functions/admin-functions.php:2121
+#@ templatation
+msgid "You are here :"
+msgstr "Tu sei qui:"
+
+#: functions/admin-functions.php:2124
+#: header.php:59
+#@ templatation
+msgid "Home"
+msgstr "Home"
+
+#: functions/admin-functions.php:2289
+#@ templatation
+msgid "g:i a"
+msgstr "g:i a"
+
+#: functions/admin-functions.php:2292
+#, php-format
+#@ templatation
+msgid "Minute %1$s"
+msgstr "Minute %1$s"
+
+#: functions/admin-functions.php:2292
+#@ templatation
+msgid "i"
+msgstr "i"
+
+#: functions/admin-functions.php:2295
+#@ templatation
+msgid "g a"
+msgstr "g a"
+
+#: functions/admin-functions.php:2306
+#: functions/admin-functions.php:2312
+#: functions/admin-functions.php:2317
+#: functions/admin-functions.php:2322
+#@ templatation
+msgid "Y"
+msgstr "Y"
+
+#: functions/admin-functions.php:2307
+#: functions/admin-functions.php:2318
+#@ templatation
+msgid "F"
+msgstr "F"
+
+#: functions/admin-functions.php:2308
+#@ templatation
+msgid "j"
+msgstr "j"
+
+#: functions/admin-functions.php:2313
+#, php-format
+#@ templatation
+msgid "Week %1$s"
+msgstr "Settimana %1$s"
+
+#: functions/admin-functions.php:2313
+#@ templatation
+msgid "W"
+msgstr "W"
+
+#: functions/admin-functions.php:2329
+#, php-format
+#@ templatation
+msgid "Search results for &quot;%1$s&quot;"
+msgstr "Risultati di ricerca per &quot;%1$s&quot;"
+
+#: functions/admin-functions.php:2333
+#@ templatation
+msgid "404 Not Found"
+msgstr "404 Non Trovato"
+
+#: functions/admin-functions.php:2569
+#@ templatation
+msgid "templatation"
+msgstr "templatation"
+
+#: functions/admin-functions.php:2593
+#, php-format
+#@ templatation
+msgid "Child Theme: %s %s"
+msgstr "Child Theme: %s %s"
+
+#: functions/admin-functions.php:2597
+#, php-format
+#@ templatation
+msgid "Theme: %s %s"
+msgstr "Tema: %s %s"
+
+#: functions/admin-functions.php:2600
+#, php-format
+#@ templatation
+msgid "WooFramework: %s"
+msgstr "WooFramework: %s"
+
+#: functions/admin-functions.php:2888
+#@ templatation
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai permessi sufficienti per accedere a questa pagina."
+
+#: functions/admin-functions.php:2890
+#@ templatation
+msgid "You have taken too long. Please go back and retry."
+msgstr "Ci hai messo troppo tempo. Per favore vai in dietro e riprova."
+
+#: functions/admin-functions.php:2971
+#, php-format
+#@ templatation
+msgid "Framework %s"
+msgstr "Framework %s"
+
+#: functions/admin-interface.php:358
+#@ templatation
+msgid "Error"
+msgstr "Errore"
+
+#: functions/admin-interface.php:365
+#@ templatation
+msgid "An Error Occured"
+msgstr "Si è verificato un errore"
+
+#: functions/admin-interface.php:368
+#@ templatation
+msgid "Something went wrong while trying to load your Theme Options panel."
+msgstr "Qualcosa è andato storto durante il tentativo di caricare il pannello Opzioni tema."
+
+#: functions/admin-interface.php:369
+#, php-format
+#@ templatation
+msgid "Please reload the page, if this error persists, please get in touch with us through our %1$s."
+msgstr "Si prega di ricaricare la pagina, se l'errore persiste, si prega di mettersi in contatto con noi attraverso la nostra %1$s."
+
+#: functions/admin-interface.php:369
+#@ templatation
+msgid "Support Desk"
+msgstr "Support Desk"
+
+#: functions/admin-interface.php:897
+#@ templatation
+msgid "Options Saved Successfully"
+msgstr "Opzioni salvate con successo"
+
+#: functions/admin-interface.php:901
+#@ templatation
+msgid "There was an error while saving your options. Please try again."
+msgstr "Si è verificato un errore durante il salvataggio delle opzioni. Riprova."
+
+#: functions/admin-interface.php:905
+#@ templatation
+msgid "Options Reset Successfully"
+msgstr "Opzioni resettate con successo"
+
+#: functions/admin-interface.php:1543
+#@ templatation
+msgid "You are not able to update this option because you lack the <code>unfiltered_html</code> capability."
+msgstr "Non sei in grado di aggiornare questa opzione perché ti manca la calacità <code>unfiltered_html</code>."
+
+#: functions/admin-medialibrary-uploader.php:51
+#@ templatation
+msgid "WooFramework Internal Container"
+msgstr "WooFramework Internal Container"
+
+#: functions/admin-medialibrary-uploader.php:155
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:393
+#: includes/wc-zm/yit-common/yith-panel.php:400
+#@ templatation
+msgid "Upload"
+msgstr "Carica"
+
+#: functions/admin-medialibrary-uploader.php:181
+#@ templatation
+msgid "View File"
+msgstr "Guarda File"
+
+#: functions/admin-medialibrary-uploader.php:316
+#@ templatation
+msgid "Gallery"
+msgstr "Galleria"
+
+#: functions/admin-medialibrary-uploader.php:316
+#@ templatation
+msgid "Previously Uploaded"
+msgstr "Caricati precedentemente"
+
+#: functions/admin-medialibrary-uploader.php:333
+#@ templatation
+msgid "Use this Image"
+msgstr "Usa questa Immagine"
+
+#: functions/admin-medialibrary-uploader.php:334
+#, php-format
+#@ templatation
+msgid "Use as %s"
+msgstr "Usa come %s"
+
+#: functions/admin-shortcodes.php:332
+#, php-format
+#@ templatation
+msgid "%1$s is <strong>deprecated</strong> since version %2$s of the WooFramework! Please upgrade your WordPress to the latest version to use the latest functionality."
+msgstr "%1$s è <strong>deprecated</strong> sin dalla versione %2$s del WooFramework! per cortesia aggiorna WordPress all'ultima versione per usare le funzionalità più aggiornate."
+
+#: functions/admin-shortcodes.php:441
+#@ templatation
+msgid "Tweet"
+msgstr "Tweet"
+
+#: functions/admin-shortcodes.php:857
+#@ templatation
+msgid "Hide the Content"
+msgstr "Nascondi il Contenuto"
+
+#: functions/admin-shortcodes.php:858
+#@ templatation
+msgid "Show the Content"
+msgstr "Mostra il Contenuto"
+
+#: functions/admin-shortcodes.php:865
+#: woocommerce/loop/add-to-cart.php:17
+#: woocommerce/loop/add-to-cart.php:41
+#: woocommerce/loop/add-to-cart.php:50
+#@ templatation
+msgid "Read More"
+msgstr "Leggi di più"
+
+#: functions/admin-shortcodes.php:866
+#@ templatation
+msgid "Read Less"
+msgstr "Leggi Meno"
+
+#: functions/admin-shortcodes.php:973
+#@ templatation
+msgid "Message via the contact form"
+msgstr "Messaggio tramite il modulo di contatto"
+
+#: functions/admin-shortcodes.php:974
+#: includes/theme-functions.php:229
+#: includes/theme-functions.php:238
+#: template-contact.php:208
+#@ templatation
+msgid "Submit"
+msgstr "Invia"
+
+#: functions/admin-shortcodes.php:1263
+#@ templatation
+msgid "Please enter your name"
+msgstr "Per cortesia inserisci il tuo nome"
+
+#: functions/admin-shortcodes.php:1264
+#@ templatation
+msgid "Please enter your email address (and please make sure it's valid)"
+msgstr "Per cortesia inserisci il tuo indirizzo email (per cortesia controlla che sia corretto)"
+
+#: functions/admin-shortcodes.php:1265
+#@ templatation
+msgid "Please enter your message"
+msgstr "Per cortesia inserisci il tuo messaggio"
+
+#: functions/admin-shortcodes.php:1330
+#: functions/admin-shortcodes.php:1336
+#: template-contact.php:62
+#: template-contact.php:68
+#@ templatation
+msgid "From: "
+msgstr "Da: "
+
+#: functions/admin-shortcodes.php:1330
+#: functions/admin-shortcodes.php:1336
+#: template-contact.php:62
+#@ templatation
+msgid "Reply-To: "
+msgstr "Rispondi-a: "
+
+#: functions/admin-shortcodes.php:1355
+#: template-contact.php:126
+#@ templatation
+msgid "Your email was successfully sent."
+msgstr "La tua email è stata inviata correttamente."
+
+#: functions/admin-shortcodes.php:1361
+#@ templatation
+msgid "There were one or more errors while submitting the form."
+msgstr "C'è stato uno o più errori durante l'invio del modulo."
+
+#: functions/admin-shortcodes.php:1366
+#: template-contact.php:179
+#@ templatation
+msgid "E-mail has not been setup properly. Please add your contact e-mail!"
+msgstr "L'E-mail non è stata impostata correttamente. Per cortesia inserisci la tua e-mail!"
+
+#: functions/admin-shortcodes.php:1385
+#: includes/theme-functions.php:310
+#: template-contact.php:186
+#@ templatation
+msgid "Name"
+msgstr "Nome"
+
+#: functions/admin-shortcodes.php:1394
+#: includes/theme-functions.php:314
+#: template-contact.php:193
+#@ templatation
+msgid "Email"
+msgstr "Email"
+
+#: functions/admin-shortcodes.php:1403
+#: template-contact.php:200
+#@ templatation
+msgid "Message"
+msgstr "Messaggio"
+
+#: functions/admin-shortcodes.php:1521
+#: template-contact.php:206
+#@ templatation
+msgid "Send a copy of this email to yourself"
+msgstr "Invia una copia di questa email a te stesso"
+
+#: functions/admin-shortcodes.php:1528
+#: template-contact.php:207
+#@ templatation
+msgid "If you want to submit this form, do not enter anything in this field"
+msgstr "Se desideri inviare il presente modulo, non inserire nulla in questo campo\n"
+
+#: functions/admin-shortcodes.php:1813
+#: functions/admin-shortcodes.php:1848
+#: functions/admin-shortcodes.php:1858
+#, php-format
+#@ templatation
+msgid "My %s Profile"
+msgstr "Mio %s Profilo"
+
+#: functions/admin-shortcodes.php:1827
+#@ templatation
+msgid "Subscribe to our RSS feed"
+msgstr "Sottoscriviti al nostro feed RSS"
+
+#: functions/admin-shortcodes.php:2135
+#@ templatation
+msgid "Follow"
+msgstr "Segui"
+
+#: functions/admin-shortcodes.php:2252
+#@ templatation
+msgid "Pin It"
+msgstr "Pin It"
+
+#: functions/js/shortcode-generator/dialog.php:52
+#@ templatation
+msgid "Customize the Shortcode"
+msgstr "Personalizza la Shortcode"
+
+#: functions/js/shortcode-generator/dialog.php:67
+#@ templatation
+msgid "Ninja Trouble"
+msgstr "Ninja Trouble"
+
+#: functions/js/shortcode-generator/dialog.php:70
+#, php-format
+#@ templatation
+msgid "Your version of the WooFramework (%s) does not yet support shortcodes. Shortcodes were introduced with version %s of the framework."
+msgstr "La tua versione del WooFramework (%s) non supporta ancora le shortcodes. Le Shortcodes sono state introdotte con la versione %s del framework."
+
+#: functions/js/shortcode-generator/dialog.php:72
+#: functions/js/shortcode-generator/dialog.php:86
+#@ templatation
+msgid "What to do now?"
+msgstr "Cosa fare adesso?"
+
+#: functions/js/shortcode-generator/dialog.php:74
+#@ templatation
+msgid "Upgrading your theme, or rather the WooFramework portion of it, will do the trick."
+msgstr "Aggiornare il tuo tema, o la parte relativa al WooFramework, potrebbe essere la soluzione."
+
+#: functions/js/shortcode-generator/dialog.php:76
+#, php-format
+#@ templatation
+msgid "The framework is a collection of functionality that all templatation have in common. In most cases you can update the framework even if you have modified your theme, because the framework resides in a separate location (under %s)."
+msgstr "Il framework è un insieme di funzionalità che tutte le templatation hanno in comune. Nella maggior parte dei casi, è possibile aggiornare framework, anche se è stato modificato il tema, perché il framework risiede in un luogo separato (under %s)."
+
+#: functions/js/shortcode-generator/dialog.php:78
+#, php-format
+#@ templatation
+msgid "There's a tutorial on how to do this on templatation.com: %sHow to upgradeyour theme%s."
+msgstr "C'è un tutorial su come fare questo su templatation.com: %sHow to upgradeyour theme%s."
+
+#: functions/js/shortcode-generator/dialog.php:80
+#@ templatation
+msgid "<strong>Remember:</strong> Every Ninja has a backup plan. Safe or not, always backup your theme before you update it or make changes to it."
+msgstr "<strong>Remember:</strong> Ogni Ninja ha un piano di riserva. Sicuro o no, effettua sempre un backup del tuo tema prima di aggiornarlo o modificarlo."
+
+#: functions/js/shortcode-generator/dialog.php:84
+#@ templatation
+msgid "Looks like your active theme is not from templatation. The shortcode generator only works with themes from templatation."
+msgstr "Sembra che il tuo tema attivo non deriva da templatation. Il shortcode generator funziona solo con i temi di templatation."
+
+#: functions/js/shortcode-generator/dialog.php:88
+#@ templatation
+msgid "Pick a fight: (1) If you already have a theme from templatation, install and activate it or (2) if you don't yet have one of the awesome templatation head over to the <a href=\"http://www.templatation.com/themes/\" target=\"_blank\" title=\"templatation Gallery\">templatation Gallery</a> and get one."
+msgstr "Scegli la sfida: (1) Se hai già un tema di templation, installalo e attivalo oppure (2) se non hai ancora una delle spettacolari templation, dirigiti su <a href=\"http://www.templatation.com/themes/\" target=\"_blank\" title=\"templatation Gallery\">templatation Gallery</a> e prendine uno."
+
+#: header.php:43
+#: includes/theme-options.php:366
+#@ templatation
+msgid "Navigation"
+msgstr "Navigazione"
+
+#: includes/featured-slider.php:101
+#@ templatation
+msgid "Please add some slides in the WordPress admin to show in the Featured Slider."
+msgstr "Si prega di aggiungere alcune diapositive alla WordPress admin per mostrarle nella Featured Slider."
+
+#: includes/sidebar-init.php:10
+#@ templatation
+msgid "Primary"
+msgstr "Primaria"
+
+#: includes/sidebar-init.php:10
+#@ templatation
+msgid "Default sidebar."
+msgstr "Sidebar di Default"
+
+#: includes/sidebar-init.php:16
+#, php-format
+#@ templatation
+msgid "Footer %d"
+msgstr "Piè di pagina %d"
+
+#: includes/sidebar-init.php:16
+#, php-format
+#@ templatation
+msgid "Widgetized Footer Region %d."
+msgstr "Regione %d Widgezzata a piè di pagina."
+
+#: includes/sidebar-init.php:19
+#: includes/theme-options.php:582
+#@ templatation
+msgid "Homepage"
+msgstr "Homepage"
+
+#: includes/sidebar-init.php:19
+#@ templatation
+msgid "Optional widgetized homepage (displays only if widgets are added here)."
+msgstr "Homepage widgetizzata opzionale (viene visualizzato solo se i widget vengono aggiunti qui)."
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:75
+#@ templatation
+msgctxt "post type general name"
+msgid "Testimonials"
+msgstr "Testimonials"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:76
+#@ templatation
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr "Testimonials"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:77
+#@ templatation
+msgctxt "testimonial"
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:78
+#, php-format
+#@ templatation
+msgid "Add New %s"
+msgstr "Aggiungi Nuovo %s"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:78
+#: includes/testimonials/classes/class-woothemes-testimonials.php:79
+#: includes/testimonials/classes/class-woothemes-testimonials.php:80
+#: includes/testimonials/classes/class-woothemes-testimonials.php:82
+#@ templatation
+msgid "Testimonial"
+msgstr "Testimonial"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:79
+#, php-format
+#@ templatation
+msgid "Edit %s"
+msgstr "Edita %s"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:80
+#, php-format
+#@ templatation
+msgid "New %s"
+msgstr "Nuovo %s"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:81
+#, php-format
+#@ templatation
+msgid "All %s"
+msgstr "Tutto %s"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:81
+#: includes/testimonials/classes/class-woothemes-testimonials.php:83
+#: includes/testimonials/classes/class-woothemes-testimonials.php:84
+#: includes/testimonials/classes/class-woothemes-testimonials.php:85
+#: includes/testimonials/classes/class-woothemes-testimonials.php:87
+#@ templatation
+msgid "Testimonials"
+msgstr "Testimonials"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:82
+#, php-format
+#@ templatation
+msgid "View %s"
+msgstr "Vedi %s"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:83
+#, php-format
+#@ templatation
+msgid "Search %a"
+msgstr "Cerca %a"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:84
+#, php-format
+#@ templatation
+msgid "No %s Found"
+msgstr "%s Non Trovato"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:85
+#, php-format
+#@ templatation
+msgid "No %s Found In Trash"
+msgstr "%s Non Trovato nel Cestino"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:147
+#: includes/theme-options.php:1410
+#: includes/theme-options.php:1428
+#@ templatation
+msgid "Image"
+msgstr "Immagine"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:181
+#, php-format
+#@ templatation
+msgid "Testimonial updated. %sView testimonial%s"
+msgstr "Testimonial aggiornato. %sView testimonial%s"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:182
+#@ templatation
+msgid "Custom field updated."
+msgstr "Campo personalizzato aggiornato."
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:183
+#@ templatation
+msgid "Custom field deleted."
+msgstr "Campo personalizzato cancellato."
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:184
+#@ templatation
+msgid "Testimonial updated."
+msgstr "Testimonial aggiornato."
+
+#. translators: %s: date and time of the revision
+#: includes/testimonials/classes/class-woothemes-testimonials.php:186
+#, php-format
+#@ templatation
+msgid "Testimonial restored to revision from %s"
+msgstr "Testimonial ristorato alla revisione %s."
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:187
+#, php-format
+#@ templatation
+msgid "Testimonial published. %sView testimonial%s"
+msgstr "Testimonial pubblicato. %sView testimonial%s"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:188
+#@ templatation
+msgid "Testimonial saved."
+msgstr "Testimonial salvato."
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:189
+#, php-format
+#@ templatation
+msgid "Testimonial submitted. %sPreview testimonial%s"
+msgstr "Testimonial inserito. %sPreview testimonial%s"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:190
+#, php-format
+#@ templatation
+msgid "Testimonial scheduled for: %1$s. %2$sPreview testimonial%3$s"
+msgstr "testimonial schedulato per: %1$s. %2$sPreview testimonial%3$s"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:192
+#@ templatation
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:193
+#, php-format
+#@ templatation
+msgid "Testimonial draft updated. %sPreview testimonial%s"
+msgstr "Bozza Testimonial aggiornata. %sPreview testimonial%s"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:207
+#@ templatation
+msgid "Testimonial Details"
+msgstr "Dettagli Testimonial"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:306
+#@ templatation
+msgid "Enter the customer's name here"
+msgstr "Inserisci qui il nome del cliente."
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:332
+#@ templatation
+msgid "Gravatar E-mail Address"
+msgstr "Indirizzo E-mail Gravitar"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:333
+#, php-format
+#@ templatation
+msgid "Enter in an e-mail address, to use a %sGravatar%s, instead of using the \"Featured Image\"."
+msgstr "Inserire qui un indirizzo e-mail, per utilizzare un %sGravatar%s, invece di utilizzare il \"Featured Image\"."
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:340
+#@ templatation
+msgid "Byline"
+msgstr "Sottotitolo"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:341
+#@ templatation
+msgid "Enter a byline for the customer giving this testimonial (for example: \"CEO of templatation\")."
+msgstr "Inserire un sottotitolo per il cliente che dà questa testimonianza (Per esempio: \"CEO of templatation\")."
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:348
+#@ templatation
+msgid "URL"
+msgstr "URL"
+
+#: includes/testimonials/classes/class-woothemes-testimonials.php:349
+#@ templatation
+msgid "Enter a URL that applies to this customer (for example: http://templatation.com/)."
+msgstr "Inserisci un URL da affibbiare a questo cliente (per esempio: http://templatation.com/)."
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:42
+#@ templatation
+msgid "Recent testimonials on your site."
+msgstr "Testimonials recenti sul tuo sito."
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:166
+#: includes/widgets/widget-woo-adspace.php:58
+#: includes/widgets/widget-woo-subscribe.php:62
+#@ templatation
+msgid "Title (optional):"
+msgstr "Titolo (opzionale)"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:171
+#@ templatation
+msgid "Limit:"
+msgstr "Limite:"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:176
+#@ templatation
+msgid "Image Size (in pixels):"
+msgstr "Grandezza immagine (in pixel):"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:181
+#@ templatation
+msgid "Order By:"
+msgstr "Ordina per:"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:190
+#@ templatation
+msgid "Order Direction:"
+msgstr "Direzione Ordinamento:"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:200
+#@ templatation
+msgid "Display Author"
+msgstr "Mostra Autore"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:205
+#@ templatation
+msgid "Display Avatar"
+msgstr "Mostra Avatar"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:210
+#@ templatation
+msgid "Display URL"
+msgstr "Mostra URL"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:214
+#@ templatation
+msgid "Specific ID (optional):"
+msgstr "Specifica ID (opzionale):"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:217
+#@ templatation
+msgid "Display a specific testimonial, rather than a list."
+msgstr "Mostra un testimonial specifico, piuttosto che un elenco."
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:228
+#@ templatation
+msgid "No Order"
+msgstr "Non Ordinare"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:229
+#@ templatation
+msgid "Entry ID"
+msgstr "Inserisci ID"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:230
+#: includes/theme-options.php:646
+#: includes/wc-ajax-nav/widgets/class.yith-wcan-navigation-widget.php:516
+#@ templatation
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:231
+#@ templatation
+msgid "Date Added"
+msgstr "Data Aggiunta"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:232
+#@ templatation
+msgid "Specified Order Setting"
+msgstr "Specifica le impostazioni di Riordino"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:233
+#@ templatation
+msgid "Random Order"
+msgstr "Ordine Casuale"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:244
+#@ templatation
+msgid "Ascending"
+msgstr "Crescente"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:245
+#@ templatation
+msgid "Descending"
+msgstr "Decrescente"
+
+#: includes/testimonials/woothemes-testimonials-template.php:145
+#@ templatation
+msgid "Previous"
+msgstr "Precedente"
+
+#: includes/testimonials/woothemes-testimonials-template.php:146
+#@ templatation
+msgid "Next"
+msgstr "Prossimo"
+
+#: includes/theme-actions.php:543
+#@ templatation
+msgid "Search..."
+msgstr "Cerca..."
+
+#: includes/theme-comments.php:23
+#@ templatation
+msgid "at"
+msgstr "a"
+
+#: includes/theme-comments.php:24
+#@ templatation
+msgid "Direct link to this comment"
+msgstr "Link diretto a questo commento"
+
+#: includes/theme-comments.php:25
+#@ templatation
+msgid "Edit"
+msgstr "Modifica"
+
+#: includes/theme-comments.php:32
+#@ templatation
+msgid "Your comment is awaiting moderation."
+msgstr "Il tuo commento è in attesa di moderazione."
+
+#: includes/theme-functions.php:101
+#@ templatation
+msgid "Primary Menu"
+msgstr "Menù Primario"
+
+#: includes/theme-functions.php:135
+#@ templatation
+msgid "Older posts"
+msgstr "Post più vecchi"
+
+#: includes/theme-functions.php:136
+#@ templatation
+msgid "Newer posts"
+msgstr "Post più nuovi"
+
+#: 404.php:80
+#: includes/theme-functions.php:162
+#: includes/theme-functions.php:1066
+#: template-timeline.php:83
+#@ templatation
+msgid "Leave a comment"
+msgstr "Lascia un commento"
+
+#: includes/theme-functions.php:187
+#: includes/theme-functions.php:218
+#: includes/widgets/widget-woo-subscribe.php:37
+#@ templatation
+msgid "Subscribe"
+msgstr "Sottoscrivi"
+
+#: includes/theme-functions.php:189
+#@ templatation
+msgid "Subscribe to our profiles on the following social networks."
+msgstr "Iscriviti ai nostri profili sui seguenti social network."
+
+#: includes/theme-functions.php:225
+#: includes/theme-functions.php:237
+#@ templatation
+msgid "E-mail"
+msgstr "E-mail"
+
+#: includes/theme-functions.php:281
+#@ templatation
+msgid "Related Posts:"
+msgstr "Post Correlati:"
+
+#: includes/theme-functions.php:303
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1106
+#@ templatation
+msgid "Required"
+msgstr "Richiesto"
+
+#: includes/theme-functions.php:318
+#@ templatation
+msgid "Website"
+msgstr "Sitoweb"
+
+#: includes/theme-functions.php:338
+#@ templatation
+msgid "Submit Comment"
+msgstr "Inserisci Commento"
+
+#: includes/theme-functions.php:339
+#@ templatation
+msgid "Click here to cancel reply."
+msgstr "Clicca qui per cancellare la risposta."
+
+#: includes/theme-functions.php:651
+#@ templatation
+msgid "Loading the next set of products..."
+msgstr "Caricare la successiva serie di prodotti..."
+
+#: includes/theme-functions.php:652
+#@ templatation
+msgid "All products loaded."
+msgstr "Tutti i prodotti caricati."
+
+#: includes/theme-functions.php:681
+#@ templatation
+msgctxt "post type general name"
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: includes/theme-functions.php:682
+#@ templatation
+msgctxt "post type singular name"
+msgid "Portfolio Item"
+msgstr "Oggetti in Portfolio"
+
+#: includes/theme-functions.php:683
+#@ templatation
+msgid "Cakes/Portfolio"
+msgstr "Cakes/Portfolio"
+
+#: includes/theme-functions.php:684
+#@ templatation
+msgctxt "slide"
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: includes/theme-functions.php:685
+#@ templatation
+msgid "Add New Portfolio Item"
+msgstr "Aggiungi nuovo oggetto a Portfolio"
+
+#: includes/theme-functions.php:686
+#@ templatation
+msgid "Edit Portfolio Item"
+msgstr "Modifica oggetti Portfolio"
+
+#: includes/theme-functions.php:687
+#@ templatation
+msgid "New Portfolio Item"
+msgstr "Aggiungi Oggetto a Portfolio"
+
+#: includes/theme-functions.php:688
+#@ templatation
+msgid "View Portfolio Item"
+msgstr "Vedi Oggetti Portfolio"
+
+#: includes/theme-functions.php:689
+#@ templatation
+msgid "Search Portfolio Items"
+msgstr "Cerca tra gli Oggetti Portfolio"
+
+#: includes/theme-functions.php:690
+#@ templatation
+msgid "No portfolio items found"
+msgstr "Nessun Oggetto nel Portfolio trovato"
+
+#: includes/theme-functions.php:691
+#@ templatation
+msgid "No portfolio items found in Trash"
+msgstr "Nessun portfolio trovato nel Cestino"
+
+#: includes/theme-functions.php:722
+#@ templatation
+msgctxt "taxonomy general name"
+msgid "Portfolio Galleries"
+msgstr "Gallerie Portfolio"
+
+#: includes/theme-functions.php:723
+#@ templatation
+msgctxt "taxonomy singular name"
+msgid "Portfolio Gallery"
+msgstr "Galleria Portfolio"
+
+#: includes/theme-functions.php:724
+#@ templatation
+msgid "Search Portfolio Galleries"
+msgstr "Cerca Gallerie Portfolio"
+
+#: includes/theme-functions.php:725
+#@ templatation
+msgid "All Portfolio Galleries"
+msgstr "Tutte le Gallerie Portfolio"
+
+#: includes/theme-functions.php:726
+#@ templatation
+msgid "Parent Portfolio Gallery"
+msgstr "Galleria Portfolio Principale"
+
+#: includes/theme-functions.php:727
+#@ templatation
+msgid "Parent Portfolio Gallery:"
+msgstr "Galleria Portfolio Principale:"
+
+#: includes/theme-functions.php:728
+#@ templatation
+msgid "Edit Portfolio Gallery"
+msgstr "Modifica Galleria Portfolio"
+
+#: includes/theme-functions.php:729
+#@ templatation
+msgid "Update Portfolio Gallery"
+msgstr "Aggiorna Galleria Portfolio"
+
+#: includes/theme-functions.php:730
+#@ templatation
+msgid "Add New Portfolio Gallery"
+msgstr "Aggiungi una nuova Galleria Portfolio"
+
+#: includes/theme-functions.php:731
+#@ templatation
+msgid "New Portfolio Gallery Name"
+msgstr "Nuovo Nome Galleria Portfolio"
+
+#: includes/theme-functions.php:732
+#@ templatation
+msgid "Portfolio Galleries"
+msgstr "Gallerie Portfolio"
+
+#: includes/theme-functions.php:806
+#: includes/widgets/widget-woo-blogauthor.php:99
+#@ templatation
+msgid "All"
+msgstr "Tutti"
+
+#: includes/theme-woocommerce.php:498
+#@ templatation
+msgid "View your shopping cart"
+msgstr "Visualizza il tuo carrello della spesa"
+
+#: includes/theme-options.php:37
+#@ templatation
+msgid "Select a Category:"
+msgstr "Seleziona una Categoria:"
+
+#: includes/theme-options.php:63
+#@ templatation
+msgid "Select a Post Tag:"
+msgstr "Seleziona un Post Tag:"
+
+#: includes/theme-options.php:95
+#@ templatation
+msgid "Select a Portfolio Gallery:"
+msgstr "Seleziona la Galleria Portfolio:"
+
+#: includes/theme-options.php:120
+#@ templatation
+msgid "Select a Page:"
+msgstr "Seleziona una Pagina"
+
+#: includes/theme-options.php:145
+#@ templatation
+msgid "Quick Start"
+msgstr "Avvio Veloce"
+
+#: includes/theme-options.php:149
+#@ templatation
+msgid "Select your themes alternative color scheme."
+msgstr "Selezionare la combinazione di colori alternativa dei tuoi temi"
+
+#: includes/theme-options.php:155
+#@ templatation
+msgid "Custom Logo"
+msgstr "Logo Personalizzato"
+
+#: includes/theme-options.php:156
+#@ templatation
+msgid "Upload a logo for your theme, or specify an image URL directly."
+msgstr "Aggiorna logo per il tuo tema, oppure inserisci un URL diretto."
+
+#: includes/theme-options.php:161
+#@ templatation
+msgid "Logo Offset"
+msgstr "Logo Offset"
+
+#: includes/theme-options.php:162
+#@ templatation
+msgid "If the logo you uploaded is misplaced, you can move logo vertically or horizontally by providing the values below. If you put 10 in left offset, logo will move to right side by 10px, -10 in left offset will move the logo to left by 10px. Enter values without px eg: 10, 20, -15 etc."
+msgstr "Se il logo che hai caricato è fuori posto, è possibile spostare il logo in verticale o in orizzontale, fornendo i valori qui sotto. Se inserisci 10 come offset sinistro, il logo si sposterà a destra di 10px, -10 coma offset di sinistra, possiamo spostare il logo a sinistra di 10px. Immettere i valori senza px esempio: 10, 20, -15, ecc.\n"
+
+#: includes/theme-options.php:169
+#@ templatation
+msgid "Left Offset"
+msgstr "Offset Sinistro"
+
+#: includes/theme-options.php:173
+#@ templatation
+msgid "Top Offset"
+msgstr "Offset Superiore"
+
+#: includes/theme-options.php:176
+#@ templatation
+msgid "Text Title"
+msgstr "Titolo Testo"
+
+#: includes/theme-options.php:177
+#, php-format
+#@ templatation
+msgid "Enable text-based Site Title and Tagline. Setup title & tagline in %1$s."
+msgstr "Abilita il text-based Site Title e Tagline. Imposta titolo & tagline in %1$s."
+
+#: includes/theme-options.php:183
+#@ templatation
+msgid "Site Title"
+msgstr "Titolo del Sito"
+
+#: includes/theme-options.php:184
+#@ templatation
+msgid "Change the site title typography."
+msgstr "Cambia il carattere del titolo del sito."
+
+#: includes/theme-options.php:190
+#: includes/theme-options.php:197
+#@ templatation
+msgid "Site Description"
+msgstr "Descrizione Sito"
+
+#: includes/theme-options.php:191
+#@ templatation
+msgid "Enable the site description/tagline under site title."
+msgstr "Abilita la descrizione/tagline del sito sotto il titolo del sito."
+
+#: includes/theme-options.php:198
+#@ templatation
+msgid "Change the site description typography."
+msgstr "Cambiare il carattere del titolo del sito."
+
+#: includes/theme-options.php:204
+#@ templatation
+msgid "Custom Favicon"
+msgstr "Favicon Personalizzato"
+
+#: includes/theme-options.php:205
+#, php-format
+#@ templatation
+msgid "Upload a 16px x 16px %1$s that will represent your website's favicon."
+msgstr "Carica una %1$s 16px x 16px che rappresenterà il favicon del sito web"
+
+#: includes/theme-options.php:205
+#@ templatation
+msgid "ico image"
+msgstr "Immagine ico"
+
+#: includes/theme-options.php:211
+#@ templatation
+msgid "Paste your Google Analytics (or other) tracking code here. This will be added into the footer template of your theme."
+msgstr "Incolla il tuo Google Analytics (o altro) codice di monitoraggio qui. Questo sarà aggiunto nel footer template del vostro tema."
+
+#: includes/theme-options.php:222
+#@ templatation
+msgid "Subscription Settings"
+msgstr "Impostazioni di Sottoscrizione"
+
+#: includes/theme-options.php:225
+#@ templatation
+msgid "RSS URL"
+msgstr "RSS URL"
+
+#: includes/theme-options.php:226
+#@ templatation
+msgid "Enter your preferred RSS URL. (Feedburner or other)"
+msgstr "Inserisci il tuo RSS URL preferito. (Feedburner o altri)"
+
+#: includes/theme-options.php:231
+#@ templatation
+msgid "E-Mail Subscription URL"
+msgstr "E-Mail URL Abbonamento"
+
+#: includes/theme-options.php:232
+#@ templatation
+msgid "Enter your preferred E-mail subscription URL. (Feedburner or other)"
+msgstr "Inserisci il tuo URL abbonamento e-mail preferito. (Feedburner o altro)"
+
+#: includes/theme-options.php:237
+#@ templatation
+msgid "Display Options"
+msgstr "Mostra Opzioni"
+
+#: includes/retail-menu-cards/includes/settings.php:169
+#: includes/theme-options.php:240
+#@ templatation
+msgid "Custom CSS"
+msgstr "Custom CSS"
+
+#: includes/theme-options.php:241
+#@ templatation
+msgid "Quickly add some CSS to your theme by adding it to this block."
+msgstr "Aggiungi velocemente qualche CSS al tuo tema aggiungendolo in questo blocco."
+
+#: includes/theme-options.php:246
+#@ templatation
+msgid "Post/Page Comments"
+msgstr "Post/Pagina Commenti"
+
+#: includes/theme-options.php:247
+#@ templatation
+msgid "Select if you want to enable/disable comments on posts and/or pages."
+msgstr "Selezionare se si desidera abilitare/disabilitare i commenti sui post e/o pagine."
+
+#: includes/theme-options.php:251
+#@ templatation
+msgid "Posts Only"
+msgstr "Solo Post"
+
+#: includes/theme-options.php:251
+#@ templatation
+msgid "Pages Only"
+msgstr "Solo Pagine"
+
+#: includes/theme-options.php:251
+#@ templatation
+msgid "Pages / Posts"
+msgstr "Pagine/Post"
+
+#: includes/theme-options.php:251
+#@ templatation
+msgid "None"
+msgstr "Nessuna"
+
+#: includes/theme-options.php:253
+#@ templatation
+msgid "Post Content"
+msgstr "Posta Contentuti"
+
+#: includes/theme-options.php:254
+#@ templatation
+msgid "Select if you want to show the full content or the excerpt on posts."
+msgstr "Selezionare se si desidera visualizzare tutto il post o solo uno Stralcio."
+
+#: includes/theme-options.php:257
+#@ templatation
+msgid "The Excerpt"
+msgstr "Stralcio"
+
+#: includes/theme-options.php:257
+#@ templatation
+msgid "Full Content"
+msgstr "Contenuto"
+
+#: includes/theme-options.php:259
+#@ templatation
+msgid "Post Author Box"
+msgstr "Box Autore Post"
+
+#: includes/theme-options.php:260
+#, php-format
+#@ templatation
+msgid "This will enable the post author box on the single posts page. Edit description in %1$s."
+msgstr "Questo consentirà di abilitare il Box Autore Post sulla pagina dei post. Modifica descrizione in %1$s."
+
+#: includes/theme-options.php:260
+#@ templatation
+msgid "Profile"
+msgstr "Profili"
+
+#: includes/theme-options.php:265
+#@ templatation
+msgid "Display Breadcrumbs"
+msgstr "Visualizza Breadcrumbs"
+
+#: includes/theme-options.php:266
+#@ templatation
+msgid "Display dynamic breadcrumbs on each page of your website."
+msgstr "Mostra Breadcrumbs Dinamico in ogni pagina del tuo sito web."
+
+#: includes/theme-options.php:271
+#@ templatation
+msgid "Display Pagination"
+msgstr "Visualizza Impaginazione"
+
+#: includes/theme-options.php:272
+#@ templatation
+msgid "Display pagination on the blog."
+msgstr "Visualizzare impaginazione sul blog."
+
+#: includes/theme-options.php:277
+#@ templatation
+msgid "Pagination Style"
+msgstr "Stile Impaginazione"
+
+#: includes/theme-options.php:278
+#@ templatation
+msgid "Select the style of pagination you would like to use on the blog."
+msgstr "Selezionare lo stile di impaginazione che si desidera utilizzare sul blog."
+
+#: includes/theme-options.php:281
+#@ templatation
+msgid "Numbers"
+msgstr "Numeri"
+
+#: includes/theme-options.php:281
+#@ templatation
+msgid "Next/Previous"
+msgstr "Prossimo/Precedente"
+
+#: includes/retail-menu-cards/includes/settings.php:137
+#: includes/theme-options.php:287
+#@ templatation
+msgid "Styling"
+msgstr "Styling"
+
+#: includes/theme-options.php:291
+#@ templatation
+msgid "Background"
+msgstr "Background"
+
+#: includes/theme-options.php:294
+#@ templatation
+msgid "Body Background Color"
+msgstr "Body Background Color"
+
+#: includes/theme-options.php:295
+#@ templatation
+msgid "Pick a custom color for background color of the theme e.g. #697e09"
+msgstr "Seleziona un colore personalizzato per il background del tema. e.s. #697e09"
+
+#: includes/theme-options.php:300
+#@ templatation
+msgid "Body background image"
+msgstr "Immagine di background Body"
+
+#: includes/theme-options.php:301
+#@ templatation
+msgid "Upload an image for the theme's background"
+msgstr "Carica una immagine per il background del tema"
+
+#: includes/theme-options.php:306
+#@ templatation
+msgid "Background image repeat"
+msgstr "Ripetizione immagine di background"
+
+#: includes/theme-options.php:307
+#@ templatation
+msgid "Select how you would like to repeat the background-image"
+msgstr "Selezionare come si desidera ripetere l'immagine di sfondo"
+
+#: includes/theme-options.php:313
+#@ templatation
+msgid "Background image position"
+msgstr "Posizione di un'immagine di sfondo"
+
+#: includes/theme-options.php:314
+#@ templatation
+msgid "Select how you would like to position the background"
+msgstr "Selezionare come si desidera posizionare lo sfondo"
+
+#: includes/theme-options.php:320
+#@ templatation
+msgid "Background Attachment"
+msgstr "Background Allegato"
+
+#: includes/theme-options.php:321
+#@ templatation
+msgid "Select whether the background should be fixed or move when the user scrolls"
+msgstr "Selezionare se il background deve essere fisso o si muove quando l'utente effettua lo scroll"
+
+#: includes/theme-options.php:327
+#@ templatation
+msgid "Links"
+msgstr "Link"
+
+#: includes/theme-options.php:330
+#@ templatation
+msgid "Link Color"
+msgstr "Colore Link"
+
+#: includes/theme-options.php:331
+#@ templatation
+msgid "Pick a custom color for links or add a hex color code e.g. #697e09"
+msgstr "Scegli un colore personalizzato per i Link oppure aggiungere un un codice colore esadecimale e.s. #697e09"
+
+#: includes/theme-options.php:336
+#@ templatation
+msgid "Link Hover Color"
+msgstr "Colore Link Hover"
+
+#: includes/theme-options.php:337
+#@ templatation
+msgid "Pick a custom color for links hover or add a hex color code e.g. #697e09"
+msgstr "Scegli un colore personaliccato per i Link Hover oppure aggiungere un codice esadecimale es. #697e09"
+
+#: includes/theme-options.php:342
+#@ templatation
+msgid "Button Color"
+msgstr "Colore Bottoni"
+
+#: includes/theme-options.php:343
+#@ templatation
+msgid "Pick a custom color for buttons or add a hex color code e.g. #697e09"
+msgstr "Scegli un colore personalizzato per i bottoni oppure aggiungi un codice colore esadecimale e.s. #697e09"
+
+#: includes/theme-options.php:350
+#@ templatation
+msgid "Typography"
+msgstr "Impaginazone"
+
+#: includes/theme-options.php:354
+#@ templatation
+msgid "Enable Custom Typography"
+msgstr "Abilita Impaginazione Costumizzata"
+
+#: includes/theme-options.php:355
+#@ templatation
+msgid "Enable the use of custom typography for your site. Custom styling will be output in your sites HEAD."
+msgstr "Abilitare l'uso dell'impaginazione personalizzato per il tuo sito. Custom styling sarà posto nell'HEAD dei tuoi siti."
+
+#: includes/theme-options.php:360
+#@ templatation
+msgid "General Typography"
+msgstr "Impaginazione Generale"
+
+#: includes/theme-options.php:361
+#@ templatation
+msgid "Change the general font."
+msgstr "Modifica il font generale."
+
+#: includes/theme-options.php:367
+#@ templatation
+msgid "Change the navigation font."
+msgstr "Cambia il font di navigazione."
+
+#: includes/theme-options.php:372
+#@ templatation
+msgid "Page Title"
+msgstr "Titolo Pagina"
+
+#: includes/theme-options.php:373
+#@ templatation
+msgid "Change the page title."
+msgstr "Cambia il titolo pagina."
+
+#: includes/theme-options.php:378
+#@ templatation
+msgid "Post Title"
+msgstr "Posta Titolo"
+
+#: includes/theme-options.php:379
+#@ templatation
+msgid "Change the post title."
+msgstr "Cambia il titolo del post."
+
+#: includes/theme-options.php:384
+#@ templatation
+msgid "Post Meta"
+msgstr "Posta  i Meta"
+
+#: includes/theme-options.php:385
+#@ templatation
+msgid "Change the post meta."
+msgstr "Cambia i post meta."
+
+#: includes/theme-options.php:390
+#@ templatation
+msgid "Post Entry"
+msgstr "Entra post"
+
+#: includes/theme-options.php:391
+#@ templatation
+msgid "Change the post entry."
+msgstr "Cambia entrata post."
+
+#: includes/theme-options.php:396
+#@ templatation
+msgid "Widget Titles"
+msgstr "Titoli Widget"
+
+#: includes/theme-options.php:397
+#@ templatation
+msgid "Change the widget titles."
+msgstr "Cambia il titolo dei widget."
+
+#: includes/retail-menu-cards/includes/settings.php:156
+#: includes/theme-options.php:1477
+#@ templatation
+msgid "Layout"
+msgstr "Layout"
+
+#: includes/theme-options.php:409
+#@ templatation
+msgid "Main Layout"
+msgstr "Layout Principale"
+
+#: includes/theme-options.php:410
+#@ templatation
+msgid "Select which layout you want for your site."
+msgstr "Seleziona quale layout vuoi per il tuo sito."
+
+#: includes/theme-options.php:419
+#@ templatation
+msgid "Header layout"
+msgstr "Layout Header"
+
+#: includes/theme-options.php:748
+#@ templatation
+msgid "Category Exclude - Homepage"
+msgstr "Escludi Categoria - Homepage"
+
+#: includes/theme-options.php:749
+#@ templatation
+msgid "Specify a comma seperated list of category IDs or slugs that you'd like to exclude from your homepage (eg: uncategorized)."
+msgstr "Specifica una lista di ID di categoria o slugs, separata da virgole, che vuoi escludere dal tuo sito (es.: Senza categoria)."
+
+#: includes/theme-options.php:754
+#@ templatation
+msgid "Category Exclude - Blog Page Template"
+msgstr "Categoria Esclusa - Modello Pagina Blog"
+
+#: includes/theme-options.php:755
+#@ templatation
+msgid "Specify a comma seperated list of category IDs or slugs that you'd like to exclude from your 'Blog' page template (eg: uncategorized)."
+msgstr "Specifica un elenco separato da virgole degli ID delle categorie oppure delle chiocciole degli ID di categorie che intendi escludere dalla pagina di template del tuo 'Blog' (es: non catalogati)."
+
+#: includes/theme-options.php:518
+#@ templatation
+msgid "Slider & Headline Settings"
+msgstr "Impostazioni della Slider & Headline"
+
+#: includes/theme-options.php:515
+#@ templatation
+msgid "Slider Settings"
+msgstr "Impostazioni Slider"
+
+#: includes/theme-options.php:525
+#@ templatation
+msgid "Enable Slider"
+msgstr "Abilita Slider"
+
+#: includes/theme-options.php:526
+#@ templatation
+msgid "Enable/Disable the slider globally."
+msgstr "Abilita/Disabilita la slider globalmente."
+
+#: includes/theme-options.php:531
+#@ templatation
+msgid "Slider area content"
+msgstr "Contenuti area Slider"
+
+#: includes/theme-options.php:532
+#@ templatation
+msgid "Please enter the content you want to show on slider area. Usually you will enter shortcode given by revolution slider here. eg: [rev_slider home]. However, (for advanced users/developers) if you want, you can use any kind of data here and it will be shown on the slider section (Hero Area) instead."
+msgstr "Inserisci il contenuto che si desidera visualizzare sulla zona dello Slider. Di solito potrai inserire qui gli shortcode creati con il revolution slider es: [rev_slider home]. Tuttavia, (per gli utenti / sviluppatori avanzati), se si desidera, qui è possibile utilizzare qualsiasi tipo di dato o informazione la quale sarà mostrata nella sezione dello slider (Hero Area)."
+
+#: includes/theme-options.php:543
+#@ templatation
+msgid "Headline Options"
+msgstr "Opzioni Headline"
+
+#: includes/theme-options.php:546
+#@ templatation
+msgid "Headline Setup"
+msgstr "Imposta Headline"
+
+#: includes/theme-options.php:549
+#@ templatation
+msgid "Headline is the area after header block and before content block. Below are the defaults for Headline area for whole website, these settings can be override by particular page or post editor page settings. ( Feel free to play with it , you can always revert back. ) "
+msgstr "L'Headline è la zona dopo la sezione dell'header e prima della sezione dei content. Di seguito sono riportati i valori predefiniti per la Headline di tutto il sito, queste impostazioni possono essere sovrascritte da una particolare pagina codificata o dalle impostazioni dell'editor della pagina dei post. (Sentiti libero di sperimentarci, si possono sempre annullare le modifiche.)"
+
+#: includes/theme-options.php:552
+#@ templatation
+msgid "Show Headline Section Globally ?"
+msgstr "Mostra Sezione Headline a livello globale?"
+
+#: includes/theme-options.php:553
+#@ templatation
+msgid "Default: checked, Uncheck to disable. If globally disabled the headline area will not appear anywhere. The settings below and the Headline and heading message setting in single post pages will not make any appearance. If disabled here, it will not show in any case, but if enabled here, you can disable it on single page basis on single post pages too."
+msgstr "Impostazione predefinita: selezionata, deselezionare per disabilitare. Se disabilitata globalmente l'area dell'headline non compare da nessuna parte. Le impostazioni qui di seguito, l'headline e le impostazioni dell'headline del messaggio nella pagina del singolo post non comparirà. Se disabilitato qui, non verrà visualizzato in alcun caso, ma se abilitato qui, è possibile disabilitarlo sulla singola pagina oppure sul singolo post secondo le esigenze."
+
+#: includes/theme-options.php:558
+#@ templatation
+msgid "Enable Default Headline title and message ?"
+msgstr "Abilita il titolo e il messaggio dell'Headline predefinito?"
+
+#: includes/theme-options.php:559
+#@ templatation
+msgid "If you enable it you will see boxes to enter default title and message for Headline area. These Title and Message will be show on whole website where specific Title and Message is not defined from single page editor. If you disable it , Breadcrumb will be shown on headline area instead. ( False is recommended if you are not sure about it.) ."
+msgstr "Se l'abiliti, vedrai comparire il riquadro dove inserire il titolo ed il messaggio predefinito per l'area Headline. Questo Titolo e Messaggio verrò mostrato sull'intero sito dove un Titolo ed un Messaggio dell'Headline non è stato inserito con editor per la singola pagina. Se disabilitato, il Breadcrumb verrà mostrato al posto dell'area Headline. (E' consigliato lasciare Falso se non si sa cosa si sta facendo)"
+
+#: includes/theme-options.php:565
+#@ templatation
+msgid "Default Headline Title"
+msgstr "Titolo Headline Predefinito"
+
+#: includes/theme-options.php:566
+#@ templatation
+msgid "If you enable Headline and enter title here, it will be shown if no other title is specified in single post/pages."
+msgstr "Se si abilita l'Headline e inserisci il titolo qui, esso verrà mostrato se nessun altro titolo è specificato nel singolo post / pagine."
+
+#: includes/theme-options.php:572
+#@ templatation
+msgid "Default Headline Message"
+msgstr "Messaggio dell'Headline Predefinito"
+
+#: includes/theme-options.php:573
+#@ templatation
+msgid "If you enable Headline and enter Message here, it will be shown if no other Message is specified in single post/pages."
+msgstr "Se si abilita Headline ed inserisci il testo del Messaggio qui, esso sarà mostrato se nessun altro Messaggio è specificato per il singolo post/pagine."
+
+#: includes/theme-options.php:586
+#: includes/theme-options.php:589
+#@ templatation
+msgid "Homepage Setup"
+msgstr "Configurazione Homepage"
+
+#: includes/theme-options.php:592
+#, php-format
+#@ templatation
+msgid "Note: Below settings only works if you create a page with page template \"Custom Homepage\" and set it as front page from Settings->Reading. You can optionally customise the homepage product categories section by adding widgets to the \"Homepage\" widgetized area on the \"%sWidgets%s\" screen. If you add widgets to \"Homepage\" widgetized area, it will override \"product categories\" section of homepage."
+msgstr "Nota: Le impostazioni di seguito funzionano solo se si crea una pagina con il template \"Custom Homepage\" e viene impostarla come prima pagina da Impostazioni-> Lettura. Opzionalmente è possibile personalizzare la sezione categorie prodotto in homepage aggiungendo widget per la \"Home\" area widgetized sulla schermata \"%sWidgets%s\". Se si aggiungono i widget di \"Homepage\" per la zona widgetized, potrebbe essere sovrascritta dalla sezione \"product categories\" della sezione della home page."
+
+#: includes/theme-options.php:596
+#@ templatation
+msgid "Enable Product Categories"
+msgstr "Inserisci le Categorie Prodotto"
+
+#: includes/theme-options.php:597
+#@ templatation
+msgid "Display product categories on the homepage."
+msgstr "Mostra categorie di prodotti sulla homepage."
+
+#: includes/theme-options.php:611
+#@ templatation
+msgid "Enable About / Testimonial section"
+msgstr "Abilita sezione About/Testimonial"
+
+#: includes/theme-options.php:612
+#@ templatation
+msgid "Display About / Testimonial section."
+msgstr "Mostra sezione About/Testimonial."
+
+#: includes/theme-options.php:618
+#@ templatation
+msgid "Enable Featured Products"
+msgstr "Abilita Prodotti in Vetrina"
+
+#: includes/theme-options.php:619
+#@ templatation
+msgid "Display featured products on the homepage."
+msgstr "Mostra prodotti in vetrina sulla homepage."
+
+#: includes/theme-options.php:625
+#@ templatation
+msgid "Enable Content Area"
+msgstr "Abilita Area Content"
+
+#: includes/theme-options.php:626
+#@ templatation
+msgid "Display the content area with either page content or a list of blog posts."
+msgstr "Visualizzare l'area content sia con il contenuto della pagina o di un elenco di post di blog."
+
+#: includes/theme-options.php:632
+#: template-sitemap.php:76
+#@ templatation
+msgid "Product Categories"
+msgstr "Categorie Prodotti"
+
+#: includes/theme-options.php:635
+#@ templatation
+msgid "Number of Product Categories"
+msgstr "Numero di Categorie Prodotti"
+
+#: includes/theme-options.php:636
+#@ templatation
+msgid "Select the number of product categories to display on the homepage. Multiples of 3 recommended, eg: 3,6,9"
+msgstr "Seleziona il numero di categorie di prodotti da mostrare sulla homepage. Sono raccomandati multipli di 3, es: 3,6,9"
+
+#: includes/theme-options.php:643
+#@ templatation
+msgid "Featured Products"
+msgstr "Prodotti in Vetrina"
+
+#: includes/theme-options.php:647
+#@ templatation
+msgid "Enter the title to display above the Featured products on the homepage."
+msgstr "Inserisci il titolo da mostrare sotto i Prodotti in Vetrina sulla homepage."
+
+#: includes/theme-options.php:652
+#@ templatation
+msgid "Number of Products"
+msgstr "Numero di Prodotti"
+
+#: includes/theme-options.php:653
+#@ templatation
+msgid "Select the number of featured products to display on the homepage."
+msgstr "Seleziona il numero di prodotti in vetrina da mostrare sulla homepage."
+
+#: includes/theme-options.php:679
+#@ templatation
+msgid "About us / Testimonials"
+msgstr "About us / Testimonials"
+
+#: includes/theme-options.php:682
+#@ templatation
+msgid "About Title"
+msgstr "Titolo About"
+
+#: includes/theme-options.php:683
+#@ templatation
+msgid "Enter the title to display in the about us section on homepage."
+msgstr "Inserisci il titolo da mostrare nella sezione about us in homepage."
+
+#: includes/theme-options.php:685
+#: single.php:84
+#, php-format
+#@ templatation
+msgid "About %s"
+msgstr "About %s"
+
+#: includes/theme-options.php:688
+#@ templatation
+msgid "About box content"
+msgstr "Riquadro informazioni About"
+
+#: includes/theme-options.php:694
+#@ templatation
+msgid "Show Testimonials"
+msgstr "Mostra Testimonials"
+
+#: includes/theme-options.php:695
+#@ templatation
+msgid "Display the Testimonials on the right side of this, if disabled about section flows to full container."
+msgstr "Mostra i Testimonials sul lato destro di questa sezione, se disabilitato la sezione about spazierà su tutto il container."
+
+#: includes/theme-options.php:700
+#@ templatation
+msgid "Testimonials Title"
+msgstr "Titolo Testimonials"
+
+#: includes/theme-options.php:701
+#@ templatation
+msgid "Enter the title to display above the testimonials on the homepage."
+msgstr "Inserisci il titolo da mostrare sotto i testimonials nella homepage."
+
+#: includes/theme-options.php:703
+#, php-format
+#@ templatation
+msgid "What people say about %s"
+msgstr "Cosa dicono di %s"
+
+#: includes/theme-options.php:706
+#@ templatation
+msgid "Content Area"
+msgstr "Area Content"
+
+#: includes/theme-options.php:709
+#@ templatation
+msgid "Content Type"
+msgstr "Tipo di Content"
+
+#: includes/theme-options.php:710
+#@ templatation
+msgid "Determine whether to display the content of a specified page, or your recent blog posts."
+msgstr "Determina se visualizzare il content di una pagina specificata, oppure i tuoi ultimi post del blog."
+
+#: includes/theme-options.php:714
+#@ templatation
+msgid "Blog Posts"
+msgstr "Post del Blog"
+
+#: includes/theme-options.php:714
+#: includes/theme-options.php:717
+#@ templatation
+msgid "Page Content"
+msgstr "Content della Pagina"
+
+#: includes/theme-options.php:718
+#@ templatation
+msgid "Select the page to display content from if the homepage content area is enabled."
+msgstr "Selezionare la pagina per visualizzare il contenuto da essa se l'area dei content in homepage è abilitato."
+
+#: includes/theme-options.php:725
+#@ templatation
+msgid "Number of Blog Posts"
+msgstr "Numero dei Blog Post"
+
+#: includes/theme-options.php:726
+#@ templatation
+msgid "Select the number of posts to display if the content type is set to \"Blog Posts\"."
+msgstr "Seleziona il numero di post da mostrare se il tipo di content è settato a \"Blog Posts\"."
+
+#: includes/theme-options.php:733
+#@ templatation
+msgid "Posts Category"
+msgstr "Categorie Post"
+
+#: includes/theme-options.php:734
+#@ templatation
+msgid "Optionally select a category of posts to display if the content type is set to \"Blog Posts\"."
+msgstr "Opzionalmente selezionare una categoria di messaggi da visualizzare se il tipo di contenuto è impostato su \"Blog Posts\"."
+
+#: includes/theme-options.php:741
+#@ templatation
+msgid "Show Sidebar"
+msgstr "Mostra Sidebar"
+
+#: includes/theme-options.php:742
+#@ templatation
+msgid "Display the sidebar on the homepage."
+msgstr "Mostra la sidebar nella homepage."
+
+#: includes/theme-options.php:762
+#@ templatation
+msgid "Portfolio/Cakes"
+msgstr "Portfolio/Cakes"
+
+#: includes/theme-options.php:766
+#@ templatation
+msgid "Portfolio Items URL Base"
+msgstr "Articoli Portfolio URL di Base"
+
+#: includes/theme-options.php:767
+#, php-format
+#@ templatation
+msgid "The base of all portfolio item URLs (re-save the %s after changing this setting)."
+msgstr "La base di tutti gli URL degli oggetti portafoglio (ri-salvare il %s dopo la modifica di questa impostazione)."
+
+#: includes/theme-options.php:767
+#@ templatation
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: includes/theme-options.php:772
+#@ templatation
+msgid "Featured Portfolio Gallery"
+msgstr "Vetrina Galleria Portfolio"
+
+#: includes/theme-options.php:773
+#@ templatation
+msgid "Optionally choose a Gallery to be featured in your Portfolio template."
+msgstr "Opzionalmente scegliere una Galleria da mettere in evidenza nel tuo template Portfolio."
+
+#: includes/theme-options.php:779
+#@ templatation
+msgid "Exclude Galleries from the Portfolio Navigation"
+msgstr "Escludi Gallerie dalla Navigazione Portfolio"
+
+#: includes/theme-options.php:780
+#@ templatation
+msgid "Optionally exclude portfolio galleries from the portfolio gallery navigation switcher. Place the gallery slugs here, separated by commas <br />(eg: one, two, three)"
+msgstr "Opzionalmente escludere gallerie portafoglio dal gallery navigation switcher. Posizionare i nomi delle gallerie qui, separati da virgole <br /> (ad esempio: uno, due, tre)"
+
+#: includes/theme-options.php:785
+#@ templatation
+msgid "Exclude Portfolio Items from Search Results"
+msgstr "Escludi gli Oggetti Portfolio dai Risultati della Ricerca"
+
+#: includes/theme-options.php:786
+#@ templatation
+msgid "Exclude portfolio items from results when searching your website."
+msgstr "Escludi gli oggetti del portfolio dai risultati quando si ricerca il vostro sito."
+
+#: includes/theme-options.php:791
+#@ templatation
+msgid "Portfolio Items Link To"
+msgstr "Articoli Portfolio Link A"
+
+#: includes/theme-options.php:792
+#@ templatation
+msgid "Do the portfolio items link to the lightbox, or to the single portfolio item screen?"
+msgstr "Mostra gli oggetti portfolio nel lightbox, o nella schermata del singolo oggetto portfolio?"
+
+#: includes/theme-options.php:796
+#@ templatation
+msgid "Lightbox"
+msgstr "Lightbox"
+
+#: includes/theme-options.php:796
+#@ templatation
+msgid "Portfolio Item"
+msgstr "Oggetti Portfolio"
+
+#: includes/theme-options.php:798
+#@ templatation
+msgid "Enable Pagination in Portfolio"
+msgstr "Abilita Paginazione in Portfolio"
+
+#: includes/theme-options.php:799
+#@ templatation
+msgid "Enable pagination in the portfolio section (disables JavaScript filtering by category)"
+msgstr "Abilita impaginazione nella sezione portfolio (disabilita il filtraggio per categoria tramite JavaScript)"
+
+#: includes/theme-options.php:806
+#@ templatation
+msgid "Number of posts to display on \"Portfolio\" page template"
+msgstr "Numeri di Post da mostrare nel template della pagina \"Portfolio\""
+
+#: includes/theme-options.php:807
+#@ templatation
+msgid "The number of posts to display per page, when pagination is enabled, in the \"Portfolio\" page template."
+msgstr "Numero di post da mostrare per pagina, quando l'impaginazione è abilitata, nella pagina template \"Portfolio\"."
+
+#: includes/theme-options.php:816
+#@ templatation
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/theme-options.php:820
+#@ templatation
+msgid "General"
+msgstr "Generale"
+
+#: includes/theme-options.php:829
+#@ templatation
+msgid "Custom Placeholder"
+msgstr "Segnaposto Personalizzato"
+
+#: includes/theme-options.php:830
+#@ templatation
+msgid "Upload a custom placeholder to be displayed when there is no product image."
+msgstr "Carica un segnaposto personalizzato da mostrare quando non è impostata un'immagine di default per un prodotto."
+
+#: includes/theme-options.php:835
+#@ templatation
+msgid "Header Cart Link"
+msgstr "Link Header Carrello"
+
+#: includes/theme-options.php:836
+#@ templatation
+msgid "Display a link to the cart in the main navigation"
+msgstr "Visualizzare un collegamento al carrello della navigazione principale"
+
+#: includes/theme-options.php:853
+#@ templatation
+msgid "Product Archives"
+msgstr "Archivi Prodotto"
+
+#: includes/theme-options.php:856
+#@ templatation
+msgid "Shop archives full width?"
+msgstr "Archivi negozi a piena larghezza?"
+
+#: includes/theme-options.php:857
+#@ templatation
+msgid "Display the product archive in a full-width single column format? (The sidebar is removed)."
+msgstr "Mostra gli archivi prodotti a piena larghezza nel formato in singola colonna? (La sidebar verrà rimossa)."
+
+#: includes/theme-options.php:862
+#@ templatation
+msgid "Product columns"
+msgstr "Colonne prodotto"
+
+#: includes/theme-options.php:863
+#@ templatation
+msgid "Select how many columns of products you want on product archive pages. Default is 2 and styled well. If you change it, some styling issues  might arise."
+msgstr "Selezionare il numero di colonne di prodotti che vuoi sulle pagine di archivio di prodotto. L'impostazione predefinita è 2 e impagina bene. Se modificato, potrebbero sorgere alcuni problemi stilistici."
+
+#: includes/theme-options.php:869
+#@ templatation
+msgid "Products per page"
+msgstr "Prodotti per pagina"
+
+#: includes/theme-options.php:870
+#@ templatation
+msgid "How many products do you want to display on product archive pages?"
+msgstr "Quanti prodotti desideri visualizzare nelle pagine di archivio di prodotti?"
+
+#: includes/theme-options.php:875
+#@ templatation
+msgid "Enable infinite scroll?"
+msgstr "Abilita scroll infinito?"
+
+#: includes/theme-options.php:876
+#@ templatation
+msgid "Automatically loads the next set of products via AJAX when the user scrolls to the bottom of the page"
+msgstr "Carica automaticamente la prossima serie di prodotti tramite AJAX quando l'utente scorre fino alla parte inferiore della pagina"
+
+#: includes/theme-options.php:881
+#@ templatation
+msgid "Product Details"
+msgstr "Dettagli prodotti"
+
+#: includes/theme-options.php:884
+#@ templatation
+msgid "Display related products"
+msgstr "Mostra prodotti correlati"
+
+#: includes/theme-options.php:885
+#@ templatation
+msgid "Display related products on the product details page"
+msgstr "Mostra i prodotti correlati alla pagina dettagli prodotto"
+
+#: includes/theme-options.php:891
+#@ templatation
+msgid "Maximum related products"
+msgstr "Massimo dei prodotti relativi"
+
+#: includes/theme-options.php:892
+#@ templatation
+msgid "The maximum number of related products to display."
+msgstr "Numero massimo di prodotti correlati da mostrare."
+
+#: includes/theme-options.php:899
+#@ templatation
+msgid "Product details pages full width?"
+msgstr "Pagine dettagli prodotti a piena larghezza?"
+
+#: includes/theme-options.php:900
+#@ templatation
+msgid "Display the product details in a full-width single column format? (The sidebar is removed)"
+msgstr "Visualizzare i dettagli del prodotto in un formato a singola colonna a piena larghezza? (La barra laterale verrà rimosso)"
+
+#: includes/theme-options.php:911
+#@ templatation
+msgid "Show default sharing button?"
+msgstr "Mostrare pulsante di condivisione predefinito?"
+
+#: includes/theme-options.php:921
+#@ templatation
+msgid "Dynamic Images"
+msgstr "Immagini Dinamiche"
+
+#: includes/theme-options.php:925
+#@ templatation
+msgid "Resizer Settings"
+msgstr "Impostazioni Resizer"
+
+#: includes/theme-options.php:928
+#@ templatation
+msgid "WP Post Thumbnail"
+msgstr "WP Post Miniature"
+
+#: includes/theme-options.php:929
+#@ templatation
+msgid "Use WordPress post thumbnail to assign a post thumbnail. Will enable the <strong>Featured Image panel</strong> in your post sidebar where you can assign a post thumbnail."
+msgstr "Usa il WordPress post thumbnail per allineare le miniature del post. Potrebbe abilitare il <strong> Featured Image Panel </ strong> nella tua sidebar del post dove è possibile assegnare una miniatura al post."
+
+#: includes/theme-options.php:935
+#@ templatation
+msgid "WP Post Thumbnail - Dynamic Image Resizing"
+msgstr "WP Post Thumbnail - Dynamic Image Resizing"
+
+#: includes/theme-options.php:936
+#@ templatation
+msgid "The post thumbnail will be dynamically resized using native WP resize functionality. <em>(Requires PHP 5.2+)</em>"
+msgstr "La miniatura del post verrà ridimensionata in modo dinamico utilizzando la funzionalità di ridimensionamento di WP nativa. <em>(Necessita PHP 5.2+)</em>"
+
+#: includes/theme-options.php:942
+#@ templatation
+msgid "WP Post Thumbnail - Hard Crop"
+msgstr "WP Post Thumbnail - Hard Crop"
+
+#: includes/theme-options.php:943
+#@ templatation
+msgid "The post thumbnail will be cropped to match the target aspect ratio (only used if \"Dynamic Image Resizing\" is enabled)."
+msgstr "La miniatura del post verrà ritagliata in base al rapporto di formato di destinazione (utilizzato solo se \\ \\\"ridimensionamento dinamico\" è abilitato)."
+
+#: includes/theme-options.php:949
+#@ templatation
+msgid "Automatic Image Thumbnail"
+msgstr "Automatic Image Thumbnail"
+
+#: includes/theme-options.php:950
+#@ templatation
+msgid "If no thumbnail is specifified then the first uploaded image in the post is used. (If you have used full size images as first attachment some styling issues may arise.)"
+msgstr "Se non viene specificata alcuna miniatura, viene utilizzata la prima immagine caricata nel post. (Se avete utilizzato delle immagini a piena risoluzione come primo allegato possono sorgere alcuni problemi stilistici.)"
+
+#: includes/theme-options.php:955
+#@ templatation
+msgid "Thumbnail Settings"
+msgstr "Impostazioni Miniatura"
+
+#: includes/theme-options.php:958
+#@ templatation
+msgid "Thumbnail Image Dimensions"
+msgstr "Dimensioni Immagini Miniatura"
+
+#: includes/theme-options.php:959
+#@ templatation
+msgid "Enter an integer value i.e. 250 for the desired size which will be used when dynamically creating the images."
+msgstr "Inserisci un valore intero es. 250 per la dimensione desiderata che verrà utilizzato quando si crea dinamicamente le immagini."
+
+#: includes/theme-options.php:966
+#: includes/theme-options.php:996
+#@ templatation
+msgid "Width"
+msgstr "Larghezza"
+
+#: includes/theme-options.php:970
+#: includes/theme-options.php:1000
+#@ templatation
+msgid "Height"
+msgstr "Altezza"
+
+#: includes/theme-options.php:973
+#@ templatation
+msgid "Thumbnail Alignment"
+msgstr "Allineamento Miniatura"
+
+#: includes/theme-options.php:974
+#@ templatation
+msgid "Select how to align your thumbnails with posts."
+msgstr "Seleziona come allineare le miniature ai post"
+
+#: includes/theme-options.php:978
+#: includes/theme-options.php:1009
+#: includes/widgets/widget-woo-blogauthor.php:84
+#@ templatation
+msgid "Left"
+msgstr "Sinistra"
+
+#: includes/theme-options.php:978
+#: includes/theme-options.php:1009
+#: includes/wc-zm/class.yith-wcmg-admin.php:260
+#: includes/widgets/widget-woo-blogauthor.php:85
+#@ templatation
+msgid "Right"
+msgstr "Destra"
+
+#: includes/theme-options.php:978
+#: includes/theme-options.php:1009
+#: includes/theme-options.php:1415
+#@ templatation
+msgid "Center"
+msgstr "Centro"
+
+#: includes/theme-options.php:980
+#@ templatation
+msgid "Single Post - Show Thumbnail"
+msgstr "Post Singolo - Mostra Miniatura"
+
+#: includes/theme-options.php:981
+#@ templatation
+msgid "Show the thumbnail in the single post page."
+msgstr "Mostra la miniatura nella pagina del singolo post."
+
+#: includes/theme-options.php:987
+#@ templatation
+msgid "Single Post - Thumbnail Dimensions"
+msgstr "Post Singolo - Dimensione Miniature"
+
+#: includes/theme-options.php:988
+#@ templatation
+msgid "Enter an integer value i.e. 250 for the image size. Max width is 576."
+msgstr "Inserisci un valore intero es. 250 per la grandezza dell'immagine. La massima è di 576."
+
+#: includes/theme-options.php:1003
+#@ templatation
+msgid "Single Post - Thumbnail Alignment"
+msgstr "Post Singolo - Allineamento Miniatura"
+
+#: includes/theme-options.php:1004
+#@ templatation
+msgid "Select how to align your thumbnail with single posts."
+msgstr "Seleziona come allineare la tua miniatura al singolo post."
+
+#: includes/theme-options.php:1011
+#@ templatation
+msgid "Add thumbnail to RSS feed"
+msgstr "Aggiungi miniatura al feed RSS"
+
+#: includes/theme-options.php:1012
+#@ templatation
+msgid "Add the the image uploaded via your Custom Settings panel to your RSS feed"
+msgstr "Aggiungere l'immagine caricata tramite il pannello delle impostazioni personalizzate per il tuo feed RSS"
+
+#: includes/theme-options.php:1017
+#@ templatation
+msgid "Enable Lightbox"
+msgstr "Abilita Lightbox"
+
+#: includes/theme-options.php:1018
+#@ templatation
+msgid "Enable the PrettyPhoto lighbox script on images within your website's content."
+msgstr "Abilita lo script PrettyPhoto lighbox sulle immagini all'interno dei content del tuo sito web."
+
+#: includes/theme-options.php:1025
+#@ templatation
+msgid "Footer Customization"
+msgstr "Personalizzazione Piè di pagina"
+
+#: includes/theme-options.php:1030
+#@ templatation
+msgid "Footer Widget Areas"
+msgstr "Area Widget Piè di pagina"
+
+#: includes/theme-options.php:1031
+#@ templatation
+msgid "Select how many footer widget areas you want to display."
+msgstr "Selezionare il numero di aree di widget a piè di pagina che si desidera visualizzare."
+
+#: includes/theme-options.php:1043
+#@ templatation
+msgid "Footer showcase content"
+msgstr "Contenuto vetrina piè di pagina"
+
+#: includes/theme-options.php:1056
+#@ templatation
+msgid "Title (Left side)"
+msgstr "Titolo (Lato sinistro)"
+
+#: includes/theme-options.php:1057
+#@ templatation
+msgid "Enter the title to show in Left footer showcase area."
+msgstr "Inserire il titolo da mostrare nella zona di vetrina a sinistra a piè di pagina."
+
+#: includes/theme-options.php:1063
+#@ templatation
+msgid "Show icon background (Left side)"
+msgstr "Mostra icona sfondo (Lato sinistro)"
+
+#: includes/theme-options.php:1064
+#: includes/theme-options.php:1093
+#@ templatation
+msgid "Do you want to show the icon background ? You might need to disable it if the background doesnt fit well with the image you use below."
+msgstr "Si desidera visualizzare lo sfondo dell'icona? Potrebbe essere necessario disabilitarlo se lo sfondo non si adatta bene con l'immagine che si usa qui sotto."
+
+#: includes/theme-options.php:1070
+#@ templatation
+msgid "Upload icon (Left side)"
+msgstr "Carica icona (Lato sinistro)"
+
+#: includes/theme-options.php:1071
+#: includes/theme-options.php:1100
+#@ templatation
+msgid "Upload a logo for your theme, or specify an image URL directly. 59x59 size recommended."
+msgstr "Carica un logo per il vostro tema, o specificare direttamente l'URL di un'immagine. Dimensioni raccomandate 59x59."
+
+#: includes/theme-options.php:1077
+#@ templatation
+msgid "Text (Left side)"
+msgstr "Testo (Lato sinistro)"
+
+#: includes/theme-options.php:1078
+#@ templatation
+msgid "Enter the content for Left footer showcase area."
+msgstr "Inserire i content per la zona di vetrina Sinistra a piè di pagina."
+
+#: includes/theme-options.php:1085
+#@ templatation
+msgid "Title (Right side)"
+msgstr "Testo (Lato destro)"
+
+#: includes/theme-options.php:1086
+#@ templatation
+msgid "Enter the title to show in Right footer showcase area."
+msgstr "Inserire i content per la zona di vetrina Destra a piè di pagina."
+
+#: includes/theme-options.php:1092
+#@ templatation
+msgid "Show icon background (Right side)"
+msgstr "Mostra sfondo icona (lato Destro)"
+
+#: includes/theme-options.php:1099
+#@ templatation
+msgid "Upload icon (Right side)"
+msgstr "Carica icona (lato Destro)"
+
+#: includes/theme-options.php:1106
+#@ templatation
+msgid "Text (Right side)"
+msgstr "Testo (lato Destro)"
+
+#: includes/theme-options.php:1107
+#@ templatation
+msgid "Enter the content for Right footer showcase area."
+msgstr "Immettere il content dell'area vetrina a piè di pagina di Destra."
+
+#: includes/theme-options.php:1113
+#@ templatation
+msgid "Extreme footer content"
+msgstr "Content a piè di pagina più in basso"
+
+#: includes/theme-options.php:1116
+#@ templatation
+msgid "Below settings are for the extreme bottom bar content."
+msgstr "Le impostazioni qui in basso sono per la barra dei contenuti più in basso."
+
+#: includes/theme-options.php:1120
+#@ templatation
+msgid "Enable Custom Footer (Left)"
+msgstr "Abilita Piè di Pagina Personalizzato (Sinistra)"
+
+#: includes/theme-options.php:1121
+#: includes/theme-options.php:1133
+#@ templatation
+msgid "Activate to add the custom text below to the theme footer."
+msgstr "Attiva per aggiungere del testo personalizzato qui sotto al piè di pagina del tema."
+
+#: includes/theme-options.php:1126
+#@ templatation
+msgid "Custom Text (Left)"
+msgstr "Testo Personalizzato (Sinistra)"
+
+#: includes/theme-options.php:1127
+#: includes/theme-options.php:1139
+#@ templatation
+msgid "Custom HTML and Text that will appear in the footer of your theme."
+msgstr "Codice HTML personalizzato e testo che apparirà nel piè di pagina del vostro tema.\n"
+
+#: includes/theme-options.php:1132
+#@ templatation
+msgid "Enable Custom Footer (Right)"
+msgstr "Abilita Piè di Pagina Personalizzato (Destra)"
+
+#: includes/theme-options.php:1138
+#@ templatation
+msgid "Custom Text (Right)"
+msgstr "Testo Personalizzato (Destra)"
+
+#: includes/theme-options.php:1146
+#@ templatation
+msgid "Subscribe & Connect"
+msgstr "Iscriviti & Collegati\n"
+
+#: includes/theme-options.php:1150
+#@ templatation
+msgid "Setup"
+msgstr "Setup"
+
+#: includes/theme-options.php:1153
+#@ templatation
+msgid "Enable Subscribe & Connect - Single Post"
+msgstr "Abilita Sottoscrivi & Collegati - Singolo Post"
+
+#: includes/theme-options.php:1154
+#, php-format
+#@ templatation
+msgid "Enable the subscribe & connect area on single posts. You can also add this as a %1$s in your sidebar."
+msgstr "Abilita l'area sottoscriviti & collegati sul singolo post. Inoltre puoi aggiungere anche questo come %1$s nella tua sidebar."
+
+#: includes/theme-options.php:1159
+#@ templatation
+msgid "Subscribe Title"
+msgstr "Titolo Iscriviti"
+
+#: includes/theme-options.php:1160
+#@ templatation
+msgid "Enter the title to show in your subscribe & connect area."
+msgstr "Inserisci il titolo da mostrare nell'area iscriviti & connettiti."
+
+#: includes/theme-options.php:1165
+#@ templatation
+msgid "Text"
+msgstr "Testo"
+
+#: includes/theme-options.php:1166
+#@ templatation
+msgid "Change the default text in this area."
+msgstr "Cambia il testo di default di quest'area."
+
+#: includes/theme-options.php:1171
+#@ templatation
+msgid "Enable Related Posts"
+msgstr "Abilita Post Correlati"
+
+#: includes/theme-options.php:1172
+#@ templatation
+msgid "Enable related posts in the subscribe area. Uses posts with the same <strong>tags</strong> to find related posts. Note: Will not show in the Subscribe widget."
+msgstr "Abilita post correlati nell'area sottoscrizioni. Utilizza i messaggi con gli stessi <strong>tag</ strong> per trovare i messaggi correlati. Nota: Non mostrare nel widget Sottosctiviti."
+
+#: includes/theme-options.php:1177
+#@ templatation
+msgid "Subscribe Settings"
+msgstr "Impostazioni Sottoscrizioni"
+
+#: includes/theme-options.php:1180
+#@ templatation
+msgid "Subscribe By E-mail ID (Feedburner)"
+msgstr "Sottoscrivi con ID E-mail (Feedburner)"
+
+#: includes/theme-options.php:1181
+#, php-format
+#@ templatation
+msgid "Enter your %1$s for the e-mail subscription form."
+msgstr "Inserisci il tuo %1$s per il form di sottoscrizione e-mial."
+
+#: includes/theme-options.php:1181
+#@ templatation
+msgid "Feedburner ID"
+msgstr "Feedburner ID"
+
+#: includes/theme-options.php:1186
+#@ templatation
+msgid "Subscribe By E-mail to MailChimp"
+msgstr "Iscriviti via E-mail a MailChimp"
+
+#: includes/theme-options.php:1187
+#, php-format
+#@ templatation
+msgid "If you have a MailChimp account you can enter the %1$s to allow your users to subscribe to a MailChimp List."
+msgstr "Se si dispone di un account MailChimp puoi inserire il %1$s per consentire al tuo utente di iscriversi ad un'elenco MailChimp."
+
+#: includes/theme-options.php:1187
+#@ templatation
+msgid "MailChimp List Subscribe URL"
+msgstr "URL di iscrizione per la lista MailChim"
+
+#: includes/theme-options.php:1198
+#@ templatation
+msgid "Connect Settings"
+msgstr "Impostazioni Connessione"
+
+#: includes/theme-options.php:1201
+#@ templatation
+msgid "Enable RSS"
+msgstr "Abilita RSS"
+
+#: includes/theme-options.php:1202
+#@ templatation
+msgid "Enable the subscribe and RSS icon."
+msgstr "Abilita la sottoscrizione e l'icona RSS."
+
+#: includes/theme-options.php:1207
+#@ templatation
+msgid "Twitter URL"
+msgstr "URL Twitter"
+
+#: includes/theme-options.php:1208
+#, php-format
+#@ templatation
+msgid "Enter your %1$s URL e.g. http://www.twitter.com/templatation"
+msgstr "Inserisci il tuo %1$s URL es. http://www.twitter.com/templatation"
+
+#: includes/theme-options.php:1208
+#@ templatation
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/theme-options.php:1213
+#@ templatation
+msgid "Facebook URL"
+msgstr "URL Facebook"
+
+#: includes/theme-options.php:1214
+#, php-format
+#@ templatation
+msgid "Enter your %1$s URL e.g. http://www.facebook.com/templatation"
+msgstr "Inserisci il tuo %1$s URL es. http://www.facebook.com/templatation"
+
+#: includes/theme-options.php:1214
+#@ templatation
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/theme-options.php:1219
+#@ templatation
+msgid "YouTube URL"
+msgstr "YouTube URL"
+
+#: includes/theme-options.php:1220
+#, php-format
+#@ templatation
+msgid "Enter your %1$s URL e.g. http://www.youtube.com/templatation"
+msgstr "Inserisci il tuo %1$s URL es. http://www.youtube.com/templatation"
+
+#: includes/theme-options.php:1220
+#@ templatation
+msgid "YouTube"
+msgstr "YouTube"
+
+#: includes/theme-options.php:1225
+#@ templatation
+msgid "Flickr URL"
+msgstr "URL Flickr"
+
+#: includes/theme-options.php:1226
+#, php-format
+#@ templatation
+msgid "Enter your %1$s URL e.g. http://www.flickr.com/templatation"
+msgstr "Inserisci il tuo %1$s URL es. http://www.flickr.com/templatation"
+
+#: includes/theme-options.php:1226
+#@ templatation
+msgid "Flickr"
+msgstr "Flickr"
+
+#: includes/theme-options.php:1231
+#@ templatation
+msgid "LinkedIn URL"
+msgstr "URL LinkedIn"
+
+#: includes/theme-options.php:1232
+#, php-format
+#@ templatation
+msgid "Enter your %1$s URL e.g. http://www.linkedin.com/in/templatation"
+msgstr "Inserisci il tuo %1$s URL es. http://www.linkedin.com/in/templatation"
+
+#: includes/theme-options.php:1232
+#@ templatation
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: includes/theme-options.php:1249
+#@ templatation
+msgid "Google+ URL"
+msgstr "URL Google+"
+
+#: includes/theme-options.php:1250
+#, php-format
+#@ templatation
+msgid "Enter your %1$s URL e.g. https://plus.google.com/104560124403688998123/"
+msgstr "Inserisci il tuo %1$s URL es. https://plus.google.com/104560124403688998123/"
+
+#: includes/theme-options.php:1250
+#@ templatation
+msgid "Google+"
+msgstr "Google+"
+
+#: includes/theme-options.php:1257
+#@ templatation
+msgid "Contact Page"
+msgstr "Pagina Contatti"
+
+#: includes/theme-options.php:1261
+#@ templatation
+msgid "Contact Information"
+msgstr "Informazioni di Contatto"
+
+#: includes/theme-options.php:1264
+#@ templatation
+msgid "Enable Contact Information Panel"
+msgstr "Abilita Pannello Informazioni di Contatto"
+
+#: includes/theme-options.php:1265
+#@ templatation
+msgid "Enable the contact informal panel"
+msgstr "Abilita pannello informazioni di Contatto"
+
+#: includes/theme-options.php:1271
+#@ templatation
+msgid "Location Name"
+msgstr "Nome Località"
+
+#: includes/theme-options.php:1272
+#@ templatation
+msgid "Enter the location name. Example: London Office"
+msgstr "Immettere il nome della località. Esempio: Ufficio di Londra"
+
+#: includes/theme-options.php:1278
+#@ templatation
+msgid "Location Address"
+msgstr "Indirizzo"
+
+#: includes/theme-options.php:1279
+#@ templatation
+msgid "Enter your company's address"
+msgstr "Immettere l'indirizzo della vostra azienda"
+
+#: includes/theme-options.php:1285
+#@ templatation
+msgid "Telephone"
+msgstr "Telefono"
+
+#: includes/theme-options.php:1286
+#@ templatation
+msgid "Enter your telephone number"
+msgstr "Inserisci il tuo numero di telefono"
+
+#: includes/theme-options.php:1292
+#@ templatation
+msgid "Fax"
+msgstr "Fax"
+
+#: includes/theme-options.php:1293
+#@ templatation
+msgid "Enter your fax number"
+msgstr "Inserisci il tuo numero di fax"
+
+#: includes/theme-options.php:1299
+#@ templatation
+msgid "Contact Form E-Mail"
+msgstr "Modulo di Contatto e-mail"
+
+#: includes/theme-options.php:1300
+#@ templatation
+msgid "Enter your E-mail address to use on the 'Contact Form' page Template."
+msgstr "Inserisci il tuo indirizzo E-mail da utilizzare nel template della pagina 'Modulo di Contatto'."
+
+#: includes/theme-options.php:1305
+#@ templatation
+msgid "Your Twitter username"
+msgstr "Il tuo username Twitter"
+
+#: includes/theme-options.php:1306
+#@ templatation
+msgid "Enter your Twitter username. Example: templatation"
+msgstr "Inserisci il tuo username Twitter. Esempio: templation"
+
+#: includes/theme-options.php:1311
+#@ templatation
+msgid "Enable Subscribe and Connect"
+msgstr "Abilita Sottoscrivi e Collegati"
+
+#: includes/theme-options.php:1312
+#@ templatation
+msgid "Enable the subscribe and connect functionality on the contact page template"
+msgstr "Abilita la funzione sottoscriviti e collegati nel template della pagina di contatto."
+
+#: includes/theme-options.php:1317
+#@ templatation
+msgid "Maps"
+msgstr "Maps"
+
+#: includes/theme-options.php:1320
+#@ templatation
+msgid "Contact Form Google Maps Coordinates"
+msgstr "Modulo di contatto Google Maps Coordinates"
+
+#: includes/theme-options.php:1321
+#, php-format
+#@ templatation
+msgid "Enter your Google Map coordinates to display a map on the Contact Form page template and a link to it on the Contact Us widget. You can get these details from %1$s"
+msgstr "Inserisci le tue coordinate di Google Map da mostrar nel template della mappa presente nella pagina Modulo di Contatto ed un link ad essa nel widget Contattaci. È possibile ottenere questi dati da %1$s"
+
+#: includes/theme-options.php:1321
+#@ templatation
+msgid "Google Maps"
+msgstr "Google Maps"
+
+#: includes/theme-options.php:1326
+#@ templatation
+msgid "Disable Mousescroll"
+msgstr "Disabilita Scroll del Mouse"
+
+#: includes/theme-options.php:1327
+#@ templatation
+msgid "Turn off the mouse scroll action for all the Google Maps on the site. This could improve usability on your site."
+msgstr "Disabilita la funzione scroll per tutte le Mappe Google presenti sul sito. Ciò potrebbe migliorare l'usabilità del tuo sito."
+
+#: includes/theme-options.php:1332
+#@ templatation
+msgid "Map Height"
+msgstr "Altezza Mappa"
+
+#: includes/theme-options.php:1333
+#@ templatation
+msgid "Height in pixels for the maps displayed on Single.php pages."
+msgstr "Altezza in pixel per la mappa da mostrare nelle pagine Single.php."
+
+#: includes/theme-options.php:1338
+#@ templatation
+msgid "Default Map Zoom Level"
+msgstr "Livello Predefinito di Zoom nella Mappa"
+
+#: includes/theme-options.php:1339
+#@ templatation
+msgid "Set this to adjust the default in the post & page edit backend."
+msgstr "Modifica questa impostazione per regolare l'impostazione predefinita del backend di modifica dei post & pagine ."
+
+#: includes/theme-options.php:1345
+#@ templatation
+msgid "Default Map Type"
+msgstr "Tipologia Mappa Predefinita"
+
+#: includes/theme-options.php:1346
+#@ templatation
+msgid "Set this to the default rendered in the post backend."
+msgstr "Impostare questo per il render di default nel backend dei post."
+
+#: includes/theme-options.php:1350
+#@ templatation
+msgid "Normal"
+msgstr "Normale"
+
+#: includes/theme-options.php:1350
+#@ templatation
+msgid "Satellite"
+msgstr "Satellite"
+
+#: includes/theme-options.php:1350
+#@ templatation
+msgid "Hybrid"
+msgstr "Ibrida"
+
+#: includes/theme-options.php:1350
+#@ templatation
+msgid "Terrain"
+msgstr "Terreno"
+
+#: includes/theme-options.php:1352
+#@ templatation
+msgid "Map Callout Text"
+msgstr "Nuvola Testo Mappa"
+
+#: includes/theme-options.php:1353
+#@ templatation
+msgid "Text or HTML that will be output when you click on the map marker for your location."
+msgstr "Il testo o HTML che sarà emesso quando si fa clic sul marcatore di mappa per la vostra posizione."
+
+#: includes/theme-options.php:1381
+#: includes/theme-options.php:1436
+#: includes/theme-options.php:1497
+#@ templatation
+msgid "Embed Code"
+msgstr "Codice Embed"
+
+#: includes/theme-options.php:1383
+#: includes/theme-options.php:1438
+#: includes/theme-options.php:1499
+#@ templatation
+msgid "Enter the video embed code for your video (YouTube, Vimeo or similar)"
+msgstr "Inserire il codice embed per il tuo video (YouTube, Vimeo o simili)"
+
+#: includes/theme-options.php:1390
+#@ templatation
+msgid "Portfolio URL"
+msgstr "URL Portfolio"
+
+#: includes/theme-options.php:1392
+#@ templatation
+msgid "Enter an alternative URL for your Portfolio item. By default it will link to your portfolio post or lightbox. Its useful if you want to link portfolio item to external link. It links to View Project button in one column portfolio page template."
+msgstr "Inserisci un URL alternativo per il tuo articolo Portfolio. Di default si collegherà al tuo post portafoglio o lightbox. Sarà utile se si desidera collegare gli oggetti del portafoglio con link esterni. Esso si collega al bottone View Project in una colonna del template della pagina portfolio."
+
+#: includes/theme-options.php:1397
+#@ templatation
+msgid "Lightbox URL"
+msgstr "URL Lightbox"
+
+#: includes/theme-options.php:1399
+#, php-format
+#@ templatation
+msgid "Enter an optional URL to show in the %s for this portfolio item."
+msgstr "Inserisci un URL opzionale per mostrare nel %s per questo articolo portafoglio."
+
+#: includes/theme-options.php:1399
+#@ templatation
+msgid "PrettyPhoto lightbox"
+msgstr "PrettyPhoto lightbox"
+
+#: includes/theme-options.php:1412
+#@ templatation
+msgid "Upload an image or enter an URL."
+msgstr "Carica un'immagine o inserisci un URL."
+
+#: includes/theme-options.php:1416
+#@ templatation
+msgid "Image Crop Alignment"
+msgstr "Allineamento Ritaglio Immagine"
+
+#: includes/theme-options.php:1418
+#@ templatation
+msgid "Select crop alignment for resized image"
+msgstr "Selezionare l'allineamento del taglio per il ritaglio dell'immagine"
+
+#: includes/theme-options.php:1430
+#@ templatation
+msgid "Please use the Featured image just right side of this message to upload featured image. It will be resized using native wordpress image resizing script."
+msgstr "Si prega di utilizzare l'immagine in vetrina qui a lato destro di questo messaggio per caricare un'immagine in vetrina. Essa verrà ridimensionata utilizzando uno script di ridimensionamento nativo di wordpress."
+
+#: includes/theme-options.php:1445
+#@ templatation
+msgid "If disabled the headline area will not appear on this post/page. The settings below will not make any difference if this is globally disabled from theme options panel. Check to disable. If disabled , breadcrumb will be shown on headline area instead."
+msgstr "Se disabilitato, l'area headline non apparirà in questo post/pagina. Le seguenti impostazioni non avranno alcun effetto se è stata disabilitata a livello globale dal pannello delle opzioni del tema. Spuntare per disabilitare. Se disattivato, il breadcrumb verrà visualizzato nella zona headline al suo posto."
+
+#: includes/theme-options.php:1446
+#@ templatation
+msgid "Disable headline area from this page"
+msgstr "Disabiliita la zona headline da questa pagina"
+
+#: includes/theme-options.php:1452
+#@ templatation
+msgid "Heading Title."
+msgstr "Titolo Headling."
+
+#: includes/theme-options.php:1454
+#@ templatation
+msgid "Enter the headline which appears on the top in headline area as heading. Leave blank to show default that has been entered in Theme-options."
+msgstr "Inserisci il titolo che compare in alto nella zona dell'headline come heading. Lascia vuoto per mostrare il testo predefinito default che è stato inserito nelle opzioni tema."
+
+#: includes/theme-options.php:1460
+#@ templatation
+msgid "Headline text"
+msgstr "Testo Headline"
+
+#: includes/theme-options.php:1479
+#@ templatation
+msgid "Select the layout you want on this specific post/page."
+msgstr "Selezionare il layout desiderato in questo specifico post/pagina."
+
+#: includes/theme-options.php:1489
+#@ templatation
+msgid "Slide URL"
+msgstr "Slide URL"
+
+#: includes/theme-options.php:1491
+#, php-format
+#@ templatation
+msgid "Enter an URL to link the slider title to a page e.g. %s (optional)"
+msgstr "Inserisci un URL per collegare il titolo dello slider per una pagina es. %s (opzionale)"
+
+#: includes/theme-woocommerce.php:140
+#@ templatation
+msgid "Out of stock"
+msgstr "Esaurito"
+
+#: includes/theme-woocommerce.php:275
+#@ templatation
+msgid "Add"
+msgstr "Aggiungi"
+
+#: includes/theme-functions.php:1449
+#: includes/theme-woocommerce.php:338
+#@ templatation
+msgid "My Account"
+msgstr "Mio Account"
+
+#: includes/theme-woocommerce.php:338
+#@ templatation
+msgid "Log In"
+msgstr "Log In"
+
+#: includes/theme-woocommerce.php:342
+#@ templatation
+msgid "Register"
+msgstr "Registrati"
+
+#: includes/theme-woocommerce.php:348
+#@ templatation
+msgid "Edit Address"
+msgstr "Modifica Indirizzo"
+
+#: includes/theme-woocommerce.php:352
+#@ templatation
+msgid "Change Password"
+msgstr "Cambia Password"
+
+#: includes/theme-woocommerce.php:356
+#@ templatation
+msgid "Logout"
+msgstr "Logout"
+
+#: includes/theme-woocommerce.php:375
+#, php-format
+#@ templatation
+msgid "%s"
+msgstr "%s"
+
+#: includes/widgets/widget-woo-adspace.php:12
+#@ templatation
+msgid "JS - Adspace Widget"
+msgstr "JS - Adspace Widget"
+
+#: includes/widgets/widget-woo-adspace.php:63
+#@ templatation
+msgid "Ad Code:"
+msgstr "Ad Code:"
+
+#: includes/widgets/widget-woo-adspace.php:69
+#@ templatation
+msgid "Image Url:"
+msgstr "Url Immagine:"
+
+#: includes/widgets/widget-woo-adspace.php:73
+#@ templatation
+msgid "Link URL:"
+msgstr "Link URL:"
+
+#: includes/widgets/widget-woo-adspace.php:77
+#@ templatation
+msgid "Alt text:"
+msgstr "Alt text:"
+
+#: includes/widgets/widget-woo-best-selling-products.php:21
+#@ templatation
+msgid "Best Restaurants"
+msgstr "Best Restaurants"
+
+#: includes/widgets/widget-woo-best-selling-products.php:38
+#: includes/widgets/widget-woo-featured-products.php:104
+#: includes/widgets/widget-woo-product-categories.php:38
+#: includes/widgets/widget-woo-recent-products.php:38
+#@ templatation
+msgid "4"
+msgstr "4"
+
+#: includes/widgets/widget-woo-best-selling-products.php:59
+#@ templatation
+msgid "Number of best selling products to display (multiples of 4 recommended):"
+msgstr "Numero di prodotto più venduti da mostrare (è raccomandato utilizzare multipli di 4):"
+
+#: includes/widgets/widget-woo-blogauthor.php:11
+#@ templatation
+msgid "JS - Blog Author Info"
+msgstr "JS - Info Autore Blog"
+
+#: includes/widgets/widget-woo-blogauthor.php:66
+#: includes/widgets/widget-woo-embed.php:96
+#@ templatation
+msgid "Title:"
+msgstr "Titolo:"
+
+#: includes/widgets/widget-woo-blogauthor.php:70
+#@ templatation
+msgid "Bio:"
+msgstr "Bio:"
+
+#: includes/widgets/widget-woo-blogauthor.php:74
+#@ templatation
+msgid "<a href=\"http://www.gravatar.com/\">Gravatar</a> E-mail:"
+msgstr "<a href=\"http://www.gravatar.com/\">Gravatar</a> E-mail:"
+
+#: includes/widgets/widget-woo-blogauthor.php:78
+#@ templatation
+msgid "Gravatar Size:"
+msgstr "Grandezza Gravatar:"
+
+#: includes/widgets/widget-woo-blogauthor.php:82
+#@ templatation
+msgid "Gravatar Alignment:"
+msgstr "Allineamento Gravatar:"
+
+#: includes/widgets/widget-woo-blogauthor.php:89
+#@ templatation
+msgid "Read More Text (optional):"
+msgstr "Leggi Più Testo (opzionale):"
+
+#: includes/widgets/widget-woo-blogauthor.php:93
+#@ templatation
+msgid "Read More URL (optional):"
+msgstr "Geggi più URL (opzionale):"
+
+#: includes/widgets/widget-woo-blogauthor.php:97
+#@ templatation
+msgid "Visible Pages:"
+msgstr "Pagine Visibili:"
+
+#: includes/widgets/widget-woo-blogauthor.php:100
+#@ templatation
+msgid "Home only"
+msgstr "Solo home"
+
+#: includes/widgets/widget-woo-blogauthor.php:101
+#@ templatation
+msgid "Single only"
+msgstr "Solo singoli"
+
+#: includes/widgets/widget-woo-embed.php:12
+#@ templatation
+msgid "JS - Embed/Video"
+msgstr "JS - Embed/Video"
+
+#: includes/widgets/widget-woo-embed.php:100
+#@ templatation
+msgid "Category:"
+msgstr "Categoria:"
+
+#: includes/widgets/widget-woo-embed.php:112
+#@ templatation
+msgid "Tag:"
+msgstr "Tag:"
+
+#: includes/widgets/widget-woo-embed.php:117
+#: includes/widgets/widget-woo-flickr.php:104
+#@ templatation
+msgid "Size:"
+msgstr "Grandezza:"
+
+#: includes/widgets/widget-woo-embed.php:123
+#@ templatation
+msgid "Limit (optional):"
+msgstr "Limite (opzionale):"
+
+#: includes/widgets/widget-woo-flickr.php:11
+#@ templatation
+msgid "JS - Flickr"
+msgstr "JS - Flickr"
+
+#: includes/widgets/widget-woo-flickr.php:21
+#@ templatation
+msgid "Photos on <span>flick<span>r</span></span>"
+msgstr "Foto su <span>flick<span>r</span></span>"
+
+#: includes/widgets/widget-woo-flickr.php:78
+#@ templatation
+msgid "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>):"
+msgstr "Flickr ID (<a href=\"http://www.idgettr.com\">idGettr</a>):"
+
+#: includes/widgets/widget-woo-flickr.php:82
+#@ templatation
+msgid "Number:"
+msgstr "Numero:"
+
+#: includes/wc-ajax-nav/widgets/class.yith-wcan-navigation-widget.php:532
+#: includes/widgets/widget-woo-flickr.php:90
+#@ templatation
+msgid "Type:"
+msgstr "Tipo:"
+
+#: includes/widgets/widget-woo-flickr.php:92
+#@ templatation
+msgid "User"
+msgstr "Utente:"
+
+#: includes/widgets/widget-woo-flickr.php:93
+#@ templatation
+msgid "Group"
+msgstr "Gruppo"
+
+#: includes/widgets/widget-woo-flickr.php:97
+#@ templatation
+msgid "Sorting:"
+msgstr "Ordinamento:"
+
+#: includes/widgets/widget-woo-flickr.php:99
+#@ templatation
+msgid "Latest"
+msgstr "Ultimo"
+
+#: includes/widgets/widget-woo-flickr.php:100
+#@ templatation
+msgid "Random"
+msgstr "Casuale"
+
+#: includes/widgets/widget-woo-flickr.php:106
+#@ templatation
+msgid "Square"
+msgstr "Square"
+
+#: includes/widgets/widget-woo-flickr.php:107
+#@ templatation
+msgid "Medium"
+msgstr "Medio"
+
+#: includes/retail-menu-cards/includes/admin-tweaks.php:8
+#: includes/retail-menu-cards/includes/settings.php:77
+#: includes/widgets/widget-woo-flickr.php:108
+#@ templatation
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: includes/widgets/widget-woo-recent-products.php:21
+#@ templatation
+msgid "New Products"
+msgstr "Nuovi Prodotti"
+
+#: includes/widgets/widget-woo-subscribe.php:11
+#@ templatation
+msgid "JS - Subscribe / Connect"
+msgstr "JS - Sottoscrivi / Connetti"
+
+#: includes/widgets/widget-woo-subscribe.php:66
+#@ templatation
+msgid "Disable Subscription Form"
+msgstr "Disabilita Form di Sottoscrizione"
+
+#: includes/widgets/widget-woo-subscribe.php:69
+#@ templatation
+msgid "Disable Social Icons"
+msgstr "Disabilita Icone Social"
+
+#: includes/widgets/widget-woo-subscribe.php:72
+#@ templatation
+msgid "Disable in Posts"
+msgstr "Disabilita nei Post"
+
+#: includes/widgets/widget-woo-subscribe.php:75
+#@ templatation
+msgid "Disable in Pages"
+msgstr "Disabilita nelle Pagine"
+
+#: loop-portfolio.php:190
+#@ templatation
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: loop-portfolio.php:285
+#@ templatation
+msgid "View Details"
+msgstr "Visualizza Dettagli"
+
+#: loop-portfolio.php:285
+#@ templatation
+msgid "Visit Project"
+msgstr "Visita il Progetto"
+
+#: page.php:37
+#: single-portfolio.php:47
+#: single.php:62
+#@ templatation
+msgid "Pages:"
+msgstr "Pagine:"
+
+#: search.php:26
+#@ templatation
+msgid "Search results:"
+msgstr "Risultati ricerca:"
+
+#: single.php:70
+#@ templatation
+msgid "Posted in : "
+msgstr "Postato su: "
+
+#: single.php:73
+#@ templatation
+msgid "Share This : "
+msgstr "Condividi: "
+
+#: single.php:87
+#, php-format
+#@ templatation
+msgid "View all posts by %s "
+msgstr "Guarda tutti i messaggi di %s "
+
+#: single.php:88
+#, php-format
+#@ templatation
+msgid " %s Posts"
+msgstr "%s Post"
+
+#: template-archives.php:37
+#@ templatation
+msgid "The Last 30 Posts"
+msgstr "Gli Ultimi 30 Post"
+
+#: template-archives.php:46
+#@ templatation
+msgid "comments"
+msgstr "commenti"
+
+#: template-archives.php:57
+#: template-sitemap.php:43
+#@ templatation
+msgid "Categories"
+msgstr "Categorie"
+
+#: template-archives.php:64
+#@ templatation
+msgid "Monthly Archives"
+msgstr "Archivio Mensile"
+
+#: template-contact.php:30
+#@ templatation
+msgid "You forgot to enter your name."
+msgstr "Hai dimenticato di inserire il tuo nome."
+
+#: template-contact.php:38
+#@ templatation
+msgid "You forgot to enter your email address."
+msgstr "Hai dimenticato di inserire il tuo indirizzo email."
+
+#: template-contact.php:41
+#@ templatation
+msgid "You entered an invalid email address."
+msgstr "Hai inserito un'indirizzo email non valido."
+
+#: template-contact.php:49
+#@ templatation
+msgid "You forgot to enter your comments."
+msgstr "Hai dimenticato di inserire il tuo commento."
+
+#: template-contact.php:59
+#@ templatation
+msgid "Contact Form Submission from "
+msgstr "Box d'invio Form di Contatto "
+
+#: template-contact.php:61
+#, php-format
+#@ templatation
+msgid ""
+"Name: %s \n"
+"\n"
+"Email: %s \n"
+"\n"
+"Comments: %s"
+msgstr ""
+"Nome: %s \n"
+"\n"
+"Email: %s \n"
+"\n"
+"Commento: %s"
+
+#: template-contact.php:67
+#@ templatation
+msgid "You emailed "
+msgstr "Hai inviato"
+
+#: template-contact.php:87
+#@ templatation
+msgid "You forgot to enter your"
+msgstr "Hai dimenticato di inserire il tuo"
+
+#: template-contact.php:94
+#@ templatation
+msgid "You entered an invalid"
+msgstr "Hai inserito un dato invalido"
+
+#: template-contact.php:104
+#@ templatation
+msgid "<strong>Thanks!</strong> Your email was successfully sent."
+msgstr "<strong>Grazie!</strong> La tua email è stata inviata correttamente."
+
+#: template-contact.php:147
+#@ templatation
+msgid "Tel:"
+msgstr "Tel:"
+
+#: template-contact.php:148
+#@ templatation
+msgid "Fax:"
+msgstr "Fax:"
+
+#: template-contact.php:149
+#@ templatation
+msgid "Email:"
+msgstr "Email:"
+
+#: template-contact.php:175
+#@ templatation
+msgid "There was an error submitting the form."
+msgstr "C'è stato un errore nell'invio del modulo."
+
+#: template-sitemap.php:38
+#@ templatation
+msgid "Pages"
+msgstr "Pagine"
+
+#: template-sitemap.php:48
+#@ templatation
+msgid "Posts per category"
+msgstr "Post per categoria"
+
+#: template-sitemap.php:61
+#@ templatation
+msgid "Comments"
+msgstr "Commenti"
+
+#: template-sitemap.php:85
+#@ templatation
+msgid "Products"
+msgstr "Prodotti"
+
+#: 404.php:80
+#: template-timeline.php:83
+#@ templatation
+msgid "1 comment"
+msgstr "1 commento"
+
+#: 404.php:80
+#: template-timeline.php:83
+#@ templatation
+msgid "% comments"
+msgstr "% commenti"
+
+#: woocommerce/cart/cart.php:28
+#@ templatation
+msgid "Product"
+msgstr "Prodotti"
+
+#: includes/retail-menu-cards/includes/settings.php:86
+#: woocommerce/cart/cart.php:29
+#@ templatation
+msgid "Price"
+msgstr "Prezzo"
+
+#: woocommerce/cart/cart.php:30
+#@ templatation
+msgid "Quantity"
+msgstr "Quantità"
+
+#: woocommerce/cart/cart.php:31
+#@ templatation
+msgid "Total"
+msgstr "Totale"
+
+#: woocommerce/cart/cart.php:47
+#@ templatation
+msgid "Remove this item"
+msgstr "Rimuovi questo oggetto"
+
+#: woocommerce/cart/cart.php:76
+#@ templatation
+msgid "Available on backorder"
+msgstr "Disponibile in re-stock"
+
+#: woocommerce/cart/cart.php:100
+#@ templatation
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Q.ta"
+
+#: woocommerce/cart/cart.php:127
+#@ templatation
+msgid "Coupon"
+msgstr "Coupon"
+
+#: woocommerce/cart/cart.php:127
+#@ templatation
+msgid "Apply Coupon"
+msgstr "Utilizza Coupon"
+
+#: woocommerce/cart/cart.php:134
+#@ templatation
+msgid "Update Cart"
+msgstr "Aggiorna Carrello"
+
+#: woocommerce/cart/cart.php:134
+#@ templatation
+msgid "Proceed to Checkout &rarr;"
+msgstr "Procedi con il Checkout &rarr;"
+
+#: woocommerce/cart/cross-sells.php:40
+#@ templatation
+msgid "You may be interested in&hellip;"
+msgstr "Potrebbe interessarti in&hellip;"
+
+#: woocommerce/cart/totals.php:22
+#@ templatation
+msgid "Cart Totals"
+msgstr "Totale Carrello"
+
+#: woocommerce/cart/totals.php:28
+#@ templatation
+msgid "Cart Subtotal"
+msgstr "Subtotale Carrello"
+
+#: woocommerce/cart/totals.php:35
+#@ templatation
+msgid "Cart Discount"
+msgstr "Sconti sul Carrello"
+
+#: woocommerce/cart/totals.php:35
+#: woocommerce/cart/totals.php:120
+#@ templatation
+msgid "[Remove]"
+msgstr "[Rimuovi]"
+
+#: woocommerce/cart/totals.php:46
+#@ templatation
+msgid "Shipping"
+msgstr "Spedizione"
+
+#: woocommerce/cart/totals.php:92
+#@ templatation
+msgid "Subtotal"
+msgstr "Subtotale"
+
+#: woocommerce/cart/totals.php:110
+#@ templatation
+msgid "Tax"
+msgstr "Imposte"
+
+#: woocommerce/cart/totals.php:120
+#@ templatation
+msgid "Order Discount"
+msgstr "Sconto su Ordine"
+
+#: woocommerce/cart/totals.php:129
+#@ templatation
+msgid "Order Total"
+msgstr "Totale Ordine"
+
+#: woocommerce/cart/totals.php:145
+#, php-format
+#@ templatation
+msgid "(Includes %s)"
+msgstr "(Inclusi %s)"
+
+#: woocommerce/cart/totals.php:161
+#, php-format
+#@ templatation
+msgid " (taxes estimated for %s)"
+msgstr "(imposte stimate per %s)"
+
+#: woocommerce/cart/totals.php:163
+#, php-format
+#@ templatation
+msgid "Note: Shipping and taxes are estimated%s and will be updated during checkout based on your billing and shipping information."
+msgstr "Nota: Le imposta di spedizione sono stimate%s e verranno aggiornate durante il checkout in base ai dati di fatturazione e spedizione."
+
+#: woocommerce/cart/totals.php:175
+#@ templatation
+msgid "No shipping methods were found; please recalculate your shipping and enter your state/county and zip/postcode to ensure there are no other available methods for your location."
+msgstr "Non sono stati trovati metodi di spedizione, si prega di ricalcolare il trasporto ed inserire il tuo stato/provincia e zip/codice postale per controllare che non ci siano altri metodi disponibili per il tuo indirizzo."
+
+#: woocommerce/cart/totals.php:187
+#, php-format
+#@ templatation
+msgid "Sorry, it seems that there are no available shipping methods for your location (%s)."
+msgstr "Siamo spiacenti, risulta che non esistono metodi di spedizione disponibili per la vostra posizione (%s)."
+
+#: woocommerce/cart/totals.php:187
+#@ templatation
+msgid "If you require assistance or wish to make alternate arrangements please contact us."
+msgstr "Se avete bisogno di assistenza o desiderate fare accordi alternativi si prega di contattarci."
+
+#: woocommerce/content-product_cat.php:70
+#@ templatation
+msgid "View More"
+msgstr "Vedi Altro"
+
+#: woocommerce/loop/add-to-cart.php:33
+#@ templatation
+msgid "Select options"
+msgstr "Selezionare le opzioni"
+
+#: woocommerce/loop/add-to-cart.php:37
+#@ templatation
+msgid "View options"
+msgstr "Visualizza opzioni"
+
+#: woocommerce/loop/add-to-cart.php:46
+#@ templatation
+msgid "Add to cart"
+msgstr "Aggiungi al carrello"
+
+#: woocommerce/single-product/review.php:26
+#, php-format
+#@ templatation
+msgid "Rated %d out of 5"
+msgstr "Voto %d su 5"
+
+#: woocommerce/single-product/review.php:27
+#@ templatation
+msgid "out of 5"
+msgstr "su 5"
+
+#: woocommerce/single-product/review.php:33
+#@ templatation
+msgid "Your comment is awaiting approval"
+msgstr "Il tuo commento è in attesa di approvazione"
+
+#: woocommerce/single-product/review.php:40
+#@ templatation
+msgid "verified owner"
+msgstr "proprietario verificato"
+
+#: woocommerce/single-product/tabs/description.php:14
+#@ templatation
+msgid "Product Description"
+msgstr "Descrizione Prodotto"
+
+#: 404.php:29
+#@ templatation
+msgid "The page you trying to reach does not exist, or has been moved. Please use the search box below to find what you are looking for."
+msgstr "La pagina che stai cercando di raggiungere non esiste, oppure è stata spostata. Si prega di utilizzare la casella di ricerca di seguito per trovare ciò che stai cercando."
+
+#: 404.php:33
+#@ templatation
+msgid "Latest posted content"
+msgstr "Ultimi content pubblicati"
+
+#: 404.php:34
+#@ templatation
+msgid "For your ease, you can find the latest content added to our website below sorted by the time its posted."
+msgstr "Per facilità, è possibile trovare il content aggiunto più recentemente al sito qui sotto in ordine di tempo dal suo inserimento."
+
+#: includes/retail-menu-cards/includes/admin-tweaks.php:9
+#: includes/retail-menu-cards/includes/settings.php:95
+#@ templatation
+msgid "Description"
+msgstr "Descrizione"
+
+#: includes/retail-menu-cards/includes/post-types.php:8
+#@ templatation
+msgid "Items"
+msgstr "Oggetti"
+
+#: includes/retail-menu-cards/includes/post-types.php:9
+#@ templatation
+msgid "Item"
+msgstr "Oggetto"
+
+#: includes/retail-menu-cards/includes/post-types.php:10
+#@ templatation
+msgid "Add New"
+msgstr "Aggiungi Nuovo"
+
+#: includes/retail-menu-cards/includes/post-types.php:11
+#@ templatation
+msgid "Add New Item"
+msgstr "Aggiungi Nuovo Oggetto"
+
+#: includes/retail-menu-cards/includes/post-types.php:12
+#@ templatation
+msgid "Edit Item"
+msgstr "Modifica Oggetto"
+
+#: includes/retail-menu-cards/includes/post-types.php:13
+#@ templatation
+msgid "New Item"
+msgstr "Nuovo Oggetto"
+
+#: includes/retail-menu-cards/includes/post-types.php:14
+#@ templatation
+msgid "View Item"
+msgstr "Vedi Oggetto"
+
+#: includes/retail-menu-cards/includes/post-types.php:15
+#@ templatation
+msgid "Search Items"
+msgstr "Cerca Oggetto"
+
+#: includes/retail-menu-cards/includes/post-types.php:16
+#@ templatation
+msgid "No items found"
+msgstr "Nessun oggetto trovato"
+
+#: includes/retail-menu-cards/includes/post-types.php:17
+#@ templatation
+msgid "No items found in Trash"
+msgstr "Nessun oggetto trovato nel Cestino"
+
+#: includes/retail-menu-cards/includes/post-types.php:19
+#@ templatation
+msgid "Menu Cards"
+msgstr "Menù Card"
+
+#: includes/retail-menu-cards/includes/post-types.php:20
+#@ templatation
+msgid "All Items"
+msgstr "Tutti gli Oggetti"
+
+#: includes/retail-menu-cards/includes/settings.php:30
+#@ templatation
+msgid "Retail Menu Cards Settings"
+msgstr "Menu Impostazioni Card Vendita al Dettaglio"
+
+#: includes/retail-menu-cards/includes/settings.php:36
+#@ templatation
+msgid "Options saved"
+msgstr "Opzioni salvate"
+
+#: includes/retail-menu-cards/includes/settings.php:43
+#@ templatation
+msgid "Here you can fine tune your menu cards."
+msgstr "Qui è possibile regolare con precisione le vostre menu cards."
+
+#: includes/retail-menu-cards/includes/settings.php:45
+#@ templatation
+msgid "Display"
+msgstr "Mostra"
+
+#: includes/retail-menu-cards/includes/settings.php:51
+#@ templatation
+msgid "Thumbnail links to"
+msgstr "Link miniatura a"
+
+#: includes/retail-menu-cards/includes/settings.php:64
+#@ templatation
+msgid "Title links to"
+msgstr "Link Titolo a"
+
+#: includes/retail-menu-cards/includes/settings.php:80
+#@ templatation
+msgid "Hide the thumbnail"
+msgstr "Nascondo la moniatura"
+
+#: includes/retail-menu-cards/includes/settings.php:89
+#@ templatation
+msgid "Hide the price"
+msgstr "Nascondi il prezzo"
+
+#: includes/retail-menu-cards/includes/settings.php:98
+#@ templatation
+msgid "Hide the description"
+msgstr "Nascondi la descrizione"
+
+#: includes/retail-menu-cards/includes/settings.php:104
+#: includes/retail-menu-cards/includes/taxonomies.php:35
+#: includes/retail-menu-cards/includes/taxonomies.php:49
+#: includes/wc-ajax-nav/functions.yith-wcan.php:64
+#@ templatation
+msgid "Labels"
+msgstr "Etichette"
+
+#: includes/retail-menu-cards/includes/settings.php:107
+#@ templatation
+msgid "Hide the labels"
+msgstr "Nascondi etichette"
+
+#: includes/retail-menu-cards/includes/settings.php:113
+#@ templatation
+msgid "Currency"
+msgstr "Valuta"
+
+#: includes/retail-menu-cards/includes/settings.php:119
+#@ templatation
+msgid "Currency (&dollar; &euro; &pound; &yen; etc.)"
+msgstr "Valuta (&dollari; &euro; &sterline; &yen; etc.)"
+
+#: includes/retail-menu-cards/includes/settings.php:128
+#@ templatation
+msgid "Position"
+msgstr "Posizone"
+
+#: includes/retail-menu-cards/includes/settings.php:131
+#@ templatation
+msgid "Put the currency after the price"
+msgstr "Metti la valuta dopo il prezzo"
+
+#: includes/retail-menu-cards/includes/settings.php:143
+#@ templatation
+msgid "Look and feel"
+msgstr "Look and feel"
+
+#: includes/retail-menu-cards/includes/settings.php:180
+#@ templatation
+msgid "Save Changes"
+msgstr "Salva Cambiamenti"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:10
+#: includes/retail-menu-cards/includes/taxonomies.php:20
+#@ templatation
+#@ default
+msgid "Cards"
+msgstr "Card"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:11
+#@ templatation
+msgid "Card"
+msgstr "Card"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:12
+#@ default
+msgid "Search Cards"
+msgstr "Cerca Card"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:13
+#@ default
+msgid "All Cards"
+msgstr "Tutte le Card"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:14
+#@ default
+msgid "Parent Card"
+msgstr "Card Capogruppo"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:15
+#@ default
+msgid "Parent Card:"
+msgstr "Card Capogruppo:"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:16
+#@ default
+msgid "Edit Card"
+msgstr "Modifica Card"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:17
+#@ default
+msgid "Update Card"
+msgstr "Aggiorna Card"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:18
+#@ default
+msgid "Add New Card"
+msgstr "Aggiungi Nuova Card"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:19
+#@ default
+msgid "New Card Name"
+msgstr "Nome Nuova Card"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:36
+#: includes/wc-ajax-nav/widgets/class.yith-wcan-navigation-widget.php:536
+#@ templatation
+msgid "Label"
+msgstr "Etichetta"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:37
+#@ templatation
+msgid "Search Labels"
+msgstr "Ricerca Etichette"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:38
+#@ templatation
+msgid "Popular Labels"
+msgstr "Etichette Popolari"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:39
+#@ templatation
+msgid "All Labels"
+msgstr "Tutte le Etichette"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:42
+#@ templatation
+msgid "Edit Label"
+msgstr "Modifica Etichetta"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:43
+#@ templatation
+msgid "Update Label"
+msgstr "Aggiorna Etichette"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:44
+#@ templatation
+msgid "Add New Label"
+msgstr "Aggiungi Nuova Etichetta"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:45
+#@ templatation
+msgid "New Label Name"
+msgstr "Nome Nuova Etichetta"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:46
+#@ templatation
+msgid "Separate labels with commas"
+msgstr "Separa etichette con virgole"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:47
+#@ templatation
+msgid "Add or remove labels"
+msgstr "Aggiungi o rimuovi etichette"
+
+#: includes/retail-menu-cards/includes/taxonomies.php:48
+#@ templatation
+msgid "Choose from the most used labels"
+msgstr "Scegli fra le etichette più usate"
+
+#: includes/testimonials/classes/class-woothemes-widget-testimonials.php:44
+#@ templatation
+msgid "JS Testimonials"
+msgstr "JS Testimonial"
+
+#: includes/theme-functions.php:1447
+#@ templatation
+msgid "Login / Register"
+msgstr "Login / Registrazione"
+
+#: includes/theme-functions.php:1449
+#@ templatation
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: includes/theme-functions.php:1449
+#@ templatation
+msgid "Logout "
+msgstr "Logout "
+
+#: includes/theme-options.php:148
+#@ templatation
+msgid "Theme Stylesheet/Theme Color"
+msgstr "Stile Tema / Colore Tema"
+
+#: includes/theme-options.php:216
+#@ templatation
+msgid "Disable Responsiveness ?"
+msgstr "Disabilitare Reattività ?"
+
+#: includes/theme-options.php:217
+#@ templatation
+msgid "The theme adjust itself automatically to the width of the device/browser. Do you want to disable it and open desktop version on all devices instead ? Check to disable."
+msgstr "Il tema si regola automaticamente alla larghezza del dispositivo/browser. Vuoi disabilitarlo e aprire la versione desktop su tutti i dispositivi? Spuntare per disabilitare."
+
+#: includes/theme-options.php:404
+#@ templatation
+msgid "Layout (Sidebar / Header)"
+msgstr "Layout (Sidebar / Header)"
+
+#: includes/theme-options.php:420
+#@ templatation
+msgid "Select which header layout you wish for header/menu items area. Please check demo website for example of layouts or you can try changing it. You can always revert back the change easily."
+msgstr "Selezionare i layout dell'header che si desidera per l'header/menu dell'area items. Consultare il sito web demo per degli esempi di layout oppure puoi provarli cambiandoli. Si può sempre ritornare indietro ed annullare il cambiamento facilmente."
+
+#: includes/theme-options.php:424
+#@ templatation
+msgid "Header Layout 2"
+msgstr "Layout Header 2"
+
+#: includes/theme-options.php:425
+#@ templatation
+msgid "Header Layout 3"
+msgstr "Layout Header 3"
+
+#: includes/theme-options.php:426
+#@ templatation
+msgid "Header Layout 4"
+msgstr "Layout Header 4"
+
+#: includes/theme-options.php:427
+#@ templatation
+msgid "Header Layout 5"
+msgstr "Layout Header 5"
+
+#: includes/theme-options.php:428
+#@ templatation
+msgid "Header Layout 6"
+msgstr "Layout Header 6"
+
+#: includes/theme-options.php:432
+#@ templatation
+msgid "Header Height"
+msgstr "Altezza Header"
+
+#: includes/theme-options.php:433
+#@ templatation
+msgid "If you want to set your own header height, please enter value. IMPORTANT NOTE: Please leave it blank if you are not sure what it means. The value you enter here over-rides all other header height values. It only increases header height, you will still need to take care of placement of logo(by logo offset in general settings) and navigation(manually). (Enter 0 or leave blank to return to default). Enter value without px, eg : 100, 150 etc. px automatically added by script. "
+msgstr "Se si desidera impostare un'altezza dell'header personalizzata, si prega di inserire qui il valore. NOTA IMPORTANTE: Per cortesia lasciare vuoto se non siete sicuri di ciò che si sta facendo. Il valore immesso qui, sovrascrive tutti gli altri valori dell'altezza dell'Header. Questa opzione, aumenta solo l'altezza dell'header, avrete ancora bisogno di prendervi cura del posizionamento del logo (tramite logo offset in impostazioni generali) e di navigazione (manualmente). (Inserire 0 o lasciare vuoto per tornare alle impostazioni di default). Inserisci il valore senza px, es: 100, 150 ecc. il valore px viene aggiunto automaticamente dallo script. "
+
+#: includes/theme-options.php:438
+#@ templatation
+msgid "Toppest Bar Settings"
+msgstr "Impostazioni Barra in Alto"
+
+#: includes/theme-options.php:441
+#@ templatation
+msgid "Below settings are for the top most navigation bar which is optional. It adds some usual user interface items. There is limited space on this bar , so be careful in choosing what part you really need. You can try it out and disable things later if bar goes out of space."
+msgstr "Le impostazioni per la barra di navigazione in cima qui di seguito sono opzionali. Esse aggiungono alcuni elementi comuni dell'interfaccia utente. Lo spazio di questa barra è piuttosto limitato, quindi state attenti a scegliere di quali funzioni si ha realmente bisogno. Si può provare e disattivare le cose in seguito se la barra rimane a corto di spazio."
+
+#: includes/theme-options.php:445
+#@ templatation
+msgid "Enable Top Nav Bar"
+msgstr "Abilita la Barra di Navigazione in Alto"
+
+#: includes/theme-options.php:446
+#@ templatation
+msgid "Enable/Disable the Top most nav bar globally."
+msgstr "Abilita/Disabilita la Barra superiore di navigazione, globalmente."
+
+#: includes/theme-options.php:452
+#@ templatation
+msgid "Show Hide/Show icon"
+msgstr "Mostra icona Visualizza/Nascondi"
+
+#: includes/theme-options.php:453
+#@ templatation
+msgid "This icon appears on right corner of the top bar and it enables user to show/hide the bar when clicked. If disabled, top bar will always show."
+msgstr "Questa icona verrà mostrata nell'angolo destro della barra superiore di navigazione, e consente a gli utenti dii mostrare/nascondere la barra cliccandola. Se disabilitata, la barra in alto verrà sempre mostrata."
+
+#: includes/theme-options.php:459
+#@ templatation
+msgid "Enable Teaser Text"
+msgstr "Abilita Testo Teaser"
+
+#: includes/theme-options.php:460
+#@ templatation
+msgid "Teaser text is short sentence that you want to highlight. It comes on left most area of top navigation. If you turn it off below 2 settings makes no difference. Default is checked."
+msgstr "Il Testo teaser è una corta frase che vorresti mettere in evidenza. Si attesta nell'area più a destra dell'area di navigazione. Se l'hai disabilitata, le 2 impostazioni qui in basso non faranno alcuna differenza. Di default è abilitata"
+
+#: includes/theme-options.php:466
+#@ templatation
+msgid "Teaser Text Icon"
+msgstr "Testo Icona Teaser"
+
+#: includes/theme-options.php:467
+#@ templatation
+msgid "Teaser text is short sentence that you want to highlight. eg : Our helpline number : xyz. This icon appears on left side of it. Recommended size : 21 x 21 px."
+msgstr "Il testo Teaser è una breve frase che vuoi evidenziare. Es: Il tuo numero d'assistenza : xyz. Questa icona comparirà sul lato destro di essa. Grandezza raccomandata: 21 x 21 px."
+
+#: includes/theme-options.php:473
+#@ templatation
+msgid "Teaser Text"
+msgstr "Testo Teaser"
+
+#: includes/theme-options.php:474
+#@ templatation
+msgid "Teaser text is short sentence that you want to highlight. eg : Our helpline number : xyz. This text appears on left most side of top bar."
+msgstr "Il testo Teaser è una breve frase che vuoi evidenziare. Es : Il tuo numero d'assistenza : xyz. Questo testo apparirà sulla parte più a destra della barra in alto."
+
+#: includes/theme-options.php:480
+#@ templatation
+msgid "Welcome Text Icon"
+msgstr "Testo Icona di Benvenuto"
+
+#: includes/theme-options.php:481
+#@ templatation
+msgid "This icon appears on left side of Login/Register or Welcome. Recommended size : 21 x 21 px."
+msgstr "Questa icona compare sul lato sinistro del Login/Registrazione o del Benvenuto. Grandezza raccomandata : 21 x 21 px."
+
+#: includes/theme-options.php:487
+#@ templatation
+msgid "Show Social icons"
+msgstr "Mostra Icone Social"
+
+#: includes/theme-options.php:488
+#@ templatation
+msgid "Show social icons on top bar, you can control value of these from Subscribe -> Connect below."
+msgstr "Mostra le icone social sulla barra in cima, è possibile impostarle da Iscriviti -> Connetti sotto."
+
+#: includes/theme-options.php:494
+#@ templatation
+msgid "Show Language Dropdown"
+msgstr "Mostra Tendina Lingiaggio"
+
+#: includes/theme-options.php:495
+#@ templatation
+msgid "Show lang dropdown, at this time it supports WPML only. It will only work if you have WPML plugin installed and langauges setup in it."
+msgstr "Mostra tendina linguaggio, in questo momento supporta solo WPML. Funzionerà solo se si dispone del plugin WPML installato e file di linguaggio installati in esso."
+
+#: includes/theme-options.php:501
+#@ templatation
+msgid "Show Search"
+msgstr "Mostra Ricerca"
+
+#: includes/theme-options.php:502
+#@ templatation
+msgid "Enable/Disable the search bar on right side of Top nav bar."
+msgstr "Abilita/Disabilita la barra di ricerca sul lato desto della barra di navigazione in alto."
+
+#: includes/theme-options.php:511
+#@ templatation
+msgid "Slider & Headline"
+msgstr "Slider & Headline"
+
+#: includes/theme-options.php:521
+#@ templatation
+msgid "The slider area (or HERO area) is the main highlighted area in the header. You can place slider or any html in this. You can also define separate slider area for each page/post/product from bottom of its editor page."
+msgstr "L'area slider (o area HERO) è l'area più evidenziata dell'header. qui inserirvi degli slider o codice html. Puoi anche definire un'area di slider separate per ogni pagina/post/prodotto dal fondo di questa pagina dell'editor."
+
+#: includes/theme-options.php:537
+#@ templatation
+msgid "Show above slider on whole website ?"
+msgstr "Mostra lo slider qui sotto sull'intero sito web?"
+
+#: includes/theme-options.php:538
+#@ templatation
+msgid "Do you want to show above slider/Hero area code only on homepage, or on whole website instead. By default this appears only on page with page-template set as \"Custom Homepage\". You can define separate slider/Hero area for particular page from bottom of page editor. Check to show on whole website."
+msgstr "Vuoi mostrare lo slider/area Hero solo sulla homepage o sull'intero sito web? Di default essa appare solo sulle pagine pre impostate impostate come \"Custom Homepage\". Puoi definire degli slider/area Hero distinti per particolari pagine dall'editor qui in basso. Scpuntare per mostrare sull'intero sito web."
+
+#: includes/theme-options.php:689
+#@ templatation
+msgid "Enter some information about your business here."
+msgstr "Inserisci alcune informazioni sul tuo business qui."
+
+#: includes/theme-options.php:823
+#@ templatation
+msgid "Enable Catalog Mode"
+msgstr "Abilita Modalità Catalogo"
+
+#: includes/theme-options.php:824
+#@ templatation
+msgid "If enabled, price and cart buttons will not show up. Website will behave like a catalog only with no purchase functionality."
+msgstr "Se abilitato, bottone carrello e prezzo non verranno mostrati. Il sito web diventerà simile ad un catalogo senza alcuna funzionalità d'acquisto."
+
+#: includes/theme-options.php:905
+#@ templatation
+msgid "Link product thumbnail to product details page too"
+msgstr "Collega le miniature dei prodotti alla pagina dei dettagli prodotto"
+
+#: includes/theme-options.php:906
+#@ templatation
+msgid "By default product thumbnail is not linked to product details page, do you want to link it ? Check to link."
+msgstr "In via predefinita, le miniature dei prodotti non sono collegate alla pagina dei dettagli, vuoi collegarle? Spunta per collegarle."
+
+#: includes/theme-options.php:912
+#@ templatation
+msgid "Show default Twitter and facebook sharing buttons on single product display page."
+msgstr "Mostra pulsanti di condivisione Facebook e Twitter predefiniti su ogni singola pagina prodotto visionata."
+
+#: includes/theme-options.php:1046
+#@ templatation
+msgid "Below settings are for the showcase area of the footer. Which appears half in the content section and half in the footer section. Separate settings are there for left and right side box. Note: Footer showcase area only appears if footer widgets are present."
+msgstr "Le seguenti impostazioni sono per l'area in vetrina del piè di pagina. La quale appa per metà nella sezione content e per metà nella sezione a piè di pagina. Impostazioni separate ci sono nel box di destra e di sinistra. Nota: l'area vetrina a piè di pagina compare solo se sono presenti dei widget a piè di pagina."
+
+#: includes/theme-options.php:1049
+#@ templatation
+msgid "Enable footer showcase area"
+msgstr "Abilita area vetrina a piè di pagina"
+
+#: includes/theme-options.php:1050
+#@ templatation
+msgid "Uncheck this if you do not want the footer showcase area (round corner area just above footer widgets area)."
+msgstr "Togliere spunta qui se non vuoi l'area vetrina a piè di pagina (area ad angolo appana sopra l'area widget a piè di pagina)."
+
+#: includes/theme-options.php:1192
+#@ templatation
+msgid "Social Profile Settings"
+msgstr "Impostazioni Profili Social"
+
+#: includes/theme-options.php:1195
+#@ templatation
+msgid "Below settings are for social profiles. If you dont want to use one , simply leave it blank."
+msgstr "Le impostazioni qui sotto sono per i profili social. Se non hai intenzione di usarli, lasciali semplicemente vuoti."
+
+#: includes/theme-options.php:1237
+#@ templatation
+msgid "Pinterest URL"
+msgstr "URL Pinterest"
+
+#: includes/theme-options.php:1238
+#, php-format
+#@ templatation
+msgid "Enter your %1$s URL e.g. http://www.pinterest.com/templatation"
+msgstr "Inserisci il tuo URL %1$s es. http://www.pinterest.com/templatation"
+
+#: includes/theme-options.php:1238
+#@ templatation
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: includes/theme-options.php:1243
+#@ templatation
+msgid "Instagram URL"
+msgstr "Instagram URL"
+
+#: includes/theme-options.php:1244
+#, php-format
+#@ templatation
+msgid "Enter your %1$s URL e.g. http://www.instagram.com/templatation"
+msgstr "Inserisci il tuo URL %1$s es. http://www.instagram.com/templatation"
+
+#: includes/theme-options.php:1244
+#@ templatation
+msgid "Instagram"
+msgstr "Instagram"
+
+#: includes/theme-options.php:1462
+#@ templatation
+msgid "This text appears in headline area below heading. Leave blank to show default that has been entered in Theme-options.(If you dont want any headline subtext particularly for this page, enter blank space.)"
+msgstr "Questo testo appare nell'area headline sotto l'heading. Lasciare vuota per mostrare il testo predefinito inserito nelle opzioni tema.(Se non vuoi un subtesto particolare dell'headline per questa pagina, lasciare lo spazio vuoto.)"
+
+#: includes/theme-options.php:1467
+#@ templatation
+msgid "Hero/Slider Area Content."
+msgstr "Content Area Hero/Slider."
+
+#: includes/theme-options.php:1469
+#@ templatation
+msgid "This content appears on the header area, you can use it to place slider particular for this page/post/product or any other image or content. Shortcodes allowed. e.g. [rev_slider portfolio-slider]"
+msgstr "Questo content apparirò nell'area header, puoi usarla per inserire degli slider per questa particolare pagina/post/prodotto o ogni altra immagine o content. Shortcodes consentiti. es. [rev_slider portfolio-slider]"
+
+#: includes/theme-woocommerce.php:549
+#: includes/theme-woocommerce.php:554
+#@ templatation
+msgid "Default catalog view"
+msgstr "Visione catalogo predefinita"
+
+#: includes/theme-woocommerce.php:555
+#@ templatation
+msgid "Display products in grid or list view by default"
+msgstr "Mostra i prodotti in visualizzazione griglia o lista di default"
+
+#: includes/theme-woocommerce.php:559
+#@ templatation
+msgid "Grid"
+msgstr "Griglia"
+
+#: includes/theme-woocommerce.php:560
+#: includes/wc-ajax-nav/widgets/class.yith-wcan-navigation-widget.php:534
+#@ templatation
+msgid "List"
+msgstr "Lista"
+
+#: includes/theme-woocommerce.php:561
+#: includes/wc-zm/class.yith-wcmg-admin.php:275
+#@ templatation
+msgid "Disable"
+msgstr "Disabilita"
+
+#: includes/theme-woocommerce.php:613
+#@ templatation
+msgid "Grid view"
+msgstr "Visione Griglia"
+
+#: includes/theme-woocommerce.php:613
+#@ templatation
+msgid "List view"
+msgstr "Visione Lista"
+
+#: includes/theme-woocommerce.php:766
+#: includes/widgets/wp-twitter-widget.php:119
+#@ default
+msgid "title"
+msgstr "titolo"
+
+#: includes/theme-woocommerce.php:821
+#@ default
+msgid "Custom Tab"
+msgstr "Tab Personalizzato"
+
+#: includes/theme-woocommerce.php:856
+#@ default
+msgid "Tab Title"
+msgstr "Titolo Tab"
+
+#: includes/theme-woocommerce.php:856
+#@ default
+msgid "Required for tab to be visible"
+msgstr "Richiesto dal tab per renderlo visibile"
+
+#: includes/theme-woocommerce.php:857
+#@ default
+msgid "Content"
+msgstr "Content"
+
+#: includes/theme-woocommerce.php:857
+#@ default
+msgid "HTML and text to display."
+msgstr "HTML e testo da mostrare"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:164
+#: includes/tt-plugins/tt-plugins.php:115
+#@ templatation
+msgid "Install Required Plugins"
+msgstr "Installa Plugin Richiesto"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:165
+#: includes/tt-plugins/tt-plugins.php:116
+#@ templatation
+msgid "Install Plugins"
+msgstr "Installa Plugin"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:166
+#: includes/tt-plugins/tt-plugins.php:117
+#, php-format
+#@ templatation
+msgid "Installing Plugin: %s"
+msgstr "Installazione Plugin: %s"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:167
+#@ templatation
+msgid "Something went wrong."
+msgstr "Qualcosa è andato storto."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:168
+#: includes/tt-plugins/tt-plugins.php:119
+#, php-format
+#@ templatation
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Questo tema richiede il seguente plugin: %1$s."
+msgstr[1] "Questo tema richiede i seguenti plugin: %1$s."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:169
+#, php-format
+#@ templatation
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Questo tema raccomanda il seguente plugin: %1$s."
+msgstr[1] "Questo tema raccomanda i seguenti plugin: %1$s."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:170
+#: includes/tt-plugins/tt-plugins.php:121
+#, php-format
+#@ templatation
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "Spiacente, ma non disponi delle autorizzazioni necessarie per installare il plugin %s. Contatta l'amministratore del sito per un aiuto su come installare il plugin."
+msgstr[1] "Spiacente, ma non disponi delle autorizzazioni necessarie per installare i plugin %s. Contatta l'amministratore del sito per un aiuto su come installare i plugin."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:171
+#: includes/tt-plugins/tt-plugins.php:122
+#, php-format
+#@ templatation
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Il seguente plugin è attualmente inattivo: %1$s."
+msgstr[1] "I seguenti plugin sono attualmente inattivi: %1$s."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:172
+#: includes/tt-plugins/tt-plugins.php:123
+#, php-format
+#@ templatation
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Il seguente plugin raccomandato è attualmente inattivo: %1$s."
+msgstr[1] "I seguenti plugin raccomandati sono attualmente inattivi: %1$s."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:173
+#: includes/tt-plugins/tt-plugins.php:124
+#, php-format
+#@ templatation
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "Spiacente, ma non disponi delle autorizzazioni necessarie per attivare il plugin %s. Contatta l'amministratore del sito per un aiuto su come attivare il plugin."
+msgstr[1] "Spiacente, ma non disponi delle autorizzazioni necessarie per attivare i plugin %s. Contatta l'amministratore del sito per un aiuto su come attivare i plugin."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:174
+#: includes/tt-plugins/tt-plugins.php:125
+#, php-format
+#@ templatation
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Il seguente plugin deve essere aggiornato alla versione più recente per garantire la massima compatibilità con questo tema: %1$s."
+msgstr[1] "I seguenti plugin devono essere aggiornati alle versioni più recenti per garantire la massima compatibilità con questo tema: %1$s."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:175
+#: includes/tt-plugins/tt-plugins.php:126
+#, php-format
+#@ templatation
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "Spiacente, ma non disponi delle autorizzazioni necessarie per aggiornare il plugin %s. Contatta l'amministratore del sito per un aiuto su come aggiornare il plugin."
+msgstr[1] "Spiacente, ma non disponi delle autorizzazioni necessarie per aggiornare i plugin %s. Contatta l'amministratore del sito per un aiuto su come aggiornare i plugin."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:176
+#: includes/tt-plugins/tt-plugins.php:127
+#@ templatation
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Inizia l'installazione del plugin"
+msgstr[1] "Inizia l'installazione dei plugin"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:177
+#: includes/tt-plugins/tt-plugins.php:128
+#@ templatation
+msgid "Activate installed plugin"
+msgid_plural "Activate installed plugins"
+msgstr[0] "Attiva il plugin installato"
+msgstr[1] "Attiva i plugin installati"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:178
+#: includes/tt-plugins/class-tgm-plugin-activation.php:490
+#: includes/tt-plugins/tt-plugins.php:129
+#@ templatation
+msgid "Return to Required Plugins Installer"
+msgstr "Ritorna all'Installer dei Plugin Richiesti"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:179
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1846
+#: includes/tt-plugins/tt-plugins.php:130
+#@ templatation
+msgid "Plugin activated successfully."
+msgstr "Attivazione plugin avvenuta con successo."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:180
+#, php-format
+#@ templatation
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Tutti i plugin installati sono stati attivati con successo. %1$s"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:517
+#: includes/tt-plugins/class-tgm-plugin-activation.php:2058
+#@ templatation
+msgid "Return to the Dashboard"
+msgstr "Ritorna alla Dashboard"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:545
+#, php-format
+#@ templatation
+msgid "The following plugin was activated successfully: %s."
+msgstr "I seguenti plugin sono stati attivati con successo: %s."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:704
+#@ templatation
+msgid "Dismiss this notice"
+msgstr "Scarta notizia"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1091
+#@ templatation
+msgid "External Link"
+msgstr "Link Esterno"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1096
+#@ templatation
+msgid "Private Repository"
+msgstr "Repository Privato"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1099
+#@ templatation
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1103
+#@ templatation
+msgid "WordPress Repository"
+msgstr "Repository WordPress"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1106
+#@ templatation
+msgid "Recommended"
+msgstr "Raccomandati"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1109
+#@ templatation
+msgid "Not Installed"
+msgstr "Non Installato"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1111
+#@ templatation
+msgid "Installed But Not Activated"
+msgstr "Installato Ma Non Attivo"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1281
+#, php-format
+#@ templatation
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr "Nessun plugin da installare o attivare. <a href=\"%1$s\" title=\"Return to the Dashboard\">Ritorna alla Dashboard</a>"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1297
+#@ templatation
+msgid "Plugin"
+msgstr "Plugin"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1298
+#@ templatation
+msgid "Source"
+msgstr "Fonte"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1299
+#@ templatation
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1300
+#@ templatation
+msgid "Status"
+msgstr "Stato"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1318
+#@ templatation
+msgid "Install"
+msgstr "Installa"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1319
+#@ templatation
+msgid "Activate"
+msgstr "Attiva"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1544
+#@ templatation
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Il seguente plugin è stato attivato con successo:"
+msgstr[1] "I seguenti plugin sono stati attivati con successo:"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1829
+#@ templatation
+msgid "Install package not available."
+msgstr "Pacchetto di installazione non disponibile."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1830
+#, php-format
+#@ templatation
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Scarica pacchetti di installazione da <span class=\"code\">%s</span>&#8230;"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1831
+#@ templatation
+msgid "Unpacking the package&#8230;"
+msgstr "Spacchetta il pacchetto&#8230;"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1832
+#@ templatation
+msgid "Installing the plugin&#8230;"
+msgstr "Installare il plugin&#8230;"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1833
+#@ templatation
+msgid "Plugin install failed."
+msgstr "Installazione Plugin fallita."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1834
+#@ templatation
+msgid "Plugin installed successfully."
+msgstr "Plugin installato con successo."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1845
+#@ templatation
+msgid "Plugin activation failed."
+msgstr "Attivazione Plugin fallito."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1955
+#@ templatation
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Il processo di attivazione ed installazione è partito. Questo processo può richiedere molto tempo su alcuni host, sii paziente."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1956
+#, php-format
+#@ templatation
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installato ed attivato con successo."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1956
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1965
+#@ templatation
+msgid "Show Details"
+msgstr "Mostra Dettagli"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1956
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1965
+#@ templatation
+msgid "Hide Details"
+msgstr "Nascondi Dettagli"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1957
+#@ templatation
+msgid "All installations and activations have been completed."
+msgstr "Tutte le installazioni ed attivazioni sono state completate."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1958
+#, php-format
+#@ templatation
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installazione ed Attivazione Plugin %1$s (%2$d/%3$d)"
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1962
+#@ templatation
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Il processo d'installazione è stato avviato. Questo processo può impiegare diverso tempo in alcuni host, sii paziente."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1963
+#, php-format
+#@ templatation
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "E' occorso un'errore nell'installazione di %1$s: <strong>%2$s</strong>."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1964
+#, php-format
+#@ templatation
+msgid "The installation of %1$s failed."
+msgstr "L'installazione di %1$s è fallita."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1965
+#, php-format
+#@ templatation
+msgid "%1$s installed successfully."
+msgstr "%1$s installato con successo."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1966
+#@ templatation
+msgid "All installations have been completed."
+msgstr "Tutte le installazioni sono state completate con successo."
+
+#: includes/tt-plugins/class-tgm-plugin-activation.php:1967
+#, php-format
+#@ templatation
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installazione del Plugin %1$s (%2$d/%3$d)"
+
+#: includes/tt-plugins/tt-plugins.php:118
+#@ templatation
+msgid "Something went wrong with the plugin API."
+msgstr "Qualcosa è andato storto con le API del plugin."
+
+#: includes/tt-plugins/tt-plugins.php:120
+#, php-format
+#@ templatation
+msgid "Important: However theme is complete in itself, but to enhance the functionality it comes with pre-packed plugin. <br />(Please install the one that you think you will need, you can install them later too if you are not sure at this time). <br /><br />Recommended Plugin: %1$s."
+msgid_plural "Important: However theme is complete in itself, but to enhance the functionality it comes with pre-packed plugins.  <br />(Please install the one that you think you will need, you can install them later too if you are not sure at this time).<br /> <br />Recommended Plugins: %1$s."
+msgstr[0] "Importante: Anche se il tema è in sè completo, è possibile aumentarne le capacità con un plugin preconfezionato. <br />(Si prega di installare il necessario, oltretutto è possibile aggiungerne in un secondo momento)."
+msgstr[1] "Importante: Anche se il tema è in sè completo, è possibile aumentarne le capacità con dei plugin preconfezionati. <br />(Si prega di installare il necessario, oltretutto è possibile aggiungerne in un secondo momento)."
+
+#: includes/tt-plugins/tt-plugins.php:131
+#, php-format
+#@ templatation
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Tutti i plugin sono stati installati e attivati correttamente. %s"
+
+#: includes/wc-ajax-nav/functions.yith-wcan.php:52
+#: includes/wc-ajax-nav/functions.yith-wcan.php:64
+#@ templatation
+msgid "Term"
+msgstr "Term"
+
+#: includes/wc-ajax-nav/functions.yith-wcan.php:52
+#: includes/wc-ajax-nav/widgets/class.yith-wcan-navigation-widget.php:535
+#@ templatation
+msgid "Color"
+msgstr "Colore"
+
+#: includes/wc-ajax-nav/widgets/class.yith-wcan-navigation-widget.php:21
+#@ templatation
+msgid "Narrow down the products list without reloading the page"
+msgstr "Restringi l'elenco dei prodotti senza ricaricare la pagina"
+
+#: includes/wc-ajax-nav/widgets/class.yith-wcan-navigation-widget.php:23
+#@ templatation
+msgid "JS WooCommerce Ajax Navigation"
+msgstr "Navigazione JS WooCommerce Ajax"
+
+#: includes/wc-ajax-nav/widgets/class.yith-wcan-navigation-widget.php:521
+#@ templatation
+msgid "Attribute:"
+msgstr "Attributi:"
+
+#: includes/wc-ajax-nav/widgets/class.yith-wcan-navigation-widget.php:526
+#@ templatation
+msgid "Query Type:"
+msgstr "Tipo Query:"
+
+#: includes/wc-ajax-nav/widgets/class.yith-wcan-navigation-widget.php:528
+#@ templatation
+msgid "AND"
+msgstr "AND"
+
+#: includes/wc-ajax-nav/widgets/class.yith-wcan-navigation-widget.php:529
+#@ templatation
+msgid "OR"
+msgstr "OR"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:382
+#: includes/wc-zm/yit-common/yith-panel.php:389
+#@ templatation
+msgid "Select a date"
+msgstr "Seleziona un data"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:383
+#: includes/wc-zm/yit-common/yith-panel.php:390
+#@ templatation
+msgid "Hours"
+msgstr "Ore"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:384
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:385
+#: includes/wc-zm/yit-common/yith-panel.php:391
+#: includes/wc-zm/yit-common/yith-panel.php:392
+#@ templatation
+msgid "Minutes"
+msgstr "Minuti"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:420
+#: includes/wc-zm/yit-common/yith-panel.php:427
+#@ templatation
+msgid "px"
+msgstr "px"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:421
+#: includes/wc-zm/yit-common/yith-panel.php:428
+#@ templatation
+msgid "em"
+msgstr "em"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:422
+#: includes/wc-zm/yit-common/yith-panel.php:429
+#@ templatation
+msgid "pt"
+msgstr "pt"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:423
+#: includes/wc-zm/yit-common/yith-panel.php:430
+#@ templatation
+msgid "rem"
+msgstr "rem"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:433
+#: includes/wc-zm/yit-common/yith-panel.php:440
+#@ templatation
+msgid "Select a font family"
+msgstr "Seleziona la famiglia di font"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:441
+#: includes/wc-zm/yit-common/yith-panel.php:448
+#@ templatation
+msgid "Regular"
+msgstr "Normale"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:442
+#: includes/wc-zm/yit-common/yith-panel.php:449
+#@ templatation
+msgid "Bold"
+msgstr "Grassetto"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:443
+#: includes/wc-zm/yit-common/yith-panel.php:450
+#@ templatation
+msgid "Extra bold"
+msgstr "Extra grassetto"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:444
+#: includes/wc-zm/yit-common/yith-panel.php:451
+#@ templatation
+msgid "Italic"
+msgstr "Corsivo"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:445
+#: includes/wc-zm/yit-common/yith-panel.php:452
+#@ templatation
+msgid "Italic bold"
+msgstr "Corsivo grassetto"
+
+#: includes/wc-ajax-nav/yit-common/yith-panel.php:457
+#: includes/wc-zm/yit-common/yith-panel.php:464
+#@ templatation
+msgid "Click to preview"
+msgstr "Clicca per l'anteprima"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:114
+#: includes/wc-zm/class.yith-wcmg-admin.php:164
+#@ templatation
+msgid "Magnifier"
+msgstr "Lente d'ingrandimento"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:133
+#@ templatation
+msgid "Catalog Zoom Images"
+msgstr "Cataloga Immagini Zoom"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:134
+#@ templatation
+msgid "The size of images used within the magnifier box"
+msgstr "La grandezza delle immagini utilizzate all'interno della casella ingrandimenti"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:165
+#@ templatation
+msgid "Slider"
+msgstr "Slider"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:207
+#@ templatation
+msgid "Enable YITH Magnifier"
+msgstr "Abilita Ingrandimento YITH"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:208
+#@ templatation
+msgid "Enable the plugin or use the Woocommerce default product image."
+msgstr "Abilita il plugin oppure utilizza l'immagine dei prodotti di default Woocommerce."
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:216
+#@ templatation
+msgid "Forcing Zoom Image sizes"
+msgstr "Forza grandezza Zoom Immagine"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:217
+#@ templatation
+msgid "If disabled, you will able to customize the sizes of Zoom Images. Please disable at your own risk; the magnifier should not properly work with unproportioned image sizes."
+msgstr "Se disabilitato, potrai personalizzare l'ampiezza dello Zoom nello Immagini. Disabilitalo a tuo rischio; la lente d'ingrandimento potrebbe non funzionare correttamente sulle immagini con dimensioni sproporzionate."
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:228
+#@ templatation
+msgid "Magnifier Settings"
+msgstr "Imospazioni Lente d'ingrandimento"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:235
+#@ templatation
+msgid "Zoom Area Width"
+msgstr "larghezza Area di Zoom"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:236
+#@ templatation
+msgid "The width of magnifier box (default: auto)"
+msgstr "La larghezza del box della lente (default: auto)"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:244
+#@ templatation
+msgid "Zoom Area Height"
+msgstr "Altezza Area Zoom"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:245
+#@ templatation
+msgid "The height of magnifier box (default: auto)"
+msgstr "L'altezza del box d'ingrandimento (default: auto)"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:253
+#@ templatation
+msgid "Zoom Area Position"
+msgstr "Posizione Area Zoom"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:254
+#@ templatation
+msgid "The magnifier position"
+msgstr "Posizione lente d'ingrandimento"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:261
+#: includes/wc-zm/class.yith-wcmg-admin.php:274
+#@ templatation
+msgid "Inside"
+msgstr "Dentro"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:266
+#@ templatation
+msgid "Zoom Area Mobile Position"
+msgstr "Posizione Area Zoom Mobile"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:267
+#@ templatation
+msgid "The magnifier position with mobile devices (iPhone, Android, etc.)"
+msgstr "La posizione della lente d'ingrandimento con i dispositivi mobili (iPhone, Android, etc.)"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:273
+#@ templatation
+msgid "Default"
+msgstr "Default"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:280
+#@ templatation
+msgid "Loading label"
+msgstr "Caricamento etichette"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:283
+#: includes/wc-zm/class.yith-wcmg-admin.php:284
+#@ templatation
+msgid "Loading..."
+msgstr "Caricamento..."
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:310
+#@ templatation
+msgid "Lens Opacity"
+msgstr "Opacità Lente"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:334
+#@ templatation
+msgid "Blur"
+msgstr "Blur"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:335
+#@ templatation
+msgid "Add a blur effect to the small image on mouse hover."
+msgstr "Aggiungi un'effetto blur sulle piccole immagini al passaggio del mouse."
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:604
+#: includes/widgets/range-plugin-framework.php:283
+#@ templatation
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: includes/wc-zm/class.yith-wcmg-admin.php:605
+#@ templatation
+msgid "Docs"
+msgstr "Docs"
+
+#: includes/widgets/range-plugin-framework.php:240
+#@ templatation
+msgid "Update Options &raquo;"
+msgstr "Aggiorna Opzioni &raquo;"
+
+#: includes/widgets/widget-woo-best-selling-products.php:11
+#@ templatation
+msgid "JS - Best Selling Products Loop"
+msgstr "JS - Impostazioni Loop dei Prodotti più venduti"
+
+#: includes/widgets/widget-woo-featured-products.php:12
+#@ templatation
+msgid "JS - Featured Products Loop"
+msgstr "JS - Loop Prodotti in vetrina"
+
+#: includes/widgets/widget-woo-featured-products.php:125
+#@ templatation
+msgid "Number of featured products to display (Multiples of 4 recommended):"
+msgstr "Numero di prodotti da visualizzare (Consigliati Multipli di 4):"
+
+#: includes/widgets/widget-woo-product-categories.php:11
+#@ templatation
+msgid "JS - Product Categories Loop"
+msgstr "JS - Loop Categorie Prodotti"
+
+#: includes/widgets/widget-woo-product-categories.php:59
+#@ templatation
+msgid "Number of product categories to display (Multiples of 3 recommended):"
+msgstr "Numero di categorie prodotti da mostrare (raccomandati multipli di 3):"
+
+#: includes/widgets/widget-woo-recent-products.php:11
+#@ templatation
+msgid "JS - Recent Products Loop"
+msgstr "JS - Loop Prodotti Recenti"
+
+#: includes/widgets/widget-woo-recent-products.php:59
+#@ templatation
+msgid "Number of recent products to display (Multiples of 4 recommended):"
+msgstr "Numero di prodotti recenti da mostrare (Raccomandati Multipli di 4):"
+
+#: includes/widgets/wp-twitter-widget.php:44
+#@ templatation
+msgid "Follow a Twitter Feed"
+msgstr "Segui un Feed Twitter"
+
+#: includes/widgets/wp-twitter-widget.php:51
+#: includes/widgets/wp-twitter-widget.php:244
+#: includes/widgets/wp-twitter-widget.php:245
+#@ templatation
+msgid "JS Twitter Widget"
+msgstr "JS Widget Twitter"
+
+#: includes/widgets/wp-twitter-widget.php:69
+#: includes/widgets/wp-twitter-widget.php:533
+#@ templatation
+msgid "Twitter username:"
+msgstr "Username Twitter:"
+
+#: includes/widgets/wp-twitter-widget.php:85
+#: includes/widgets/wp-twitter-widget.php:569
+#@ templatation
+msgid "Twitter list:"
+msgstr "Lista Twitter:"
+
+#: includes/widgets/wp-twitter-widget.php:111
+#: includes/widgets/wp-twitter-widget.php:559
+#@ templatation
+msgid "You need to authorize this account."
+msgstr "È necessario autorizzare l'account."
+
+#: includes/widgets/wp-twitter-widget.php:118
+#: includes/widgets/wp-twitter-widget.php:590
+#@ templatation
+msgid "Give the feed a title ( optional ):"
+msgstr "Dai un titolo al feed (opzionale):"
+
+#: includes/widgets/wp-twitter-widget.php:122
+#: includes/widgets/wp-twitter-widget.php:598
+#@ templatation
+msgid "How many items would you like to display?"
+msgstr "Quanti articoli si desidera visualizzare?"
+
+#: includes/widgets/wp-twitter-widget.php:132
+#: includes/widgets/wp-twitter-widget.php:612
+#@ templatation
+msgid "Display profile image?"
+msgstr "Mostra immagine profilo?"
+
+#: includes/widgets/wp-twitter-widget.php:134
+#: includes/widgets/wp-twitter-widget.php:616
+#@ templatation
+msgid "Do not show"
+msgstr "Non mostrare"
+
+#: includes/widgets/wp-twitter-widget.php:135
+#: includes/widgets/wp-twitter-widget.php:617
+#@ templatation
+msgid "Mini - 24px by 24px"
+msgstr "Mini - 24px per 24px"
+
+#: includes/widgets/wp-twitter-widget.php:136
+#: includes/widgets/wp-twitter-widget.php:618
+#@ templatation
+msgid "Normal - 48px by 48px"
+msgstr "Normale - 48px per 48px"
+
+#: includes/widgets/wp-twitter-widget.php:137
+#: includes/widgets/wp-twitter-widget.php:619
+#@ templatation
+msgid "Bigger - 73px by 73px"
+msgstr "Grande - 73px per 73px"
+
+#: includes/widgets/wp-twitter-widget.php:138
+#: includes/widgets/wp-twitter-widget.php:620
+#@ templatation
+msgid "Original"
+msgstr "Originale"
+
+#: includes/widgets/wp-twitter-widget.php:144
+#: includes/widgets/wp-twitter-widget.php:663
+#@ templatation
+msgid "Include retweets"
+msgstr "Includi i retweet"
+
+#: includes/widgets/wp-twitter-widget.php:149
+#: includes/widgets/wp-twitter-widget.php:667
+#@ templatation
+msgid "Hide @replies"
+msgstr "Nascondi @replies"
+
+#: includes/widgets/wp-twitter-widget.php:154
+#: includes/widgets/wp-twitter-widget.php:671
+#@ templatation
+msgid "Hide sending applications"
+msgstr "Nascondi applicazioni d'invio"
+
+#: includes/widgets/wp-twitter-widget.php:159
+#: includes/widgets/wp-twitter-widget.php:675
+#@ templatation
+msgid "Show Tweet Intents (reply, retweet, favorite)"
+msgstr "Mostra Intenti di Tweet (risposte, retweet, favoriti)"
+
+#: includes/widgets/wp-twitter-widget.php:164
+#: includes/widgets/wp-twitter-widget.php:679
+#@ templatation
+msgid "Show Follow Link"
+msgstr "Mostra Link Follow"
+
+#: includes/widgets/wp-twitter-widget.php:167
+#: includes/widgets/wp-twitter-widget.php:626
+#@ templatation
+msgid "What to display when Twitter is down ( optional ):"
+msgstr "Cosa mostrare se Twitter è offline (opzionale):"
+
+#: includes/widgets/wp-twitter-widget.php:168
+#@ default
+msgid "errmsg"
+msgstr "errmsg"
+
+#: includes/widgets/wp-twitter-widget.php:171
+#: includes/widgets/wp-twitter-widget.php:634
+#@ templatation
+msgid "Show date/time of Tweet ( rather than 2 ____ ago ):"
+msgstr "Mostra data/ora del Tweet (piuttosto che 2____ fa):"
+
+#: includes/widgets/wp-twitter-widget.php:173
+#: includes/widgets/wp-twitter-widget.php:638
+#@ templatation
+msgid "Always"
+msgstr "Sempre"
+
+#: includes/widgets/wp-twitter-widget.php:174
+#: includes/widgets/wp-twitter-widget.php:639
+#@ templatation
+msgid "If over an hour old"
+msgstr "Se è più vecchio di un'ora"
+
+#: includes/widgets/wp-twitter-widget.php:175
+#: includes/widgets/wp-twitter-widget.php:640
+#@ templatation
+msgid "If over a day old"
+msgstr "Se è più vecchio di un'giorno"
+
+#: includes/widgets/wp-twitter-widget.php:176
+#: includes/widgets/wp-twitter-widget.php:641
+#@ templatation
+msgid "If over a week old"
+msgstr "Se è più vecchio di una settimana"
+
+#: includes/widgets/wp-twitter-widget.php:177
+#: includes/widgets/wp-twitter-widget.php:642
+#@ templatation
+msgid "If over a month old"
+msgstr "Se è più vecchio di un mese"
+
+#: includes/widgets/wp-twitter-widget.php:178
+#: includes/widgets/wp-twitter-widget.php:643
+#@ templatation
+msgid "If over a year old"
+msgstr "Se è più vecchio di un anno"
+
+#: includes/widgets/wp-twitter-widget.php:179
+#: includes/widgets/wp-twitter-widget.php:644
+#@ templatation
+msgid "Never"
+msgstr "Mai"
+
+#: includes/widgets/wp-twitter-widget.php:183
+#: includes/widgets/wp-twitter-widget.php:650
+#, php-format
+#@ templatation
+msgid "Format to display the date in, uses <a href=\"%s\">PHP date()</a> format:"
+msgstr "Format per mostrare la data, utilizzata formato <a href=\"%s\">PHP date()</a>:"
+
+#: includes/widgets/wp-twitter-widget.php:184
+#@ default
+msgid "dateFormat"
+msgstr "Formatodata"
+
+#: includes/widgets/wp-twitter-widget.php:189
+#: includes/widgets/wp-twitter-widget.php:683
+#@ templatation
+msgid "Open links in a new window"
+msgstr "Apri link in una nuova finestra"
+
+#: includes/widgets/wp-twitter-widget.php:349
+#@ templatation
+msgid "There were no locks to clear!"
+msgstr "Non ci sono blocchi da cancellare!"
+
+#: includes/widgets/wp-twitter-widget.php:351
+#, php-format
+#@ templatation
+msgid "Successfully cleared %d lock."
+msgid_plural "Successfully cleared %d locks."
+msgstr[0] "Blocco  %d cancellato con successo"
+msgstr[1] "Blocchi %d cancellati con successo"
+
+#: includes/widgets/wp-twitter-widget.php:354
+#, php-format
+#@ templatation
+msgid "Successfully authorized @%s"
+msgstr "Autorizzato con successo @%s"
+
+#: includes/widgets/wp-twitter-widget.php:356
+#@ templatation
+msgid "There was a problem authorizing your account."
+msgstr "C'e stato un problema nell'autorizzare il tuo account."
+
+#: includes/widgets/wp-twitter-widget.php:379
+#@ templatation
+msgid "Authenticated Twitter Accounts"
+msgstr "Account Twitter Atuticati"
+
+#: includes/widgets/wp-twitter-widget.php:381
+#@ templatation
+msgid "Default Settings for Shortcodes"
+msgstr "Impostazioni di Default per gli Shortcode"
+
+#: includes/widgets/wp-twitter-widget.php:392
+#@ templatation
+msgid "Username"
+msgstr "Nome utente"
+
+#: includes/widgets/wp-twitter-widget.php:395
+#@ templatation
+msgid "Lists Rate Usage"
+msgstr "Elenca tasso di utilizzo"
+
+#: includes/widgets/wp-twitter-widget.php:398
+#@ templatation
+msgid "Statuses Rate Usage"
+msgstr "Status tasso di utilizzo"
+
+#: includes/widgets/wp-twitter-widget.php:414
+#@ templatation
+msgid "Reauthorize"
+msgstr "Riautorizza"
+
+#: includes/widgets/wp-twitter-widget.php:424
+#@ templatation
+msgid "Lists"
+msgstr "Elenchi"
+
+#: includes/widgets/wp-twitter-widget.php:425
+#@ templatation
+msgid "Statuses"
+msgstr "Stato"
+
+#: includes/widgets/wp-twitter-widget.php:432
+#, php-format
+#@ templatation
+msgid "Used: %d"
+msgstr "Usato: %d"
+
+#: includes/widgets/wp-twitter-widget.php:433
+#, php-format
+#@ templatation
+msgid "Remaining: %d"
+msgstr "Rimanente: %d"
+
+#: includes/widgets/wp-twitter-widget.php:436
+#, php-format
+#@ templatation
+msgid "Limits reset in: %d minutes"
+msgid_plural "Limits reset in: %d minutes"
+msgstr[0] "Limite resettato in: %d minuti"
+msgstr[1] "Limiti resettati in: %d minuti"
+
+#: includes/widgets/wp-twitter-widget.php:438
+#@ templatation
+msgid "This is overall usage, not just usage from Twitter Widget Pro"
+msgstr "Questo è l'uso generale, non solo l'utilizzo di Twitter Widget Pro"
+
+#: includes/widgets/wp-twitter-widget.php:446
+#: includes/widgets/wp-twitter-widget.php:449
+#@ templatation
+msgid "There was an error checking your rate limit."
+msgstr "C'è stato un errore controllare i limiti di velocità."
+
+#: includes/widgets/wp-twitter-widget.php:463
+#@ templatation
+msgid "You need to fill in the Consumer key and Consumer secret before you can authorize accounts."
+msgstr "Devi inserire una Consumer key ed un Consumer secret prima di poter autorizzare account."
+
+#: includes/widgets/wp-twitter-widget.php:469
+#@ templatation
+msgid "Authorize New Account"
+msgstr "Autorizza Nuovo Account"
+
+#: includes/widgets/wp-twitter-widget.php:480
+#@ templatation
+msgid "Consumer key"
+msgstr "Consumer key"
+
+#: includes/widgets/wp-twitter-widget.php:488
+#@ templatation
+msgid "Consumer secret"
+msgstr "Consumer secret"
+
+#: includes/widgets/wp-twitter-widget.php:500
+#@ templatation
+msgid "Directions to get the Consumer Key and Consumer Secret"
+msgstr "Indicazioni per ottenere la Consumer Key ed una Consumer Secret"
+
+#: includes/widgets/wp-twitter-widget.php:502
+#@ templatation
+msgid "Add a new Twitter application"
+msgstr "Aggiungi una nuova applicazione Twitter"
+
+#: includes/widgets/wp-twitter-widget.php:503
+#@ default
+msgid "Fill in Name, Description, Website, and Callback URL (don't leave any blank) with anything you want"
+msgstr "Compilare Nome, Descrizione, Sito Web, e URL Callback (non lasciarlo in bianco) con tutto quello che vuoi"
+
+#: includes/widgets/wp-twitter-widget.php:504
+#@ default
+msgid "Agree to rules, fill out captcha, and submit your application"
+msgstr "Accettare le regole, compilare il captcha, e proponi la tua candidatura"
+
+#: includes/widgets/wp-twitter-widget.php:505
+#@ default
+msgid "Copy the Consumer key and Consumer secret into the fields above"
+msgstr "Copia la Consumer key e Consumer secret nel campo sottostante"
+
+#: includes/widgets/wp-twitter-widget.php:506
+#@ default
+msgid "Click the Update Options button at the bottom of this page"
+msgstr "Fare clic sul pulsante Aggiorna Opzioni in fondo a questa pagina"
+
+#: includes/widgets/wp-twitter-widget.php:515
+#: includes/widgets/wp-twitter-widget.php:518
+#@ templatation
+msgid "Clear Update Locks"
+msgstr "Cancella Aggiornamento Locks"
+
+#: includes/widgets/wp-twitter-widget.php:519
+#@ templatation
+msgid "A small percentage of servers seem to have issues where an update lock isn't getting cleared.  If you're experiencing issues with your feed not updating, try clearing the update locks."
+msgstr "Una piccola percentuale di server sembrano avere problemi in cui un blocco di aggiornamento non è sempre eliminato. Se stai riscontrando problemi con il feed non aggiornarlo, provare ad eliminare i blocchi di aggiornamento."
+
+#: includes/widgets/wp-twitter-widget.php:529
+#@ templatation
+msgid "These settings are the default for the shortcodes and all of them can be overridden by specifying a different value in the shortcode itself.  All settings for widgets are locate in the individual widget."
+msgstr "Queste impostazioni sono di default per i shortcodes e tutte possono essere sovrascritto specificando un valore diverso nel shortcode stesso. Tutte le impostazioni per i widget si trovano nel widget stesso."
+
+#: includes/widgets/wp-twitter-widget.php:658
+#@ templatation
+msgid "Other Setting:"
+msgstr "Altre Impostazioni:"
+
+#: includes/widgets/wp-twitter-widget.php:860
+#, php-format
+#@ templatation
+msgid "Twitter: %s"
+msgstr "Twitter: %s"
+
+#: includes/widgets/wp-twitter-widget.php:872
+#@ templatation
+msgid "No Tweets Available"
+msgstr "Nessun Tweets Disponibile"
+
+#: includes/widgets/wp-twitter-widget.php:890
+#, php-format
+#@ templatation
+msgid "from %s"
+msgstr "da %s"
+
+#: includes/widgets/wp-twitter-widget.php:894
+#, php-format
+#@ templatation
+msgid "in reply to %s"
+msgstr "in risposta a %s"
+
+#: includes/widgets/wp-twitter-widget.php:911
+#@ templatation
+msgid "Reply"
+msgstr "Rispondi"
+
+#: includes/widgets/wp-twitter-widget.php:917
+#@ templatation
+msgid "Retweet"
+msgstr "Retweet"
+
+#: includes/widgets/wp-twitter-widget.php:923
+#@ templatation
+msgid "Favorite"
+msgstr "Preferito"
+
+#: includes/widgets/wp-twitter-widget.php:944
+#, php-format
+#@ templatation
+msgid "Follow %s"
+msgstr "Segui %s"
+
+#: includes/widgets/wp-twitter-widget.php:1019
+#@ templatation
+msgid "Account needs to be authorized"
+msgstr "L'account deve essere autorizzato"
+
+#: includes/widgets/wp-twitter-widget.php:1036
+#@ templatation
+msgid "Invalid Twitter Response."
+msgstr "Risposta di Twitter Invalida."
+
+#: includes/widgets/wp-twitter-widget.php:1116
+#, php-format
+#@ templatation
+msgid "about %s year ago"
+msgid_plural "about %s years ago"
+msgstr[0] "Informazioni su %s anno fà"
+msgstr[1] "Informazioni su %s anni fà"
+
+#: includes/widgets/wp-twitter-widget.php:1117
+#, php-format
+#@ templatation
+msgid "about %s month ago"
+msgid_plural "about %s months ago"
+msgstr[0] "Informazioni su %s mese fà"
+msgstr[1] "Informazioni su %s mesi fà"
+
+#: includes/widgets/wp-twitter-widget.php:1118
+#, php-format
+#@ templatation
+msgid "about %s week ago"
+msgid_plural "about %s weeks ago"
+msgstr[0] "Informazioni su %s settimana fà"
+msgstr[1] "Informazioni su %s settimane fà"
+
+#: includes/widgets/wp-twitter-widget.php:1119
+#, php-format
+#@ templatation
+msgid "about %s day ago"
+msgid_plural "about %s days ago"
+msgstr[0] "Informazioni su %s giorno fà"
+msgstr[1] "Informazioni su %s giorni fà"
+
+#: includes/widgets/wp-twitter-widget.php:1120
+#, php-format
+#@ templatation
+msgid "about %s hour ago"
+msgid_plural "about %s hours ago"
+msgstr[0] "Informazioni su %s ora fà"
+msgstr[1] "Informazioni su %s ore fà"
+
+#: includes/widgets/wp-twitter-widget.php:1121
+#, php-format
+#@ templatation
+msgid "about %s minute ago"
+msgid_plural "about %s minutes ago"
+msgstr[0] "Informazioni su %s minuto fà"
+msgstr[1] "Informazioni su %s minuti fà"
+
+#: includes/widgets/wp-twitter-widget.php:1122
+#, php-format
+#@ templatation
+msgid "about %s second ago"
+msgid_plural "about %s seconds ago"
+msgstr[0] "Informazioni su %s secondo fà"
+msgstr[1] "Informazioni su %s secondi fà"
+
+#: includes/widgets/wp-twitter-widget.php:1173
+#: includes/widgets/wp-twitter-widget.php:1251
+#@ templatation
+msgid "h:i:s A F d, Y"
+msgstr "h:i:s A F d, Y"
+
