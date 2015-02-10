@@ -35,6 +35,13 @@ woo_head();
 
 	<header id="header" class="TThdr <?php jc_hdr_class() ?>"> <!-- making class "b" for layout 2, class "c" for layout 3, class "d" for layout 4, class "e" for layout 5, class "f" for layout 6. -->
 
+<div class="cboxOverlay" style="position:fixed; width:100%; height:100%;background:#000;
+	top:0;
+	left:0;
+	z-index:9999;
+	overflow:hidden;opacity:0.8;"><div style="position:relative;margin: 0 auto;text-align:center;top:320px"><img  src="<?= get_bloginfo("template_url"); ?>/images/spinner.gif" style="width:30px;height:30px;" title="img/ajax-loaders/ajax-loader-2.gif" ></div>
+			
+			</div>
 			<?php woo_header_inside(); // Top nav bar hooked here, logo hooked here ?>
 
 			<div class="row">

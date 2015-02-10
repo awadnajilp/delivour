@@ -99,7 +99,7 @@ $attr = shortcode_atts( array(
 
                                 </address>
                         </div>
-                        <a class=" readmore" href="<?php echo $store_url; ?>"><span class="view-more">View Menu</span></a>
+                        <a class=" readmore" href="<?php echo $store_url; ?>"><span class="view-more"> <span class="view-more"><?php   if( timeIsBetween($store_info['rest_opening_time'],$store_info['rest_closing_time']) ): echo 'View Menu'; else: echo 'Closed! Pre Order'; endif;?></span></a>
                     </li> <!-- .single-seller -->
                 <?php } } } ?>
 

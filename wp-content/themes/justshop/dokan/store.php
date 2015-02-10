@@ -24,14 +24,19 @@
     ?>
            
         <div id="content" class="page col-full">
-        
+          <?php   if( !timeIsBetween($store_info['rest_opening_time'],$store_info['rest_closing_time']) ): ?> 
+        <div class="wpb_alert wpb_content_element wpb_alert-error">
+            <div class="messagebox_text"><p><strong>Restaurant currently closed!</strong> You can still make Pre - Order.Your order will be processed immedietly once restaurant is opened. Opening time :<strong><?php echo $store_info['rest_closing_time']; ?></strong> </p>
+        </div>
+        </div> 
+        <?php endif;?>
             <?php woo_main_before(); ?>
             
             <section id="main" class="col-left">            
 
             <div id="primary" class="content-area dokan-single-store">
         <div  class="site-content store-page-wrap woocommerce" role="main">
-
+      
             <?php dokan_get_template_part( 'store-header' ); ?>
 
             <?php do_action( 'dokan_store_profile_frame_after', $store_user, $store_info ); ?>

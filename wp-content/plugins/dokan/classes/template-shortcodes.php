@@ -357,7 +357,7 @@ class Dokan_Template_Shortcodes {
 
                                 </address>
                         </div>
-                        <a class=" readmore" href="<?php echo $store_url; ?>"><span class="view-more">View Menu</span></a>
+                        <a class=" readmore" href="<?php echo $store_url; ?>"><span class="view-more"><?php  $store_info['rest_opening_time']; //if(timeIsBetween($store_info[''] )): echo 'Advance Order' else: echo 'View Menu'; endif;?></span></a>
                     </li> <!-- .single-seller -->
                 <?php } ?>
 

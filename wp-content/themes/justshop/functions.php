@@ -88,7 +88,7 @@ function my_script_enqueuer() {
 	wp_enqueue_script('awd_script');
 }
 
-function dateIsBetween($from, $to, $date = 'now') {
+function timeIsBetween($from, $to, $date = 'now') {
     $date = is_int($date) ? $date : strtotime($date); // convert non timestamps
     $from = is_int($from) ? $from : strtotime($from); // ..
     $to = is_int($to) ? $to : strtotime($to);         // ..
@@ -414,7 +414,7 @@ function city_choose_form_headline($area){
 	$form = '<div class="city_choose_form_container_hl">
 	<form class="city_choose_form" id="city_choose_form_hl" action="'.get_permalink( 2846 ).'" method="post">
 		<div class="city_choose_input">	    			    		
-			<select class="select2" data-nonce="'.$nonce.'" name="city" id="customer_city" style="width:250px">';
+			<select class="select2 hl_lcf" data-nonce="'.$nonce.'" name="city" id="customer_city" style="width:250px">';
 				foreach ($cities as $city) {
 					if($city->city == $_SESSION["city"]){ 
 						$form = $form.'<option value="'.$city->city.'" selected="selected">'.$city->city.'</option>';
@@ -424,7 +424,7 @@ function city_choose_form_headline($area){
 				}
 				$form = $form.'</select></div>		
 				<div class="city_choose_input">
-					<select class="select2" name="customer_area" id="customer_area" onchange="set_session_location(this.value);" style="width:250px">';
+					<select class="select2 hl_lcf" name="customer_area" id="customer_area" onchange="set_session_location(this.value);" style="width:250px">';
 
   				#fethcing city areas from table based on city
 						$query = "SELECT area FROM wp_restaurant_locations WHERE city='".$_SESSION["city"]."' ORDER BY id ASC  ";

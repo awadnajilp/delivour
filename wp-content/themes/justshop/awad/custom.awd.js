@@ -31,6 +31,10 @@ jQuery(document).ready( function() {
    		});
    		
    	};
+      
+      jQuery(".cboxOverlay").hide();
+
+      // document load end
    });
    // Set user location in session and submit homepage form
     function set_session_location_home(val){
@@ -68,3 +72,13 @@ jQuery(document).ready( function() {
             }
          });
       }
+
+      //loading Indicator
+   jQuery(document).ajaxStart(function(){
+      jQuery(".cboxOverlay").show();
+     //$("#searchLoading").html('<img src="img/ajax-loaders/ajax-loader-1.gif" title="img/ajax-loaders/ajax-loader-5.gif" >');
+   }); 
+   jQuery(document).ajaxComplete(function(){
+     jQuery("#searchLoading").html(''); 
+     jQuery(".cboxOverlay").hide();
+   }); 

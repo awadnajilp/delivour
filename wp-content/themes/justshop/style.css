@@ -5506,8 +5506,9 @@ body{
 .select2{
   width: 330px;
   float: left;
-  margin-right: 40px;
-
+  margin-left: 8%;
+  width: 38% !important;
+  margin-bottom: 27px;
 }
 
 .city_choose_form_container{
@@ -5697,6 +5698,41 @@ font-family: "Lato",Calibri,Arial,sans-serif !important;
   padding: 
 }
 
+.hl_lcf{
+  
+}
+.city_choose_input{
+
+}
+.find_restaurants_hl{
+ margin-top: 0px !important;
+ padding: 7px  18px 30px 17px !important;
+ box-shadow: none !important;
+ display: none !important;
+}
+.find_restaurants_btn{
+  display: none !important;
+
+}
+.headline-2953,#headline{
+  padding-top: 11px !important;
+  padding-bottom: 3px !important;
+}
+.messagebox_text{
+  color: red;
+}
+
+#colorbox, #cboxOverlay, #cboxWrapper{
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:9999;
+  overflow:hidden;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+
 @media screen and (max-width: 47.375em) {
 .awd-single-product .prod-excerpt{
  min-height: 0px;
@@ -5717,5 +5753,19 @@ font-family: "Lato",Calibri,Arial,sans-serif !important;
 
 }
 
+
+
+.select2{
+  width: 330px;
+  float: left;
+  margin-left: 8%;
+  width: 38% !important;
+  margin-bottom: 27px;
 }
+
+}
+
+
+
+
 /*  Awd custom Style ends here*/
