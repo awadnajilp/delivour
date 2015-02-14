@@ -706,6 +706,43 @@ function custom_add_to_cart_message ($message) {
     $is_cart_added = 1;
     return $custom_message;
 }
+
+
+// Min order amount requirement 
+add_action( 'woocommerce_check_cart_items', 'wc_minimum_order_amount' );
+//add_action( 'woocommerce_before_cart' , 'wc_minimum_order_amount' );
+function wc_minimum_order_amount() {
+// Set this variable to specify a minimum order value
+
+$cart_items = WC()->cart->cart_contents;
+foreach ($cart_items as $item) {
+        $seller_id = get_post_field( 'post_author', $item['product_id'] );
+        $sellers[$seller_id][$item['product_id']] = $item['line_total'];
+ }
+
+	foreach ($sellers as $sellerid => $prds) {
+			$seller_sub_total = 0;
+			foreach ($prds as $prd) {
+				$seller_sub_total = $seller_sub_total+$prd;
+			}
+			
+			$profile_info =  dokan_get_store_info( $sellerid );
+			$rest_min_order = $profile_info['rest_min_order'];
+
+			if ( $seller_sub_total < $rest_min_order ) {
+				if( is_cart() ) {
+				wc_print_notice(sprintf( 'Minimum order amount is Rs. %s to order from restaurant %s, please make sure you\'ve met min. order requirement of restaurant' ,$rest_min_order,$profile_info['store_name']), 'error');
+				} else {
+				wc_add_notice(sprintf( 'Minimum order amount is Rs. %s to order from restaurant %s, add some items and meet min. order requirement of restaurant. %s.' ,$rest_min_order,$profile_info['store_name'],$seller_sub_total), 'error');
+				}
+			}
+			
+
+			
+		}
+		
+		
+} 
 /*-----------------------------------------------------------------------------------*/
 /* Don't add any code below here. */
 /*-----------------------------------------------------------------------------------*/

@@ -5766,6 +5766,52 @@ font-family: "Lato",Calibri,Arial,sans-serif !important;
 }
 
 
+.dokan-dashboard-wrap {
+    background: none repeat scroll 0px 0px #FFF;
+    margin:0px auto 0px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    max-width: 910px;
+  }
 
 
+.dokan-single-store .profile-frame {
+    height: 267px !important;
+}
+.dokan-store-info {
+    margin-bottom: 2px !important;
+}
+.profile-info li {
+    padding-bottom: 5px !important;
+}
+
+.profile-info-rest-detail{
+  width: 58%;
+  margin-top: 180px;
+  margin-left: 6px;
+  height: 160px;
+  float: left;
+  font-size: .800em !important;
+
+}
+
+.profile-info-box {
+  float: left !important;
+}
+
+.dokan-store-info-rest{
+  width: 45%;
+  
+  float: left;
+  list-style: outside none none;
+  margin-right: 6px;
+}
+.dokan-store-info-rest li{
+  color: white;
+  background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.65);
+  margin: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
 /*  Awd custom Style ends here*/

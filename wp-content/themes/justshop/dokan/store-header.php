@@ -81,4 +81,32 @@ $store_info = dokan_get_store_info( $store_user->ID );
             </ul>
         </div> <!-- .profile-info -->
     </div> <!-- .profile-info-box -->
+
+    <div class="profile-info-rest-detail">
+         <ul class="dokan-store-info-rest">
+
+                <?php if ( isset( $store_info['rest_opening_time'] )  && isset( $store_info['rest_closing_time'] )) { ?>
+                    <li class="store-name"><i class="Defaults-time"></i> Timing : <?php echo esc_html( $store_info['rest_opening_time'] ).' - '.esc_html( $store_info['rest_closing_time'] ); ?></li>
+                <?php } ?>
+
+                <?php if ( isset( $store_info['rest_min_order'] ) && !empty( $store_info['rest_min_order'] ) ) { ?>
+                    <li class="dokan-store-address"><i class="Defaults-rupee"></i> Min. order amount : <?php echo esc_html( $store_info['rest_min_order'] ); ?></li>
+                <?php } ?>            
+
+            
+            </ul>
+                <ul class="dokan-store-info-rest">
+
+                <?php //if ( isset( $store_info['store_name'] )  && !empty( $store_info['rest_cuisines'] ) ) { ?>
+                    <li class="store-name"> Delivery time : 40 Min.<?php //echo esc_html( $store_info['store_name'] ); ?></li>
+                <?php// } ?>
+
+                <?php if ( isset( $store_info['rest_cuisines'] ) && !empty( $store_info['rest_cuisines'] ) ) { ?>
+                    <li class="dokan-store-address"><i class="fa fa-map-marker"></i> <?php echo esc_html( $store_info['rest_cuisines'] ); ?></li>
+                <?php } ?>            
+
+            
+            </ul>
+
+    </div>
 </div> <!-- .profile-frame -->
