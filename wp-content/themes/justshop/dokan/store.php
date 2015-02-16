@@ -19,16 +19,13 @@
     $store_info = dokan_get_store_info( $store_user->ID );
     $seller_id = $store_user->ID;
     $scheme = is_ssl() ? 'https' : 'http';
-
     wp_enqueue_script( 'google-maps', $scheme . '://maps.google.com/maps/api/js?sensor=true' );
     ?>
            
         <div id="content" class="page col-full">
           <?php   if( !timeIsBetween($store_info['rest_opening_time'],$store_info['rest_closing_time']) ): ?> 
-        <div class="wpb_alert wpb_content_element wpb_alert-error">
-            <div class="messagebox_text"><p><strong>Restaurant currently closed!</strong> You can still make Pre - Order.Your order will be processed immedietly once restaurant is opened. Opening time :<strong><?php echo $store_info['rest_closing_time']; ?></strong> </p>
-        </div>
-        </div> 
+       
+            <?php wc_print_notice(sprintf( 'Restaurant currently closed! You can still make Pre - Order.Your order will be processed immedietly once restaurant is opened. Opening time : %s ' ,$store_info['rest_opening_time']), 'error'); ?>
         <?php endif;?>
             <?php woo_main_before(); ?>
             

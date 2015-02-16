@@ -5698,24 +5698,27 @@ font-family: "Lato",Calibri,Arial,sans-serif !important;
   padding: 
 }
 
-.hl_lcf{
-  
+#s2id_customer_city, #s2id_customer_area{
+  width: 34%!important;
+  margin-left: 2px !important;
+  margin-right: 29px !important;
+
 }
 .city_choose_input{
 
 }
 .find_restaurants_hl{
+  width: 23% !important;
  margin-top: 0px !important;
  padding: 7px  18px 30px 17px !important;
  box-shadow: none !important;
- display: none !important;
 }
 .find_restaurants_btn{
   display: none !important;
 
 }
 .headline-2953,#headline{
-  padding-top: 11px !important;
+  padding-top: 22px !important;
   padding-bottom: 3px !important;
 }
 .messagebox_text{
@@ -5753,14 +5756,18 @@ font-family: "Lato",Calibri,Arial,sans-serif !important;
 
 }
 
-
-
 .select2{
-  width: 330px;
   float: left;
   margin-left: 8%;
-  width: 38% !important;
+  width: 95% !important;
   margin-bottom: 27px;
+}
+#s2id_customer_city, #s2id_customer_area{
+  width: 95%!important;
+}
+
+.find_restaurants_hl{
+  width: 90% !important;
 }
 
 }

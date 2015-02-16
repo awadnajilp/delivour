@@ -28,7 +28,7 @@ $includes = apply_filters( 'woo_includes', $includes );
 foreach ( $includes as $i ) {
 	locate_template( $i, true );
 }
-
+date_default_timezone_set("Asia/Kolkata"); 
 require_once( 'includes/testimonials/templatation-testimonials.php' );
 require_once( 'includes/retail-menu-cards/retail-menu-cards.php' );
 require_once( 'includes/tt-plugins/tt-plugins.php' );
@@ -74,9 +74,6 @@ function my_script_enqueuer() {
 	wp_register_script("select2_script",'http://cdn.jsdelivr.net/select2/3.5.2/select2.js',array('jquery'));
 	wp_register_script("timepicker_script",get_template_directory_uri().'/awad/jquery.ui.timepicker.js',array('jquery'));
 
-
-
-
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'get_city_area_script' );
 	wp_enqueue_style('chosen_style');
@@ -87,6 +84,7 @@ function my_script_enqueuer() {
 	wp_enqueue_script('timepicker_script');
 	wp_enqueue_script('awd_script');
 }
+
 
 function timeIsBetween($from, $to, $date = 'now') {
     $date = is_int($date) ? $date : strtotime($date); // convert non timestamps
@@ -414,7 +412,7 @@ function city_choose_form_headline($area){
 	$form = '<div class="city_choose_form_container_hl">
 	<form class="city_choose_form" id="city_choose_form_hl" action="'.get_permalink( 2846 ).'" method="post">
 		<div class="city_choose_input">	    			    		
-			<select class="select2 hl_lcf" data-nonce="'.$nonce.'" name="city" id="customer_city" style="width:250px">';
+			<select class="select2 hl_lcf" data-nonce="'.$nonce.'" name="city" id="customer_city" >';
 				foreach ($cities as $city) {
 					if($city->city == $_SESSION["city"]){ 
 						$form = $form.'<option value="'.$city->city.'" selected="selected">'.$city->city.'</option>';
@@ -424,7 +422,7 @@ function city_choose_form_headline($area){
 				}
 				$form = $form.'</select></div>		
 				<div class="city_choose_input">
-					<select class="select2 hl_lcf" name="customer_area" id="customer_area" onchange="set_session_location(this.value);" style="width:250px">';
+					<select class="select2 hl_lcf" name="customer_area" id="customer_area" onchange="set_session_location(this.value);" >';
 
   				#fethcing city areas from table based on city
 						$query = "SELECT area FROM wp_restaurant_locations WHERE city='".$_SESSION["city"]."' ORDER BY id ASC  ";
@@ -735,13 +733,8 @@ foreach ($cart_items as $item) {
 				} else {
 				wc_add_notice(sprintf( 'Minimum order amount is Rs. %s to order from restaurant %s, add some items and meet min. order requirement of restaurant. %s.' ,$rest_min_order,$profile_info['store_name'],$seller_sub_total), 'error');
 				}
-			}
-			
-
-			
-		}
-		
-		
+			}	
+		}		
 } 
 /*-----------------------------------------------------------------------------------*/
 /* Don't add any code below here. */
